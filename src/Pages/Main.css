@@ -16,3 +16,11 @@
   color: #fff;
   margin-top: -30rem;
 }
+
+.header-title-simple {
+  color: rgb(55, 185, 185);
+}
+
+.header-title-per {
+  font-weight: bold;
+}
