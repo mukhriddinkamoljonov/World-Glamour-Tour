@@ -246,11 +246,9 @@ const Main = () => {
         <div className="slider-content">
           <div className="row">
             <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-              <h2>property Searching Just Got So Easy</h2>
+              <h2>Sayoxatni biz bilan mazmunli o'tkazing!</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Eligendi deserunt deleniti, ullam commodi sit ipsam laboriosam
-                velit adipisci quibusdam aliquam teneturo!
+                Eʼtiborga molik joylarni, insonlar hayoti va hodisalar to‘g‘risida eng qiziqarli maʼlumotlarni siz biz orqali topishingiz mumkin!
               </p>
               {/* <div className="search-form wow pulse" data-wow-delay="0.8s">
                 <form action="" className="form-inline">
