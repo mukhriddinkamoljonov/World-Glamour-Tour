@@ -26,32 +26,32 @@ const Main = () => {
               <div class="header-half header-social">
                 <ul class="list-inline">
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-vine"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-dribbble"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i class="fa fa-instagram"></i>
                     </a>
                   </li>
@@ -137,7 +137,7 @@ const Main = () => {
               </li>
               <li class="dropdown yamm-fw" data-wow-delay="0.4s">
                 <a
-                  href="#"
+                  href="/"
                   class="dropdown-toggle"
                   data-toggle="dropdown"
                   data-hover="dropdown"
@@ -179,7 +179,9 @@ const Main = () => {
                               <a href="./single.html">Blog Post (full)</a>
                             </li>
                             <li>
-                              <a href="./single-right.html">Blog Post (Right)</a>
+                              <a href="./single-right.html">
+                                Blog Post (Right)
+                              </a>
                             </li>
                             <li>
                               <a href="./single-left.html">Blog Post (left)</a>
@@ -356,7 +358,7 @@ const Main = () => {
                     <i class="fa fa-search"></i>
                   </button>
 
-                  <div style={{display: 'none'}} class="search-toggle">
+                  <div style={{ display: "none" }} class="search-toggle">
                     <div class="search-row">
                       <div class="form-group mar-r-20">
                         <label for="price-range">Price range ($):</label>
@@ -524,7 +526,7 @@ const Main = () => {
 
       <div
         class="content-area home-area-1 recent-property"
-        style={{backgroundColor: '#fcfcfc', paddingBottom:' 55px'}}
+        style={{ backgroundColor: "#fcfcfc", paddingBottom: " 55px" }}
       >
         <div class="container">
           <div class="row">
@@ -543,7 +545,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-1.html">
-                      <img src="assets/img/demo/property-1.jpg" />
+                      <img src="assets/img/demo/property-1.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -563,7 +565,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-2.html">
-                      <img src="assets/img/demo/property-2.jpg" />
+                      <img src="assets/img/demo/property-2.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -583,7 +585,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-3.html">
-                      <img src="assets/img/demo/property-3.jpg" />
+                      <img src="assets/img/demo/property-3.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -603,7 +605,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-1.html">
-                      <img src="assets/img/demo/property-4.jpg" />
+                      <img src="assets/img/demo/property-4.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -623,7 +625,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-3.html">
-                      <img src="assets/img/demo/property-2.jpg" />
+                      <img src="assets/img/demo/property-2.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -643,7 +645,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-2.html">
-                      <img src="assets/img/demo/property-4.jpg" />
+                      <img src="assets/img/demo/property-4.jpg" alt="title"/>
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -663,7 +665,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-1.html">
-                      <img src="assets/img/demo/property-3.jpg" />
+                      <img src="assets/img/demo/property-3.jpg" alt="title"/>
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -774,7 +776,7 @@ const Main = () => {
 
       <div
         class="testimonial-area recent-property"
-        style={{backgroundColor: '#fcfcfc', paddingBottom: '15px'}}
+        style={{ backgroundColor: "#fcfcfc", paddingBottom: "15px" }}
       >
         <div class="container">
           <div class="row">
@@ -1021,7 +1023,7 @@ const Main = () => {
                       <a href="properties.html">Properties</a>
                     </li>
                     <li>
-                      <a href="#">Services</a>
+                      <a href="/">Services</a>
                     </li>
                     <li>
                       <a href="submit-property.html">Submit property </a>
@@ -1046,7 +1048,7 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" />
+                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
@@ -1054,7 +1056,7 @@ const Main = () => {
                         <h6>
                           <a href="single.html">Add news functions </a>
                         </h6>
-                        <p style={{lineHeight: '17px', padding: '8px 2px'}}>
+                        <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                           Lorem ipsum dolor sit amet, nulla ...
                         </p>
                       </div>
@@ -1063,7 +1065,7 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" />
+                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
@@ -1071,7 +1073,7 @@ const Main = () => {
                         <h6>
                           <a href="single.html">Add news functions </a>
                         </h6>
-                        <p style={{lineHeight: '17px', padding: "8px 2px"}}>
+                        <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                           Lorem ipsum dolor sit amet, nulla ...
                         </p>
                       </div>
@@ -1080,7 +1082,7 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" />
+                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
@@ -1088,7 +1090,7 @@ const Main = () => {
                         <h6>
                           <a href="single.html">Add news functions </a>
                         </h6>
-                        <p style={{lineHeight: '17px',padding: "8px 2px"}}>
+                        <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                           Lorem ipsum dolor sit amet, nulla ...
                         </p>
                       </div>
@@ -1188,7 +1190,7 @@ const Main = () => {
                   <li>
                     <a
                       class="wow fadeInUp animated"
-                      href="#"
+                      href="/"
                       data-wow-delay="0.2s"
                     >
                       Home
@@ -1197,7 +1199,7 @@ const Main = () => {
                   <li>
                     <a
                       class="wow fadeInUp animated"
-                      href="#"
+                      href="/"
                       data-wow-delay="0.3s"
                     >
                       Property
@@ -1206,7 +1208,7 @@ const Main = () => {
                   <li>
                     <a
                       class="wow fadeInUp animated"
-                      href="#"
+                      href="/"
                       data-wow-delay="0.4s"
                     >
                       Faq
@@ -1215,7 +1217,7 @@ const Main = () => {
                   <li>
                     <a
                       class="wow fadeInUp animated"
-                      href="#"
+                      href="/"
                       data-wow-delay="0.6s"
                     >
                       Contact
