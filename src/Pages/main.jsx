@@ -7,60 +7,6 @@ const Main = () => {
       <div id="preloader">
         <div id="status">&nbsp;</div>
       </div>
-      <div className="header-connect">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-5 col-sm-8 col-xs-12">
-              <div className="header-half header-call">
-                <p>
-                  <span>
-                    <i className="pe-7s-call"></i> +998 97 214-44-01
-                  </span>
-                  <span>
-                    <i className="pe-7s-mail"></i> your@company.com
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="col-md-2 col-md-offset-5 col-sm-3 col-sm-offset-1 col-xs-12">
-              <div className="header-half header-social">
-                <ul className="list-inline">
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-vine"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-dribbble"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <nav className="navbar navbar-default">
         <div className="container">
           <div className="navbar-header">
@@ -83,20 +29,18 @@ const Main = () => {
 
           <div className="collapse navbar-collapse yamm" id="navigation">
             <div className="button navbar-right">
-              <button
-                className="navbar-btn nav-button wow bounceInRight login"
-                onClick=" window.open('register.html')"
-                data-wow-delay="0.45s"
-              >
-                Login
-              </button>
-              <button
-                className="navbar-btn nav-button wow fadeInRight"
-                onClick=" window.open('submit-property.html')"
-                data-wow-delay="0.48s"
-              >
-                Submit
-              </button>
+              <form action="" className="form-inline">
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Key word"
+                  />
+                </div>
+                <button className="btn search-btn" type="submit">
+                  <i className="fa fa-search"></i>
+                </button>
+              </form>
             </div>
             <ul className="main-nav nav navbar-nav navbar-right">
               <li className="dropdown ymm-sw" data-wow-delay="0.1s">
@@ -135,6 +79,148 @@ const Main = () => {
                   Biz haqimizda
                 </a>
               </li>
+              <li className="dropdown yamm-fw" data-wow-delay="0.4s">
+                <a
+                  href="/"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  data-hover="dropdown"
+                  data-delay="200"
+                >
+                  Template <b class="caret"></b>
+                </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <div className="yamm-content">
+                      <div className="row">
+                        <div className="col-sm-3">
+                          <h5>Home pages</h5>
+                          <ul>
+                            <li>
+                              <a href="index.html">Home Style 1</a>
+                            </li>
+                            <li>
+                              <a href="index-2.html">Home Style 2</a>
+                            </li>
+                            <li>
+                              <a href="index-3.html">Home Style 3</a>
+                            </li>
+                            <li>
+                              <a href="index-4.html">Home Style 4</a>
+                            </li>
+                            <li>
+                              <a href="index-5.html">Home Style 5</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-sm-3">
+                          <h5>Pages and blog</h5>
+                          <ul>
+                            <li>
+                              <a href="blog.html">Blog listing</a>
+                            </li>
+                            <li>
+                              <a href="single.html">Blog Post (full)</a>
+                            </li>
+                            <li>
+                              <a href="single-right.html">Blog Post (Right)</a>
+                            </li>
+                            <li>
+                              <a href="single-left.html">Blog Post (left)</a>
+                            </li>
+                            <li>
+                              <a href="contact.html">Contact style (1)</a>
+                            </li>
+                            <li>
+                              <a href="contact-3.html">Contact style (2)</a>
+                            </li>
+                            <li>
+                              <a href="contact_3.html">Contact style (3)</a>
+                            </li>
+                            <li>
+                              <a href="faq.html">FAQ page</a>
+                            </li>
+                            <li>
+                              <a href="404.html">404 page</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-sm-3">
+                          <h5>Property</h5>
+                          <ul>
+                            <li>
+                              <a href="property-1.html">
+                                Property pages style (1)
+                              </a>
+                            </li>
+                            <li>
+                              <a href="property-2.html">
+                                Property pages style (2)
+                              </a>
+                            </li>
+                            <li>
+                              <a href="property-3.html">
+                                Property pages style (3)
+                              </a>
+                            </li>
+                          </ul>
+
+                          <h5>Properties list</h5>
+                          <ul>
+                            <li>
+                              <a href="properties.html">
+                                Properties list style (1)
+                              </a>
+                            </li>
+                            <li>
+                              <a href="properties-2.html">
+                                Properties list style (2)
+                              </a>
+                            </li>
+                            <li>
+                              <a href="properties-3.html">
+                                Properties list style (3)
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-sm-3">
+                          <h5>Property process</h5>
+                          <ul>
+                            <li>
+                              <a href="submit-property.html">Submit - step 1</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">Submit - step 2</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">Submit - step 3</a>
+                            </li>
+                          </ul>
+                          <h5>User account</h5>
+                          <ul>
+                            <li>
+                              <a href="register.html">Register / login</a>
+                            </li>
+                            <li>
+                              <a href="user-properties.html">Your properties</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">Submit property</a>
+                            </li>
+                            <li>
+                              <a href="change-password.html">Change password</a>
+                            </li>
+                            <li>
+                              <a href="user-profile.html">Your profile</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -166,12 +252,8 @@ const Main = () => {
                 Eligendi deserunt deleniti, ullam commodi sit ipsam laboriosam
                 velit adipisci quibusdam aliquam teneturo!
               </p>
-              <div className="search-form wow pulse" data-wow-delay="0.8s">
+              {/* <div className="search-form wow pulse" data-wow-delay="0.8s">
                 <form action="" className="form-inline">
-                  <button className="btn toggle-btn" type="button">
-                    <i className="fa fa-bars"></i>
-                  </button>
-
                   <div className="form-group">
                     <input
                       type="text"
@@ -179,200 +261,11 @@ const Main = () => {
                       placeholder="Key word"
                     />
                   </div>
-                  <div className="form-group">
-                    <select
-                      id="lunchBegins"
-                      className="selectpicker"
-                      data-live-search="true"
-                      data-live-search-style="begins"
-                      title="Select your city"
-                    >
-                      <option>New york, CA</option>
-                      <option>Paris</option>
-                      <option>Casablanca</option>
-                      <option>Tokyo</option>
-                      <option>Marraekch</option>
-                      <option>kyoto , shibua</option>
-                    </select>
-                  </div>
-                  <div className="form-group">
-                    <select
-                      id="basic"
-                      className="selectpicker show-tick form-control"
-                    >
-                      <option>-Status-</option>
-                      <option>Rent</option>
-                      <option>Boy</option>
-                      <option>used</option>
-                    </select>
-                  </div>
                   <button className="btn search-btn" type="submit">
                     <i className="fa fa-search"></i>
                   </button>
-
-                  <div style={{ display: "none" }} className="search-toggle">
-                    <div className="search-row">
-                      <div className="form-group mar-r-20">
-                        <label htmlFor="price-range">Price range ($):</label>
-                        <input
-                          type="text"
-                          className="span2"
-                          value=""
-                          data-slider-min="0"
-                          data-slider-max="600"
-                          data-slider-step="5"
-                          data-slider-value="[0,450]"
-                          id="price-range"
-                        />
-                        <br />
-                        <b className="pull-left color">2000$</b>
-                        <b className="pull-right color">100000$</b>
-                      </div>
-
-                      <div className="form-group mar-l-20">
-                        <label htmlFor="property-geo">
-                          Property geo (m2) :
-                        </label>
-                        <input
-                          type="text"
-                          className="span2"
-                          value=""
-                          data-slider-min="0"
-                          data-slider-max="600"
-                          data-slider-step="5"
-                          data-slider-value="[50,450]"
-                          id="property-geo"
-                        />
-                        <br />
-                        <b className="pull-left color">40m</b>
-                        <b className="pull-right color">12000m</b>
-                      </div>
-                    </div>
-
-                    <div className="search-row">
-                      <div className="form-group mar-r-20">
-                        <label htmlFor="price-range">Min baths :</label>
-                        <input
-                          type="text"
-                          className="span2"
-                          value=""
-                          data-slider-min="0"
-                          data-slider-max="600"
-                          data-slider-step="5"
-                          data-slider-value="[250,450]"
-                          id="min-baths"
-                        />
-                        <br />
-                        <b className="pull-left color">1</b>
-                        <b className="pull-right color">120</b>
-                      </div>
-
-                      <div className="form-group mar-l-20">
-                        <label htmlFor="property-geo">Min bed :</label>
-                        <input
-                          type="text"
-                          className="span2"
-                          value=""
-                          data-slider-min="0"
-                          data-slider-max="600"
-                          data-slider-step="5"
-                          data-slider-value="[250,450]"
-                          id="min-bed"
-                        />
-                        <br />
-                        <b className="pull-left color">1</b>
-                        <b className="pull-right color">120</b>
-                      </div>
-                    </div>
-                    <br />
-                    <div className="search-row">
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Fire Place(3100)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Dual Sinks(500)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Hurricane Shutters(99)
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="search-row">
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Swimming Pool(1190)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> 2 Stories(4600)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Emergency Exit(200)
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="search-row">
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Laundry Room(10073)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> Jog Path(1503)
-                          </label>
-                        </div>
-                      </div>
-
-                      <div className="form-group">
-                        <div className="checkbox">
-                          <label>
-                            <input type="checkbox" /> 26' Ceilings(1200)
-                          </label>
-                        </div>
-                      </div>
-                      <br />
-                      <hr />
-                    </div>
-                    <button
-                      className="btn search-btn prop-btm-sheaerch"
-                      type="submit"
-                    >
-                      <i className="fa fa-search"></i>
-                    </button>
-                  </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
