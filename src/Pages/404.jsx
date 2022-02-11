@@ -33,7 +33,6 @@ const Page404 = () => {
                     </div>
                 </div>
             </div>
-
             <nav className="navbar navbar-default ">
                 <div className="container">
                     <div className="navbar-header">
