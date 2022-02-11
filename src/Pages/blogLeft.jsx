@@ -285,255 +285,360 @@ const BlogLeft = () => {
             <div className="page-head-content">
               <h1 className="page-title">FAQ PAge</h1>
             </div>
-<<<<<<< HEAD:src/Pages/blogLeft.jsx
-            <div className="content-area blog-page padding-top-40"
-                 style="background-color: #FCFCFC; padding-bottom: 55px;">
-                <div className="container">
-                    <div className="row">
+            <div
+              className="content-area blog-page padding-top-40"
+              style={{ backgroundColor: "#FCFCFC", paddingBottom: "55px" }}
+            >
+              <div className="container">
+                <div className="row">
+                  <div className="blog-asside-right col-md-3">
+                    <div className="panel panel-default sidebar-menu wow fadeInRight animated">
+                      <div className="panel-heading">
+                        <h3 className="panel-title">Text widget</h3>
+                      </div>
+                      <div className="panel-body text-widget">
+                        <p>
+                          Improved own provided blessing may peculiar domestic.
+                          Sight house has sex never. No visited raising gravity
+                          outward subject my cottage mr be. Hold do at tore in
+                          park feet near my case.
+                        </p>
+                      </div>
+                    </div>
 
-                        <div className="blog-asside-right col-md-3">
-                            <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                                <div className="panel-heading">
-                                    <h3 className="panel-title">Text widget</h3>
-                                </div>
-                                <div className="panel-body text-widget">
-                                    <p>Improved own provided blessing may peculiar domestic. Sight house has sex never.
-                                        No visited raising gravity outward subject my cottage mr be. Hold do at tore in
-                                        park feet near my case.
-                                    </p>
+                    <div className="panel panel-default sidebar-menu wow  fadeInRight animated">
+                      <div className="panel-heading">
+                        <h3 className="panel-title">Search</h3>
+                      </div>
+                      <div className="panel-body">
+                        <form role="search">
+                          <div className="input-group">
+                            <input
+                              className="form-control"
+                              placeholder="Search"
+                              type="text"
+                            />
+                            <span className="input-group-btn">
+                              <button type="submit" className="btn btn-smal">
+                                <i className="fa fa-search"></i>
+                              </button>
+                            </span>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
 
-                                </div>
+                    <div className="panel panel-default sidebar-menu wow fadeInRight animated">
+                      <div className="panel-heading">
+                        <h3 className="panel-title">Recommended</h3>
+                      </div>
+                      <div className="panel-body recent-property-widget">
+                        <ul>
+                          <li>
+                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                              <a href="single.html">
+                                <img
+                                  src="assets/img/demo/small-property-2.jpg"
+                                  alt=""
+                                />
+                              </a>
+                              <span className="property-seeker">
+                                <b className="b-1">A</b>
+                                <b className="b-2">S</b>
+                              </span>
                             </div>
-
-                            <div className="panel panel-default sidebar-menu wow  fadeInRight animated">
-                                <div className="panel-heading">
-                                    <h3 className="panel-title">Search</h3>
-                                </div>
-                                <div className="panel-body">
-                                    <form role="search">
-                                        <div className="input-group">
-                                            <input className="form-control" placeholder="Search" type="text" />
-                                        <span className="input-group-btn">
-                                            <button type="submit" className="btn btn-smal">
-                                                <i className="fa fa-search"></i>
-                                            </button>
-                                        </span>
-                                        </div>
-                                    </form>
-                                </div>
+                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                              <h6>
+                                <a href="single.html">Super nice villa </a>
+                              </h6>
+                              <span className="property-price">3000000$</span>
                             </div>
-
-
-                            <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                                <div className="panel-heading">
-                                    <h3 className="panel-title">Recommended</h3>
-                                </div>
-                                <div className="panel-body recent-property-widget">
-                                    <ul>
-                                        <li>
-                                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-2.jpg" alt= "" /></a>
-                                                <span className="property-seeker">
-                                                    <b className="b-1">A</b>
-                                                    <b className="b-2">S</b>
-                                                </span>
-                                            </div>
-                                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                                                <h6><a href="single.html">Super nice villa </a></h6>
-                                                <span className="property-price">3000000$</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-1.jpg" alt="" /></a>
-                                                <span className="property-seeker">
-                                                    <b className="b-1">A</b>
-                                                    <b className="b-2">S</b>
-                                                </span>
-                                            </div>
-                                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                                                <h6><a href="single.html">Super nice villa </a></h6>
-                                                <span className="property-price">3000000$</span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-3.jpg" /></a>
-                                                <span className="property-seeker">
-                                                    <b className="b-1">A</b>
-                                                    <b className="b-2">S</b>
-                                                </span>
-                                            </div>
-                                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                                                <h6><a href="single.html">Super nice villa </a></h6>
-                                                <span className="property-price">3000000$</span>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                                                <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-2.jpg" /></a>
-                                                <span className="property-seeker">
-                                                    <b className="b-1">A</b>
-                                                    <b className="b-2">S</b>
-                                                </span>
-                                            </div>
-                                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                                                <h6><a href="single.html">Super nice villa </a></h6>
-                                                <span className="property-price">3000000$</span>
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </div>
+                          </li>
+                          <li>
+                            <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
+                              <a href="single.html">
+                                <img
+                                  src="assets/img/demo/small-property-1.jpg"
+                                  alt=""
+                                />
+                              </a>
+                              <span className="property-seeker">
+                                <b className="b-1">A</b>
+                                <b className="b-2">S</b>
+                              </span>
                             </div>
-
-
-                            <div className="panel sidebar-menu wow  fadeInRight animated">
-                                <div className="panel-heading">
-                                    <h3 className="panel-title">Tags</h3>
-                                </div>
-                                <div className="panel-body">
-                                    <ul className="tag-cloud">
-                                        <li><a href="#"><i className="fa fa-tags"></i> html5</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> css3</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> jquery</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> ajax</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> php</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> responsive</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> visio</a>
-                                        </li>
-                                        <li><a href="#"><i className="fa fa-tags"></i> bootstrap</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                              <h6>
+                                <a href="single.html">Super nice villa </a>
+                              </h6>
+                              <span className="property-price">3000000$</span>
                             </div>
+                          </li>
+                          <li>
+                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                              <a href="single.html">
+                                <img
+                                  src="assets/img/demo/small-property-3.jpg"
+                                  alt="title"
+                                />
+                              </a>
+                              <span className="property-seeker">
+                                <b className="b-1">A</b>
+                                <b className="b-2">S</b>
+                              </span>
+                            </div>
+                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                              <h6>
+                                <a href="single.html">Super nice villa </a>
+                              </h6>
+                              <span className="property-price">3000000$</span>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                              <a href="single.html">
+                                <img
+                                  src="assets/img/demo/small-property-2.jpg"
+                                  alt="title"
+                                />
+                              </a>
+                              <span className="property-seeker">
+                                <b className="b-1">A</b>
+                                <b className="b-2">S</b>
+                              </span>
+                            </div>
+                            <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                              <h6>
+                                <a href="single.html">Super nice villa </a>
+                              </h6>
+                              <span className="property-price">3000000$</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="panel sidebar-menu wow  fadeInRight animated">
+                      <div className="panel-heading">
+                        <h3 className="panel-title">Tags</h3>
+                      </div>
+                      <div className="panel-body">
+                        <ul className="tag-cloud">
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> html5
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> css3
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> jquery
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> ajax
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> php
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> responsive
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> visio
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/">
+                              <i className="fa fa-tags"></i> bootstrap
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="blog-lst col-md-9">
+                    <section className="post">
+                      <div className="text-center padding-b-50">
+                        <h2 className="wow fadeInLeft animated">
+                          FASHIN NOW 2015
+                        </h2>
+                        <div className="title-line wow fadeInRight animated"></div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <p className="author-category">
+                            By <a href="/">John Snow</a>
+                            in <a href="blog.html">Webdesign</a>
+                          </p>
                         </div>
-
-                        <div className="blog-lst col-md-9">
-                            <section className="post">
-                                <div className="text-center padding-b-50">
-                                    <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                                    <div className="title-line wow fadeInRight animated"></div>
-                                </div>
-
-                                <div className="row">
-                                    <div className="col-sm-6">
-                                        <p className="author-category">
-                                            By <a href="#">John Snow</a>
-                                            in <a href="blog.html">Webdesign</a>
-                                        </p>
-                                    </div>
-                                    <div className="col-sm-6 right">
-                                        <p className="date-comments">
-                                            <a href="single.html"><i className="fa fa-calendar-o"></i> June 20, 2013</a>
-                                            <a href="single.html"><i className="fa fa-comment-o"></i> 8 Comments</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="image wow fadeInLeft animated">
-                                    <a href="single.html">
-                                        <img src="assets/img/blog2.jpg" className="img-responsive"
-                                             alt="Example blog post alt" />
-                                    </a>
-                                </div>
-                                <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
-                                    eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p className="read-more">
-                                    <a href="single.html" className="btn btn-default btn-border">Continue reading</a>
-                                </p>
-                            </section>
-
-                            <section className="post">
-                                <div className="text-center padding-b-50">
-                                    <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                                    <div className="title-line wow fadeInRight animated"></div>
-                                </div>
-
-                                <div className="row">
-                                    <div className="col-sm-6">
-                                        <p className="author-category">
-                                            By <a href="#">John Snow</a>
-                                            in <a href="blog.html">Webdesign</a>
-                                        </p>
-                                    </div>
-                                    <div className="col-sm-6 right">
-                                        <p className="date-comments">
-                                            <a href="single.html"><i className="fa fa-calendar-o"></i> June 20, 2013</a>
-                                            <a href="single.html"><i className="fa fa-comment-o"></i> 8 Comments</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="image wow fadeInLeft animated">
-                                    <a href="single.html">
-                                        <img src="assets/img/blog2.jpg" className="img-responsive"
-                                             alt="Example blog post alt" />
-                                    </a>
-                                </div>
-                                <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
-                                    eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p className="read-more">
-                                    <a href="single.html" className="btn btn-default btn-border">Continue reading</a>
-                                </p>
-                            </section>
-
-                            <section className="post">
-                                <div className="text-center padding-b-50">
-                                    <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                                    <div className="title-line wow fadeInRight animated"></div>
-                                </div>
-
-                                <div className="row">
-                                    <div className="col-sm-6">
-                                        <p className="author-category">
-                                            By <a href="#">John Snow</a>
-                                            in <a href="blog.html">Webdesign</a>
-                                        </p>
-                                    </div>
-                                    <div className="col-sm-6 right">
-                                        <p className="date-comments">
-                                            <a href="single.html"><i className="fa fa-calendar-o"></i> June 20, 2013</a>
-                                            <a href="single.html"><i className="fa fa-comment-o"></i> 8 Comments</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="image wow fadeInLeft animated">
-                                    <a href="single.html">
-                                        <img src="assets/img/blog1.jpg" className="img-responsive"
-                                             alt="Example blog post alt" />
-                                    </a>
-                                </div>
-                                <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
-                                    malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies
-                                    eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p className="read-more">
-                                    <a href="single.html" className="btn btn-default btn-border">Continue reading</a>
-                                </p>
-                            </section>
-
+                        <div className="col-sm-6 right">
+                          <p className="date-comments">
+                            <a href="single.html">
+                              <i className="fa fa-calendar-o"></i> June 20, 2013
+                            </a>
+                            <a href="single.html">
+                              <i className="fa fa-comment-o"></i> 8 Comments
+                            </a>
+                          </p>
                         </div>
-=======
+                      </div>
+                      <div className="image wow fadeInLeft animated">
+                        <a href="single.html">
+                          <img
+                            src="assets/img/blog2.jpg"
+                            className="img-responsive"
+                            alt="Example blog post alt"
+                          />
+                        </a>
+                      </div>
+                      <p className="intro">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                        Aenean ultricies mi vitae est. Mauris placerat eleifend
+                        leo.
+                      </p>
+                      <p className="read-more">
+                        <a
+                          href="single.html"
+                          className="btn btn-default btn-border"
+                        >
+                          Continue reading
+                        </a>
+                      </p>
+                    </section>
+
+                    <section className="post">
+                      <div className="text-center padding-b-50">
+                        <h2 className="wow fadeInLeft animated">
+                          FASHIN NOW 2015
+                        </h2>
+                        <div className="title-line wow fadeInRight animated"></div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <p className="author-category">
+                            By <a href="/">John Snow</a>
+                            in <a href="blog.html">Webdesign</a>
+                          </p>
+                        </div>
+                        <div className="col-sm-6 right">
+                          <p className="date-comments">
+                            <a href="single.html">
+                              <i className="fa fa-calendar-o"></i> June 20, 2013
+                            </a>
+                            <a href="single.html">
+                              <i className="fa fa-comment-o"></i> 8 Comments
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div className="image wow fadeInLeft animated">
+                        <a href="single.html">
+                          <img
+                            src="assets/img/blog2.jpg"
+                            className="img-responsive"
+                            alt="Example blog post alt"
+                          />
+                        </a>
+                      </div>
+                      <p className="intro">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                        Aenean ultricies mi vitae est. Mauris placerat eleifend
+                        leo.
+                      </p>
+                      <p className="read-more">
+                        <a
+                          href="single.html"
+                          className="btn btn-default btn-border"
+                        >
+                          Continue reading
+                        </a>
+                      </p>
+                    </section>
+
+                    <section className="post">
+                      <div className="text-center padding-b-50">
+                        <h2 className="wow fadeInLeft animated">
+                          FASHIN NOW 2015
+                        </h2>
+                        <div className="title-line wow fadeInRight animated"></div>
+                      </div>
+
+                      <div className="row">
+                        <div className="col-sm-6">
+                          <p className="author-category">
+                            By <a href="/">John Snow</a>
+                            in <a href="blog.html">Webdesign</a>
+                          </p>
+                        </div>
+                        <div className="col-sm-6 right">
+                          <p className="date-comments">
+                            <a href="single.html">
+                              <i className="fa fa-calendar-o"></i> June 20, 2013
+                            </a>
+                            <a href="single.html">
+                              <i className="fa fa-comment-o"></i> 8 Comments
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div className="image wow fadeInLeft animated">
+                        <a href="single.html">
+                          <img
+                            src="assets/img/blog1.jpg"
+                            className="img-responsive"
+                            alt="Example blog post alt"
+                          />
+                        </a>
+                      </div>
+                      <p className="intro">
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum tortor
+                        quam, feugiat vitae, ultricies eget, tempor sit amet,
+                        ante. Donec eu libero sit amet quam egestas semper.
+                        Aenean ultricies mi vitae est. Mauris placerat eleifend
+                        leo.
+                      </p>
+                      <p className="read-more">
+                        <a
+                          href="single.html"
+                          className="btn btn-default btn-border"
+                        >
+                          Continue reading
+                        </a>
+                      </p>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div
         className="content-area blog-page padding-top-40"
-        style={{backgroundColor: '#FCFCFC', paddingBottom: '55px'}}
+        style={{ backgroundColor: "#FCFCFC", paddingBottom: "55px" }}
       >
         <div className="container">
           <div className="row">
@@ -551,7 +656,6 @@ const BlogLeft = () => {
                   </p>
                 </div>
               </div>
->>>>>>> bf3cecbdafe0c8a8f88c0ed22f45ca75c920e6a1:src/Pages/blog-left.jsx
 
               <div className="panel panel-default sidebar-menu wow  fadeInRight animated">
                 <div className="panel-heading">
@@ -573,581 +677,750 @@ const BlogLeft = () => {
                     </div>
                   </form>
                 </div>
-<<<<<<< HEAD:src/Pages/blogLeft.jsx
-            </div>
-            <div className="footer-area">
-
+              </div>
+              <div className="footer-area">
                 <div className=" footer">
-                    <div className="container">
-                        <div className="row">
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div className="single-footer">
+                          <h4>About us </h4>
+                          <div className="footer-title-line"></div>
 
-                            <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                                <div className="single-footer">
-                                    <h4>About us </h4>
-                                    <div className="footer-title-line"></div>
-
-                                    <img src="assets/img/footer-logo.png" alt="" className="wow pulse"
-                                         data-wow-delay="1s" />
-                                        <p>Lorem ipsum dolor cum necessitatibus su quisquam molestias. Vel unde,
-                                            blanditiis.</p>
-                                        <ul className="footer-adress">
-                                            <li><i className="pe-7s-map-marker strong"> </i> 9089 your adress her</li>
-                                            <li><i className="pe-7s-mail strong"> </i> email@yourcompany.com</li>
-                                            <li><i className="pe-7s-call strong"> </i> +1 908 967 5906</li>
-                                        </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                                <div className="single-footer">
-                                    <h4>Quick links </h4>
-                                    <div className="footer-title-line"></div>
-                                    <ul className="footer-menu">
-                                        <li><a href="properties.html">Properties</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="submit-property.html">Submit property </a></li>
-                                        <li><a href="contact.html">Contact us</a></li>
-                                        <li><a href="faq.html">fqa</a></li>
-                                        <li><a href="faq.html">Terms </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                                <div className="single-footer">
-                                    <h4>Last News</h4>
-                                    <div className="footer-title-line"></div>
-                                    <ul className="footer-blog">
-                                        <li>
-                                            <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                                                <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
-                                                </a>
-                                                <span className="blg-date">12-12-2016</span>
-
-                                            </div>
-                                            <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                                                <h6><a href="single.html">Add news functions </a></h6>
-                                                <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
-                                                    amet, nulla ...</p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                                                <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
-                                                </a>
-                                                <span className="blg-date">12-12-2016</span>
-
-                                            </div>
-                                            <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                                                <h6><a href="single.html">Add news functions </a></h6>
-                                                <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
-                                                    amet, nulla ...</p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                                                <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
-                                                </a>
-                                                <span className="blg-date">12-12-2016</span>
-
-                                            </div>
-                                            <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                                                <h6><a href="single.html">Add news functions </a></h6>
-                                                <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
-                                                    amet, nulla ...</p>
-                                            </div>
-                                        </li>
-=======
-              </div>
->>>>>>> bf3cecbdafe0c8a8f88c0ed22f45ca75c920e6a1:src/Pages/blog-left.jsx
-
-              <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Recommended</h3>
-                </div>
-                <div className="panel-body recent-property-widget">
-                  <ul>
-                    <li>
-                      <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                        <a href="single.html">
                           <img
-                            src="assets/img/demo/small-property-2.jpg"
+                            src="assets/img/footer-logo.png"
                             alt=""
+                            className="wow pulse"
+                            data-wow-delay="1s"
                           />
-                        </a>
-                        <span className="property-seeker">
-                          <b className="b-1">A</b>
-                          <b className="b-2">S</b>
-                        </span>
+                          <p>
+                            Lorem ipsum dolor cum necessitatibus su quisquam
+                            molestias. Vel unde, blanditiis.
+                          </p>
+                          <ul className="footer-adress">
+                            <li>
+                              <i className="pe-7s-map-marker strong"> </i> 9089
+                              your adress her
+                            </li>
+                            <li>
+                              <i className="pe-7s-mail strong"> </i>{" "}
+                              email@yourcompany.com
+                            </li>
+                            <li>
+                              <i className="pe-7s-call strong"> </i> +1 908 967
+                              5906
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                      <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                        <h6>
-                          <a href="single.html">Super nice villa </a>
-                        </h6>
-                        <span className="property-price">3000000$</span>
+                      <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div className="single-footer">
+                          <h4>Quick links </h4>
+                          <div className="footer-title-line"></div>
+                          <ul className="footer-menu">
+                            <li>
+                              <a href="properties.html">Properties</a>
+                            </li>
+                            <li>
+                              <a href="/">Services</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">
+                                Submit property{" "}
+                              </a>
+                            </li>
+                            <li>
+                              <a href="contact.html">Contact us</a>
+                            </li>
+                            <li>
+                              <a href="faq.html">fqa</a>
+                            </li>
+                            <li>
+                              <a href="faq.html">Terms </a>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                    </li>
-                    <li>
-                      <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
-                        <a href="single.html">
-                          <img
-                            src="assets/img/demo/small-property-1.jpg"
-                            alt=""
-                          />
-                        </a>
-                        <span className="property-seeker">
-                          <b className="b-1">A</b>
-                          <b className="b-2">S</b>
-                        </span>
-                      </div>
-                      <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                        <h6>
-                          <a href="single.html">Super nice villa </a>
-                        </h6>
-                        <span className="property-price">3000000$</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                        <a href="single.html">
-                          <img src="assets/img/demo/small-property-3.jpg" alt="title"/>
-                        </a>
-                        <span className="property-seeker">
-                          <b className="b-1">A</b>
-                          <b className="b-2">S</b>
-                        </span>
-                      </div>
-                      <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                        <h6>
-                          <a href="single.html">Super nice villa </a>
-                        </h6>
-                        <span className="property-price">3000000$</span>
-                      </div>
-                    </li>
+                      <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                        <div className="single-footer">
+                          <h4>Last News</h4>
+                          <div className="footer-title-line"></div>
+                          <ul className="footer-blog">
+                            <li>
+                              <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                <a href="single.html">
+                                  <img
+                                    src="assets/img/demo/small-proerty-2.jpg"
+                                    alt="title"
+                                  />
+                                </a>
+                                <span className="blg-date">12-12-2016</span>
+                              </div>
+                              <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                <h6>
+                                  <a href="single.html">Add news functions </a>
+                                </h6>
+                                <p
+                                  style={{
+                                    lineHeight: "17px",
+                                    padding: "8px 2px",
+                                  }}
+                                >
+                                  Lorem ipsum dolor sit amet, nulla ...
+                                </p>
+                              </div>
+                            </li>
 
-                    <li>
-                      <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                        <a href="single.html">
-                          <img src="assets/img/demo/small-property-2.jpg" alt="title"/>
-                        </a>
-                        <span className="property-seeker">
-                          <b className="b-1">A</b>
-                          <b className="b-2">S</b>
-                        </span>
+                            <li>
+                              <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                <a href="single.html">
+                                  <img
+                                    src="assets/img/demo/small-proerty-2.jpg"
+                                    alt="title"
+                                  />
+                                </a>
+                                <span className="blg-date">12-12-2016</span>
+                              </div>
+                              <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                <h6>
+                                  <a href="single.html">Add news functions </a>
+                                </h6>
+                                <p
+                                  style={{
+                                    lineHeight: "17px",
+                                    padding: "8px 2px",
+                                  }}
+                                >
+                                  Lorem ipsum dolor sit amet, nulla ...
+                                </p>
+                              </div>
+                            </li>
+
+                            <li>
+                              <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                                <a href="single.html">
+                                  <img
+                                    src="assets/img/demo/small-proerty-2.jpg"
+                                    alt="title"
+                                  />
+                                </a>
+                                <span className="blg-date">12-12-2016</span>
+                              </div>
+                              <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                                <h6>
+                                  <a href="single.html">Add news functions </a>
+                                </h6>
+                                <p
+                                  style={{
+                                    lineHeight: "17px",
+                                    padding: "8px 2px",
+                                  }}
+                                >
+                                  Lorem ipsum dolor sit amet, nulla ...
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div className="panel panel-default sidebar-menu wow fadeInRight animated">
+                          <div className="panel-heading">
+                            <h3 className="panel-title">Recommended</h3>
+                          </div>
+                          <div className="panel-body recent-property-widget">
+                            <ul>
+                              <li>
+                                <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                  <a href="single.html">
+                                    <img
+                                      src="assets/img/demo/small-property-2.jpg"
+                                      alt=""
+                                    />
+                                  </a>
+                                  <span className="property-seeker">
+                                    <b className="b-1">A</b>
+                                    <b className="b-2">S</b>
+                                  </span>
+                                </div>
+                                <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                  <h6>
+                                    <a href="single.html">Super nice villa </a>
+                                  </h6>
+                                  <span className="property-price">
+                                    3000000$
+                                  </span>
+                                </div>
+                              </li>
+                              <li>
+                                <div className="col-md-3 col-sm-3  col-xs-3 blg-thumb p0">
+                                  <a href="single.html">
+                                    <img
+                                      src="assets/img/demo/small-property-1.jpg"
+                                      alt=""
+                                    />
+                                  </a>
+                                  <span className="property-seeker">
+                                    <b className="b-1">A</b>
+                                    <b className="b-2">S</b>
+                                  </span>
+                                </div>
+                                <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                  <h6>
+                                    <a href="single.html">Super nice villa </a>
+                                  </h6>
+                                  <span className="property-price">
+                                    3000000$
+                                  </span>
+                                </div>
+                              </li>
+                              <li>
+                                <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                  <a href="single.html">
+                                    <img
+                                      src="assets/img/demo/small-property-3.jpg"
+                                      alt="title"
+                                    />
+                                  </a>
+                                  <span className="property-seeker">
+                                    <b className="b-1">A</b>
+                                    <b className="b-2">S</b>
+                                  </span>
+                                </div>
+                                <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                  <h6>
+                                    <a href="single.html">Super nice villa </a>
+                                  </h6>
+                                  <span className="property-price">
+                                    3000000$
+                                  </span>
+                                </div>
+                              </li>
+
+                              <li>
+                                <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                                  <a href="single.html">
+                                    <img
+                                      src="assets/img/demo/small-property-2.jpg"
+                                      alt="title"
+                                    />
+                                  </a>
+                                  <span className="property-seeker">
+                                    <b className="b-1">A</b>
+                                    <b className="b-2">S</b>
+                                  </span>
+                                </div>
+                                <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                                  <h6>
+                                    <a href="single.html">Super nice villa </a>
+                                  </h6>
+                                  <span className="property-price">
+                                    3000000$
+                                  </span>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div className="panel sidebar-menu wow  fadeInRight animated">
+                          <div className="panel-heading">
+                            <h3 className="panel-title">Tags</h3>
+                          </div>
+                          <div className="panel-body">
+                            <ul className="tag-cloud">
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> html5
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> css3
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> jquery
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> ajax
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> php
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> responsive
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> visio
+                                </a>
+                              </li>
+                              <li>
+                                <a href="/">
+                                  <i className="fa fa-tags"></i> bootstrap
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </div>
-                      <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                        <h6>
-                          <a href="single.html">Super nice villa </a>
-                        </h6>
-                        <span className="property-price">3000000$</span>
+
+                      <form>
+                        <div className="input-group">
+                          <input
+                            className="form-control"
+                            type="text"
+                            placeholder="E-mail ... "
+                          />
+                          <span className="input-group-btn">
+                            <button
+                              className="btn btn-primary subscribe"
+                              type="button"
+                            >
+                              <i className="pe-7s-paper-plane pe-2x"></i>
+                            </button>
+                          </span>
+                        </div>
+                      </form>
+                      <div className="blog-lst col-md-9">
+                        <section className="post">
+                          <div className="text-center padding-b-50">
+                            <h2 className="wow fadeInLeft animated">
+                              FASHIN NOW 2015
+                            </h2>
+                            <div className="title-line wow fadeInRight animated"></div>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <p className="author-category">
+                                By <a href="/">John Snow</a>
+                                in <a href="blog.html">Webdesign</a>
+                              </p>
+                            </div>
+                            <div className="col-sm-6 right">
+                              <p className="date-comments">
+                                <a href="single.html">
+                                  <i className="fa fa-calendar-o"></i> June 20,
+                                  2013
+                                </a>
+                                <a href="single.html">
+                                  <i className="fa fa-comment-o"></i> 8 Comments
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <div className="image wow fadeInLeft animated">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/blog2.jpg"
+                                className="img-responsive"
+                                alt="Example blog post alt"
+                              />
+                            </a>
+                          </div>
+                          <p className="intro">
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas.
+                            Vestibulum tortor quam, feugiat vitae, ultricies
+                            eget, tempor sit amet, ante. Donec eu libero sit
+                            amet quam egestas semper. Aenean ultricies mi vitae
+                            est. Mauris placerat eleifend leo.
+                          </p>
+                          <p className="read-more">
+                            <a
+                              href="single.html"
+                              className="btn btn-default btn-border"
+                            >
+                              Continue reading
+                            </a>
+                          </p>
+                        </section>
+
+                        <section className="post">
+                          <div className="text-center padding-b-50">
+                            <h2 className="wow fadeInLeft animated">
+                              FASHIN NOW 2015
+                            </h2>
+                            <div className="title-line wow fadeInRight animated"></div>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <p className="author-category">
+                                By <a href="/">John Snow</a>
+                                in <a href="blog.html">Webdesign</a>
+                              </p>
+                            </div>
+                            <div className="col-sm-6 right">
+                              <p className="date-comments">
+                                <a href="single.html">
+                                  <i className="fa fa-calendar-o"></i> June 20,
+                                  2013
+                                </a>
+                                <a href="single.html">
+                                  <i className="fa fa-comment-o"></i> 8 Comments
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <div className="image wow fadeInLeft animated">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/blog2.jpg"
+                                className="img-responsive"
+                                alt="Example blog post alt"
+                              />
+                            </a>
+                          </div>
+                          <p className="intro">
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas.
+                            Vestibulum tortor quam, feugiat vitae, ultricies
+                            eget, tempor sit amet, ante. Donec eu libero sit
+                            amet quam egestas semper. Aenean ultricies mi vitae
+                            est. Mauris placerat eleifend leo.
+                          </p>
+                          <p className="read-more">
+                            <a
+                              href="single.html"
+                              className="btn btn-default btn-border"
+                            >
+                              Continue reading
+                            </a>
+                          </p>
+                        </section>
+
+                        <section className="post">
+                          <div className="text-center padding-b-50">
+                            <h2 className="wow fadeInLeft animated">
+                              FASHIN NOW 2015
+                            </h2>
+                            <div className="title-line wow fadeInRight animated"></div>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-sm-6">
+                              <p className="author-category">
+                                By <a href="/">John Snow</a>
+                                in <a href="blog.html">Webdesign</a>
+                              </p>
+                            </div>
+                            <div className="col-sm-6 right">
+                              <p className="date-comments">
+                                <a href="single.html">
+                                  <i className="fa fa-calendar-o"></i> June 20,
+                                  2013
+                                </a>
+                                <a href="single.html">
+                                  <i className="fa fa-comment-o"></i> 8 Comments
+                                </a>
+                              </p>
+                            </div>
+                          </div>
+                          <div className="image wow fadeInLeft animated">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/blog1.jpg"
+                                className="img-responsive"
+                                alt="Example blog post alt"
+                              />
+                            </a>
+                          </div>
+                          <p className="intro">
+                            Pellentesque habitant morbi tristique senectus et
+                            netus et malesuada fames ac turpis egestas.
+                            Vestibulum tortor quam, feugiat vitae, ultricies
+                            eget, tempor sit amet, ante. Donec eu libero sit
+                            amet quam egestas semper. Aenean ultricies mi vitae
+                            est. Mauris placerat eleifend leo.
+                          </p>
+                          <p className="read-more">
+                            <a
+                              href="single.html"
+                              className="btn btn-default btn-border"
+                            >
+                              Continue reading
+                            </a>
+                          </p>
+                        </section>
                       </div>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <div className="panel sidebar-menu wow  fadeInRight animated">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Tags</h3>
-                </div>
-                <div className="panel-body">
-                  <ul className="tag-cloud">
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> html5
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> css3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> jquery
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> ajax
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> php
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> responsive
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> visio
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> bootstrap
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-<<<<<<< HEAD:src/Pages/blogLeft.jsx
-                                    <form>
-                                        <div className="input-group">
-                                            <input className="form-control" type="text" placeholder="E-mail ... " />
-                                        <span className="input-group-btn">
-                                            <button className="btn btn-primary subscribe" type="button"><i
-                                                className="pe-7s-paper-plane pe-2x"></i></button>
-                                        </span>
-                                        </div>
-                                    </form>
-=======
-            <div className="blog-lst col-md-9">
-              <section className="post">
-                <div className="text-center padding-b-50">
-                  <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                  <div className="title-line wow fadeInRight animated"></div>
-                </div>
->>>>>>> bf3cecbdafe0c8a8f88c0ed22f45ca75c920e6a1:src/Pages/blog-left.jsx
-
-                <div className="row">
-                  <div className="col-sm-6">
-                    <p className="author-category">
-                      By <a href="/">John Snow</a>
-                      in <a href="blog.html">Webdesign</a>
-                    </p>
-                  </div>
-                  <div className="col-sm-6 right">
-                    <p className="date-comments">
-                      <a href="single.html">
-                        <i className="fa fa-calendar-o"></i> June 20, 2013
-                      </a>
-                      <a href="single.html">
-                        <i className="fa fa-comment-o"></i> 8 Comments
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="image wow fadeInLeft animated">
-                  <a href="single.html">
-                    <img
-                      src="assets/img/blog2.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </a>
-                </div>
-                <p className="intro">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                  libero sit amet quam egestas semper. Aenean ultricies mi vitae
-                  est. Mauris placerat eleifend leo.
-                </p>
-                <p className="read-more">
-                  <a href="single.html" className="btn btn-default btn-border">
-                    Continue reading
-                  </a>
-                </p>
-              </section>
-
-              <section className="post">
-                <div className="text-center padding-b-50">
-                  <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                  <div className="title-line wow fadeInRight animated"></div>
-                </div>
-
-                <div className="row">
-                  <div className="col-sm-6">
-                    <p className="author-category">
-                      By <a href="/">John Snow</a>
-                      in <a href="blog.html">Webdesign</a>
-                    </p>
-                  </div>
-                  <div className="col-sm-6 right">
-                    <p className="date-comments">
-                      <a href="single.html">
-                        <i className="fa fa-calendar-o"></i> June 20, 2013
-                      </a>
-                      <a href="single.html">
-                        <i className="fa fa-comment-o"></i> 8 Comments
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="image wow fadeInLeft animated">
-                  <a href="single.html">
-                    <img
-                      src="assets/img/blog2.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </a>
-                </div>
-                <p className="intro">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                  libero sit amet quam egestas semper. Aenean ultricies mi vitae
-                  est. Mauris placerat eleifend leo.
-                </p>
-                <p className="read-more">
-                  <a href="single.html" className="btn btn-default btn-border">
-                    Continue reading
-                  </a>
-                </p>
-              </section>
-
-              <section className="post">
-                <div className="text-center padding-b-50">
-                  <h2 className="wow fadeInLeft animated">FASHIN NOW 2015</h2>
-                  <div className="title-line wow fadeInRight animated"></div>
-                </div>
-
-                <div className="row">
-                  <div className="col-sm-6">
-                    <p className="author-category">
-                      By <a href="/">John Snow</a>
-                      in <a href="blog.html">Webdesign</a>
-                    </p>
-                  </div>
-                  <div className="col-sm-6 right">
-                    <p className="date-comments">
-                      <a href="single.html">
-                        <i className="fa fa-calendar-o"></i> June 20, 2013
-                      </a>
-                      <a href="single.html">
-                        <i className="fa fa-comment-o"></i> 8 Comments
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div className="image wow fadeInLeft animated">
-                  <a href="single.html">
-                    <img
-                      src="assets/img/blog1.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </a>
-                </div>
-                <p className="intro">
-                  Pellentesque habitant morbi tristique senectus et netus et
-                  malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                  feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                  libero sit amet quam egestas semper. Aenean ultricies mi vitae
-                  est. Mauris placerat eleifend leo.
-                </p>
-                <p className="read-more">
-                  <a href="single.html" className="btn btn-default btn-border">
-                    Continue reading
-                  </a>
-                </p>
-              </section>
             </div>
           </div>
-        </div>
-      </div>
-       {/* Footer area */}
-      <div className="footer-area">
-        <div className=" footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                <div className="single-footer">
-                  <h4>About us </h4>
-                  <div className="footer-title-line"></div>
+          {/* Footer area */}
+          <div className="footer-area">
+            <div className=" footer">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                    <div className="single-footer">
+                      <h4>About us </h4>
+                      <div className="footer-title-line"></div>
 
-                  <img
-                    src="assets/img/footer-logo.png"
-                    alt=""
-                    className="wow pulse"
-                    data-wow-delay="1s"
-                  />
-                  <p>
-                    Lorem ipsum dolor cum necessitatibus su quisquam molestias.
-                    Vel unde, blanditiis.
-                  </p>
-                  <ul className="footer-adress">
-                    <li>
-                      <i className="pe-7s-map-marker strong"> </i> 9089 your
-                      adress her
-                    </li>
-                    <li>
-                      <i className="pe-7s-mail strong"> </i>{" "}
-                      email@yourcompany.com
-                    </li>
-                    <li>
-                      <i className="pe-7s-call strong"> </i> +1 908 967 5906
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                <div className="single-footer">
-                  <h4>Quick links </h4>
-                  <div className="footer-title-line"></div>
-                  <ul className="footer-menu">
-                    <li>
-                      <a href="properties.html">Properties</a>
-                    </li>
-                    <li>
-                      <a href="/">Services</a>
-                    </li>
-                    <li>
-                      <a href="submit-property.html">Submit property </a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact us</a>
-                    </li>
-                    <li>
-                      <a href="faq.html">fqa</a>
-                    </li>
-                    <li>
-                      <a href="faq.html">Terms </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                <div className="single-footer">
-                  <h4>Last News</h4>
-                  <div className="footer-title-line"></div>
-                  <ul className="footer-blog">
-                    <li>
-                      <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                        <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
-                        </a>
-                        <span className="blg-date">12-12-2016</span>
-                      </div>
-                      <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                        <h6>
-                          <a href="single.html">Add news functions </a>
-                        </h6>
-                        <p style={{lineHeight: '17px', padding: '8px 2px'}}>
-                          Lorem ipsum dolor sit amet, nulla ...
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                        <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="dsfsdf"/>
-                        </a>
-                        <span className="blg-date">12-12-2016</span>
-                      </div>
-                      <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                        <h6>
-                          <a href="single.html">Add news functions </a>
-                        </h6>
-                        <p style={{lineHeight: '17px',padding: '8px 2px'}}>
-                          Lorem ipsum dolor sit amet, nulla ...
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                        <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
-                        </a>
-                        <span className="blg-date">12-12-2016</span>
-                      </div>
-                      <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
-                        <h6>
-                          <a href="single.html">Add news functions </a>
-                        </h6>
-                        <p style={{lineHeight: '17px', padding: '8px 2px'}}>
-                          Lorem ipsum dolor sit amet, nulla ...
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 wow fadeInRight animated">
-                <div className="single-footer news-letter">
-                  <h4>Stay in touch</h4>
-                  <div className="footer-title-line"></div>
-                  <p>
-                    Lorem ipsum dolor sit amet, nulla suscipit similique
-                    quisquam molestias. Vel unde, blanditiis.
-                  </p>
-
-                  <form>
-                    <div className="input-group">
-                      <input
-                        className="form-control"
-                        type="text"
-                        placeholder="E-mail ... "
+                      <img
+                        src="assets/img/footer-logo.png"
+                        alt=""
+                        className="wow pulse"
+                        data-wow-delay="1s"
                       />
-                      <span className="input-group-btn">
-                        <button
-                          className="btn btn-primary subscribe"
-                          type="button"
-                        >
-                          <i className="pe-7s-paper-plane pe-2x"></i>
-                        </button>
-                      </span>
+                      <p>
+                        Lorem ipsum dolor cum necessitatibus su quisquam
+                        molestias. Vel unde, blanditiis.
+                      </p>
+                      <ul className="footer-adress">
+                        <li>
+                          <i className="pe-7s-map-marker strong"> </i> 9089 your
+                          adress her
+                        </li>
+                        <li>
+                          <i className="pe-7s-mail strong"> </i>{" "}
+                          email@yourcompany.com
+                        </li>
+                        <li>
+                          <i className="pe-7s-call strong"> </i> +1 908 967 5906
+                        </li>
+                      </ul>
                     </div>
-                    {/* input-group   */}
-                  </form>
+                  </div>
+                  <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                    <div className="single-footer">
+                      <h4>Quick links </h4>
+                      <div className="footer-title-line"></div>
+                      <ul className="footer-menu">
+                        <li>
+                          <a href="properties.html">Properties</a>
+                        </li>
+                        <li>
+                          <a href="/">Services</a>
+                        </li>
+                        <li>
+                          <a href="submit-property.html">Submit property </a>
+                        </li>
+                        <li>
+                          <a href="contact.html">Contact us</a>
+                        </li>
+                        <li>
+                          <a href="faq.html">fqa</a>
+                        </li>
+                        <li>
+                          <a href="faq.html">Terms </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                    <div className="single-footer">
+                      <h4>Last News</h4>
+                      <div className="footer-title-line"></div>
+                      <ul className="footer-blog">
+                        <li>
+                          <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/demo/small-proerty-2.jpg"
+                                alt="title"
+                              />
+                            </a>
+                            <span className="blg-date">12-12-2016</span>
+                          </div>
+                          <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                            <h6>
+                              <a href="single.html">Add news functions </a>
+                            </h6>
+                            <p
+                              style={{ lineHeight: "17px", padding: "8px 2px" }}
+                            >
+                              Lorem ipsum dolor sit amet, nulla ...
+                            </p>
+                          </div>
+                        </li>
 
-                  <div className="social pull-right">
+                        <li>
+                          <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/demo/small-proerty-2.jpg"
+                                alt="dsfsdf"
+                              />
+                            </a>
+                            <span className="blg-date">12-12-2016</span>
+                          </div>
+                          <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                            <h6>
+                              <a href="single.html">Add news functions </a>
+                            </h6>
+                            <p
+                              style={{ lineHeight: "17px", padding: "8px 2px" }}
+                            >
+                              Lorem ipsum dolor sit amet, nulla ...
+                            </p>
+                          </div>
+                        </li>
+
+                        <li>
+                          <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                            <a href="single.html">
+                              <img
+                                src="assets/img/demo/small-proerty-2.jpg"
+                                alt="title"
+                              />
+                            </a>
+                            <span className="blg-date">12-12-2016</span>
+                          </div>
+                          <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
+                            <h6>
+                              <a href="single.html">Add news functions </a>
+                            </h6>
+                            <p
+                              style={{ lineHeight: "17px", padding: "8px 2px" }}
+                            >
+                              Lorem ipsum dolor sit amet, nulla ...
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="col-md-3 col-sm-6 wow fadeInRight animated">
+                    <div className="single-footer news-letter">
+                      <h4>Stay in touch</h4>
+                      <div className="footer-title-line"></div>
+                      <p>
+                        Lorem ipsum dolor sit amet, nulla suscipit similique
+                        quisquam molestias. Vel unde, blanditiis.
+                      </p>
+
+                      <form>
+                        <div className="input-group">
+                          <input
+                            className="form-control"
+                            type="text"
+                            placeholder="E-mail ... "
+                          />
+                          <span className="input-group-btn">
+                            <button
+                              className="btn btn-primary subscribe"
+                              type="button"
+                            >
+                              <i className="pe-7s-paper-plane pe-2x"></i>
+                            </button>
+                          </span>
+                        </div>
+                        {/* input-group   */}
+                      </form>
+
+                      <div className="social pull-right">
+                        <ul>
+                          <li>
+                            <a
+                              className="wow fadeInUp animated"
+                              href="https://twitter.com/kimarotec"
+                            >
+                              <i className="fa fa-twitter"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="wow fadeInUp animated"
+                              href="https://www.facebook.com/kimarotec"
+                              data-wow-delay="0.2s"
+                            >
+                              <i className="fa fa-facebook"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="wow fadeInUp animated"
+                              href="https://plus.google.com/kimarotec"
+                              data-wow-delay="0.3s"
+                            >
+                              <i className="fa fa-google-plus"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="wow fadeInUp animated"
+                              href="https://instagram.com/kimarotec"
+                              data-wow-delay="0.4s"
+                            >
+                              <i className="fa fa-instagram"></i>
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              className="wow fadeInUp animated"
+                              href="https://instagram.com/kimarotec"
+                              data-wow-delay="0.6s"
+                            >
+                              <i className="fa fa-dribbble"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="footer-copy text-center">
+              <div className="container">
+                <div className="row">
+                  <div className="pull-left">
+                    <span>
+                      {" "}
+                      (C) <a href="http://www.KimaroTec.com">KimaroTheme</a> ,
+                      All rights reserved 2016{" "}
+                    </span>
+                  </div>
+                  <div className="bottom-menu pull-right">
                     <ul>
                       <li>
                         <a
                           className="wow fadeInUp animated"
-                          href="https://twitter.com/kimarotec"
-                        >
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          className="wow fadeInUp animated"
-                          href="https://www.facebook.com/kimarotec"
+                          href="/"
                           data-wow-delay="0.2s"
                         >
-                          <i className="fa fa-facebook"></i>
+                          Home
                         </a>
                       </li>
                       <li>
                         <a
                           className="wow fadeInUp animated"
-                          href="https://plus.google.com/kimarotec"
+                          href="/"
                           data-wow-delay="0.3s"
                         >
-                          <i className="fa fa-google-plus"></i>
+                          Property
                         </a>
                       </li>
                       <li>
                         <a
                           className="wow fadeInUp animated"
-                          href="https://instagram.com/kimarotec"
+                          href="/"
                           data-wow-delay="0.4s"
                         >
-                          <i className="fa fa-instagram"></i>
+                          Faq
                         </a>
                       </li>
                       <li>
                         <a
                           className="wow fadeInUp animated"
-                          href="https://instagram.com/kimarotec"
+                          href="/"
                           data-wow-delay="0.6s"
                         >
-                          <i className="fa fa-dribbble"></i>
+                          Contact
                         </a>
                       </li>
                     </ul>
@@ -1157,63 +1430,9 @@ const BlogLeft = () => {
             </div>
           </div>
         </div>
-
-        <div className="footer-copy text-center">
-          <div className="container">
-            <div className="row">
-              <div className="pull-left">
-                <span>
-                  {" "}
-                  (C) <a href="http://www.KimaroTec.com">KimaroTheme</a> , All
-                  rights reserved 2016{" "}
-                </span>
-              </div>
-              <div className="bottom-menu pull-right">
-                <ul>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href="/"
-                      data-wow-delay="0.2s"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href="/"
-                      data-wow-delay="0.3s"
-                    >
-                      Property
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href="/"
-                      data-wow-delay="0.4s"
-                    >
-                      Faq
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="wow fadeInUp animated"
-                      href="/"
-                      data-wow-delay="0.6s"
-                    >
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 };
 
-export default BlogLeft
+export default BlogLeft;
