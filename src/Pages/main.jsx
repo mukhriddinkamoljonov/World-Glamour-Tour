@@ -111,16 +111,16 @@ const Main = () => {
                 </a>
                 <ul class="dropdown-menu navbar-nav">
                   <li>
-                    <a href="index-2.html">Home Style 2</a>
+                    <a href="./index-2.html">Home Style 2</a>
                   </li>
                   <li>
-                    <a href="index-3.html">Home Style 3</a>
+                    <a href="./index-3.html">Home Style 3</a>
                   </li>
                   <li>
-                    <a href="index-4.html">Home Style 4</a>
+                    <a href="./index-4.html">Home Style 4</a>
                   </li>
                   <li>
-                    <a href="index-5.html">Home Style 5</a>
+                    <a href="./index-5.html">Home Style 5</a>
                   </li>
                 </ul>
               </li>
@@ -131,7 +131,7 @@ const Main = () => {
                 </a>
               </li>
               <li class="wow fadeInDown" data-wow-delay="0.3s">
-                <a class="" href="property.html">
+                <a class="" href="./property.html">
                   Property
                 </a>
               </li>
@@ -153,19 +153,19 @@ const Main = () => {
                           <h5>Home pages</h5>
                           <ul>
                             <li>
-                              <a href="index.html">Home Style 1</a>
+                              <a href="./index.html">Home Style 1</a>
                             </li>
                             <li>
-                              <a href="index-2.html">Home Style 2</a>
+                              <a href="./index-2.html">Home Style 2</a>
                             </li>
                             <li>
-                              <a href="index-3.html">Home Style 3</a>
+                              <a href="./index-3.html">Home Style 3</a>
                             </li>
                             <li>
-                              <a href="index-4.html">Home Style 4</a>
+                              <a href="./index-4.html">Home Style 4</a>
                             </li>
                             <li>
-                              <a href="index-5.html">Home Style 5</a>
+                              <a href="./index-5.html">Home Style 5</a>
                             </li>
                           </ul>
                         </div>
@@ -173,16 +173,16 @@ const Main = () => {
                           <h5>Pages and blog</h5>
                           <ul>
                             <li>
-                              <a href="blog.html">Blog listing</a>
+                              <a href="./blog.html">Blog listing</a>
                             </li>
                             <li>
-                              <a href="single.html">Blog Post (full)</a>
+                              <a href="./single.html">Blog Post (full)</a>
                             </li>
                             <li>
-                              <a href="single-right.html">Blog Post (Right)</a>
+                              <a href="./single-right.html">Blog Post (Right)</a>
                             </li>
                             <li>
-                              <a href="single-left.html">Blog Post (left)</a>
+                              <a href="./single-left.html">Blog Post (left)</a>
                             </li>
                             <li>
                               <a href="contact.html">Contact style (1)</a>
