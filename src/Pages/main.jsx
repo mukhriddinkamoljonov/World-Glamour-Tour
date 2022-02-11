@@ -63,7 +63,7 @@ const Main = () => {
       </div>
 
       <nav class="navbar navbar-default">
-        <div class="container">
+         <div class="container">
           <div class="navbar-header">
             <button
               type="button"
@@ -107,27 +107,27 @@ const Main = () => {
                   data-hover="dropdown"
                   data-delay="200"
                 >
-                  Home <b class="caret"></b>
+                  Shaharlar <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu navbar-nav">
                   <li>
-                    <a href="./index-2.html">Home Style 2</a>
+                    <a href="./index-2.html">Toshkent</a>
                   </li>
                   <li>
-                    <a href="./index-3.html">Home Style 3</a>
+                    <a href="./index-3.html">Buxoro</a>
                   </li>
                   <li>
-                    <a href="./index-4.html">Home Style 4</a>
+                    <a href="./index-4.html">Xiva</a>
                   </li>
                   <li>
-                    <a href="./index-5.html">Home Style 5</a>
+                    <a href="./index-5.html">Xorazim</a>
                   </li>
                 </ul>
               </li>
 
               <li class="wow fadeInDown" data-wow-delay="0.2s">
                 <a class="" href="properties.html">
-                  Properties
+                  Sayohlar uchun
                 </a>
               </li>
               <li class="wow fadeInDown" data-wow-delay="0.3s">
@@ -285,7 +285,7 @@ const Main = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> 
       </nav>
 
       <div class="slider-area">
@@ -645,7 +645,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-2.html">
-                      <img src="assets/img/demo/property-4.jpg" alt="title"/>
+                      <img src="assets/img/demo/property-4.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -665,7 +665,7 @@ const Main = () => {
                 <div class="box-two proerty-item">
                   <div class="item-thumb">
                     <a href="property-1.html">
-                      <img src="assets/img/demo/property-3.jpg" alt="title"/>
+                      <img src="assets/img/demo/property-3.jpg" alt="title" />
                     </a>
                   </div>
                   <div class="item-entry overflow">
@@ -774,7 +774,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         class="testimonial-area recent-property"
         style={{ backgroundColor: "#fcfcfc", paddingBottom: "15px" }}
       >
@@ -857,7 +857,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div class="count-area">
         <div class="container">
@@ -1048,7 +1048,10 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
+                          <img
+                            src="assets/img/demo/small-proerty-2.jpg"
+                            alt="title"
+                          />
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
@@ -1065,7 +1068,10 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
+                          <img
+                            src="assets/img/demo/small-proerty-2.jpg"
+                            alt="title"
+                          />
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
@@ -1082,7 +1088,10 @@ const Main = () => {
                     <li>
                       <div class="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-proerty-2.jpg" alt="title"/>
+                          <img
+                            src="assets/img/demo/small-proerty-2.jpg"
+                            alt="title"
+                          />
                         </a>
                         <span class="blg-date">12-12-2016</span>
                       </div>
