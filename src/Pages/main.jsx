@@ -1,4 +1,5 @@
 import React from "react";
+import "./Main.css"
 
 const Main = () => {
   return (
@@ -77,7 +78,7 @@ const Main = () => {
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-              <img src="assets/img/logo.png" alt="" />
+              <img src="assets/img/icon/logo.png" alt="" />
             </a>
           </div>
 
@@ -144,16 +145,13 @@ const Main = () => {
         <div class="slider">
           <div id="bg-slider" class="owl-carousel owl-theme">
             <div class="item">
-              <img src="assets/img/slide1/slider-image-1.jpg" alt="GTA V" />
+              <img src="assets/img/slide1/img.jpg" alt="GTA V" />
             </div>
             <div class="item">
-              <img
-                src="assets/img/slide1/slider-image-2.jpg"
-                alt="The Last of us"
-              />
+              <img src="assets/img/slide1/img1.jpg" alt="The Last of us" />
             </div>
             <div class="item">
-              <img src="assets/img/slide1/slider-image-1.jpg" alt="GTA V" />
+              <img src="assets/img/slide1/img2.jpg" alt="GTA V" />
             </div>
           </div>
         </div>
