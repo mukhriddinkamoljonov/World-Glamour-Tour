@@ -14,7 +14,7 @@ const Main = () => {
               <div class="header-half header-call">
                 <p>
                   <span>
-                    <i class="pe-7s-call"></i> +1 234 567 7890
+                    <i class="pe-7s-call"></i> +998 97 214-44-01
                   </span>
                   <span>
                     <i class="pe-7s-mail"></i> your@company.com
@@ -197,7 +197,7 @@ const Main = () => {
                               <a href="faq.html">FAQ page</a>
                             </li>
                             <li>
-                              <a href="404.html">404 page</a>
+                              <a href="404.jsx">404 page</a>
                             </li>
                           </ul>
                         </div>
