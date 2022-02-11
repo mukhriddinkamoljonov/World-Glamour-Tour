@@ -628,7 +628,7 @@ const Main = () => {
                       <h2 className="percent" id="counter">
                         0
                       </h2>
-                      <h5>HAPPY CUSTOMER</h5>
+                      <h5>1 AQSh dollari , USD</h5>
                     </div>
                   </div>
                 </div>
@@ -641,7 +641,7 @@ const Main = () => {
                       <h2 className="percent" id="counter1">
                         0
                       </h2>
-                      <h5>Properties in stock</h5>
+                      <h5>1 Rossiya rubli, RUB</h5>
                     </div>
                   </div>
                 </div>
@@ -654,7 +654,7 @@ const Main = () => {
                       <h2 className="percent" id="counter2">
                         0
                       </h2>
-                      <h5>City registered</h5>
+                      <h5>1 Yevro, EUR</h5>
                     </div>
                   </div>
                 </div>
@@ -667,7 +667,7 @@ const Main = () => {
                       <h2 className="percent" id="counter3">
                         5000
                       </h2>
-                      <h5>DEALER BRANCHES</h5>
+                      <h5>1 Turkiya lirasi , TRY</h5>
                     </div>
                   </div>
                 </div>
