@@ -5,8 +5,14 @@
 }
 
 .navbar-brand {
-  width: 13rem;
-  height: 13rem;
-  margin-top: -2.4rem;
-  margin-bottom: -1.4rem;
+  width: 12.2rem;
+  height: 11rem;
+  margin-top: -2.7rem;
+  margin-bottom: -2rem;
+}
+
+.header-title p {
+  margin-left: -9rem;
+  color: #fff;
+  margin-top: -30rem;
 }
