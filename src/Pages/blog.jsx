@@ -172,7 +172,7 @@ const BlogPage = () => {
               </div>
           </div>
           <div className="content-area blog-page padding-top-40"
-               style="background-color: #FCFCFC; padding-bottom: 55px;">
+               style={{backgroundColor: '#FCFCFC', paddingBottom: '55px'}}>
               <div className="container">
                   <div className="row">
                       <div className="blog-lst col-md-12 pl0">
@@ -337,7 +337,7 @@ const BlogPage = () => {
                                           </div>
                                           <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                               <h6><a href="single.html">Add news functions </a></h6>
-                                              <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
+                                              <p style={{lineHeight: '17px', padding: '8px 2px'}}>Lorem ipsum dolor sit
                                                   amet, nulla ...</p>
                                           </div>
                                       </li>
@@ -352,7 +352,7 @@ const BlogPage = () => {
                                           </div>
                                           <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                               <h6><a href="single.html">Add news functions </a></h6>
-                                              <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
+                                              <p style={{lineHeight: '17px', padding: '8px 2px'}}>Lorem ipsum dolor sit
                                                   amet, nulla ...</p>
                                           </div>
                                       </li>
@@ -367,7 +367,7 @@ const BlogPage = () => {
                                           </div>
                                           <div className="col-md-8  col-sm-8 col-xs-8  blg-entry">
                                               <h6><a href="single.html">Add news functions </a></h6>
-                                              <p style="line-height: 17px; padding: 8px 2px;">Lorem ipsum dolor sit
+                                              <p style={{lineHeight: '17px', padding: '8px 2px'}}>Lorem ipsum dolor sit
                                                   amet, nulla ...</p>
                                           </div>
                                       </li>
@@ -442,3 +442,5 @@ const BlogPage = () => {
       </div>
   )
 }
+
+export default BlogPage;

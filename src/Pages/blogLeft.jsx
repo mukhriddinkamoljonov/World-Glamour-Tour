@@ -246,7 +246,7 @@ const BlogLeft = () =>  {
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                                                 <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-3.jpg"></a>
+                                                    src="assets/img/demo/small-property-3.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -261,7 +261,7 @@ const BlogLeft = () =>  {
                                         <li>
                                             <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                                                 <a href="single.html"><img
-                                                    src="assets/img/demo/small-property-2.jpg"></a>
+                                                    src="assets/img/demo/small-property-2.jpg" /></a>
                                                 <span className="property-seeker">
                                                     <b className="b-1">A</b>
                                                     <b className="b-2">S</b>
@@ -329,7 +329,7 @@ const BlogLeft = () =>  {
                                 <div className="image wow fadeInLeft animated">
                                     <a href="single.html">
                                         <img src="assets/img/blog2.jpg" className="img-responsive"
-                                             alt="Example blog post alt">
+                                             alt="Example blog post alt" />
                                     </a>
                                 </div>
                                 <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
@@ -364,7 +364,7 @@ const BlogLeft = () =>  {
                                 <div className="image wow fadeInLeft animated">
                                     <a href="single.html">
                                         <img src="assets/img/blog2.jpg" className="img-responsive"
-                                             alt="Example blog post alt">
+                                             alt="Example blog post alt" />
                                     </a>
                                 </div>
                                 <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
@@ -399,7 +399,7 @@ const BlogLeft = () =>  {
                                 <div className="image wow fadeInLeft animated">
                                     <a href="single.html">
                                         <img src="assets/img/blog1.jpg" className="img-responsive"
-                                             alt="Example blog post alt">
+                                             alt="Example blog post alt" />
                                     </a>
                                 </div>
                                 <p className="intro">Pellentesque habitant morbi tristique senectus et netus et
@@ -417,9 +417,6 @@ const BlogLeft = () =>  {
 
                 </div>
             </div>
-
-
-            <!-- Footer area-->
             <div className="footer-area">
 
                 <div className=" footer">
@@ -432,7 +429,7 @@ const BlogLeft = () =>  {
                                     <div className="footer-title-line"></div>
 
                                     <img src="assets/img/footer-logo.png" alt="" className="wow pulse"
-                                         data-wow-delay="1s">
+                                         data-wow-delay="1s" />
                                         <p>Lorem ipsum dolor cum necessitatibus su quisquam molestias. Vel unde,
                                             blanditiis.</p>
                                         <ul className="footer-adress">
@@ -464,7 +461,7 @@ const BlogLeft = () =>  {
                                         <li>
                                             <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                                                 <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg">
+                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
                                                 </a>
                                                 <span className="blg-date">12-12-2016</span>
 
@@ -479,7 +476,7 @@ const BlogLeft = () =>  {
                                         <li>
                                             <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                                                 <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg">
+                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
                                                 </a>
                                                 <span className="blg-date">12-12-2016</span>
 
@@ -494,7 +491,7 @@ const BlogLeft = () =>  {
                                         <li>
                                             <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
                                                 <a href="single.html">
-                                                    <img src="assets/img/demo/small-proerty-2.jpg">
+                                                    <img src="assets/img/demo/small-proerty-2.jpg" />
                                                 </a>
                                                 <span className="blg-date">12-12-2016</span>
 
@@ -519,13 +516,12 @@ const BlogLeft = () =>  {
 
                                     <form>
                                         <div className="input-group">
-                                            <input className="form-control" type="text" placeholder="E-mail ... ">
+                                            <input className="form-control" type="text" placeholder="E-mail ... " />
                                         <span className="input-group-btn">
                                             <button className="btn btn-primary subscribe" type="button"><i
                                                 className="pe-7s-paper-plane pe-2x"></i></button>
                                         </span>
                                         </div>
-                                        <!-- /input-group -->
                                     </form>
 
                                     <div className="social pull-right">
