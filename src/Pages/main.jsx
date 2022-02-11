@@ -94,33 +94,33 @@ const Main = () => {
                     <div className="yamm-content">
                       <div className="row">
                         <div className="col-sm-3">
-                          <h5>Home pages</h5>
+                          {/*<h5>Home pages</h5>*/}
                           <ul>
                             <li>
-                              <a href="index.html">Home Style 1</a>
+                              <a href="index.html">Toshkent</a>
                             </li>
                             <li>
-                              <a href="index-2.html">Home Style 2</a>
+                              <a href="index-2.html">Samarqand</a>
                             </li>
                             <li>
-                              <a href="index-3.html">Home Style 3</a>
+                              <a href="index-3.html">Buxoro</a>
                             </li>
                             <li>
-                              <a href="index-4.html">Home Style 4</a>
+                              <a href="index-4.html">Xiva</a>
                             </li>
                             <li>
-                              <a href="index-5.html">Home Style 5</a>
+                              <a href="index-5.html">Shahrisabz </a>
                             </li>
                           </ul>
                         </div>
                         <div className="col-sm-3">
-                          <h5>Pages and blog</h5>
+                          {/*<h5>Pages and blog</h5>*/}
                           <ul>
                             <li>
-                              <a href="blog.html">Blog listing</a>
+                              <a href="blog.html">Mo'ynoq</a>
                             </li>
                             <li>
-                              <a href="single.html">Blog Post (full)</a>
+                              <a href="single.html">Zomin</a>
                             </li>
                             <li>
                               <a href="single-right.html">Blog Post (Right)</a>
