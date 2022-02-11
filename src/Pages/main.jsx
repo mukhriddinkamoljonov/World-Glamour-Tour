@@ -7,7 +7,7 @@ const Main = () => {
       <div id="preloader">
         <div id="status">&nbsp;</div>
       </div>
-      {/* <div className="header-connect">
+      <div className="header-connect">
         <div className="container">
           <div className="row">
             <div className="col-md-5 col-sm-8 col-xs-12">
@@ -60,7 +60,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <nav className="navbar navbar-default">
         <div className="container">
           <div className="navbar-header">
@@ -144,13 +144,16 @@ const Main = () => {
         <div className="slider">
           <div id="bg-slider" className="owl-carousel owl-theme">
             <div className="item">
-              <img src="assets/img/slide1/img.jpg" alt="GTA V" />
+              <img src="assets/img/slide1/slider-image-1.jpg" alt="GTA V" />
             </div>
             <div className="item">
-              <img src="assets/img/slide1/img1.jpg" alt="The Last of us" />
+              <img
+                src="assets/img/slide1/slider-image-2.jpg"
+                alt="The Last of us"
+              />
             </div>
             <div className="item">
-              <img src="assets/img/slide1/img2.jpg" alt="GTA V" />
+              <img src="assets/img/slide1/slider-image-4.jpg" alt="GTA V" />
             </div>
           </div>
         </div>
