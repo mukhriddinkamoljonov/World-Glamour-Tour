@@ -51,20 +51,20 @@ const Main = () => {
                   data-hover="dropdown"
                   data-delay="200"
                 >
-                  Shaharlar <b className="caret"></b>
+                 Damolish maskanlari <b className="caret"></b>
                 </a>
                 <ul className="dropdown-menu navbar-nav">
                   <li>
-                    <a href="./index-2.html">Toshkent</a>
+                    <a href="./index-2.html">Chorvoq</a>
                   </li>
                   <li>
-                    <a href="./index-3.html">Buxoro</a>
+                    <a href="./index-3.html">Amirsoy</a>
                   </li>
                   <li>
-                    <a href="./index-4.html">Xiva</a>
+                    <a href="./index-4.html">Chimyon</a>
                   </li>
                   <li>
-                    <a href="./index-5.html">Xorazim</a>
+                    <a href="./index-5.html">Bostonliq</a>
                   </li>
                 </ul>
               </li>
@@ -87,7 +87,7 @@ const Main = () => {
                   data-hover="dropdown"
                   data-delay="200"
                 >
-                  Template <b class="caret"></b>
+                  Shaharlar <b class="caret"></b>
                 </a>
                 <ul className="dropdown-menu">
                   <li>
@@ -778,10 +778,10 @@ const Main = () => {
                     </li>
                     <li>
                       <i className="pe-7s-mail strong"> </i>{" "}
-                      email@yourcompany.com
+                      rnj-787@mail.ru
                     </li>
                     <li>
-                      <i className="pe-7s-call strong"> </i> +1 908 967 5906
+                      <i className="pe-7s-call strong"> </i> +99897 214 44 01
                     </li>
                   </ul>
                 </div>
