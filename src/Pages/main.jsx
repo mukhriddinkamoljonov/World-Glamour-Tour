@@ -158,14 +158,10 @@ const Main = () => {
                               </a>
                             </li>
                             <li>
-                              <a href="property-2.html">
-                               Dehli - Hindiston
-                              </a>
+                              <a href="property-2.html">Dehli - Hindiston</a>
                             </li>
                             <li>
-                              <a href="property-3.html">
-                               Pekin - Xitoy
-                              </a>
+                              <a href="property-3.html">Pekin - Xitoy</a>
                             </li>
                             <li>
                               <a href="property-3.html">Anqara - Turkiya </a>
@@ -200,16 +196,22 @@ const Main = () => {
                           <h5>Yevropa</h5>
                           <ul>
                             <li>
-                              <a href="submit-property.html">Parij - Fransiya</a>
+                              <a href="submit-property.html">
+                                Parij - Fransiya
+                              </a>
                             </li>
                             <li>
                               <a href="submit-property.html">Rim - Italiya</a>
                             </li>
                             <li>
-                              <a href="submit-property.html">Bern - Shveysariya</a>
+                              <a href="submit-property.html">
+                                Bern - Shveysariya
+                              </a>
                             </li>
                             <li>
-                              <a href="submit-property.html">London - Birlashgan Qirollik</a>
+                              <a href="submit-property.html">
+                                London - Birlashgan Qirollik
+                              </a>
                             </li>
                             <li>
                               <a href="submit-property.html">
@@ -269,11 +271,11 @@ const Main = () => {
               <h2 className="header-title-per">
                 Sayoxatni biz bilan mazmunli o'tkazing!
               </h2>
-              <h4 className="header-title-simple">
+              <h5 className="header-title-simple">
                 Eʼtiborga molik joylarni, insonlar hayoti va hodisalar
                 to‘g‘risida eng qiziqarli maʼlumotlarni siz biz orqali
                 topishingiz mumkin!
-              </h4>
+              </h5>
               {/* <div className="search-form wow pulse" data-wow-delay="0.8s">
                 <form action="" className="form-inline">
                   <div className="form-group">
