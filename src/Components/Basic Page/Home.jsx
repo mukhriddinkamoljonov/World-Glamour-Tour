@@ -4,6 +4,7 @@ import Count from "./Count";
 import Footer from "./Footer";
 import Slider from "./Slider";
 import WelcomeArea from "./WelcomeArea";
+import Sale from "./Sale";
 import "./Main.css";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Carts />
       <WelcomeArea />
       <Count />
+      <Sale/>
       <Footer />
     </div>
   );
