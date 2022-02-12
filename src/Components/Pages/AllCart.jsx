@@ -32,7 +32,7 @@ const AllCart = () => {
                       >
                         <i class="fa fa-star-o"></i>
                       </a>
-                      <a class="printer-icon" href="javascript:window.print()">
+                      <a class="printer-icon" href="/">
                         <i class="fa fa-print"></i>
                       </a>
                     </div>
@@ -42,16 +42,16 @@ const AllCart = () => {
                       class="gallery list-unstyled cS-hidden"
                     >
                       <li data-thumb="assets/img/property-1/property1.jpg">
-                        <img src="assets/img/property-1/property1.jpg" />
+                        <img src="assets/img/property-1/property1.jpg" alt="title"/>
                       </li>
                       <li data-thumb="assets/img/property-1/property2.jpg">
-                        <img src="assets/img/property-1/property3.jpg" />
+                        <img src="assets/img/property-1/property3.jpg" alt="title"/>
                       </li>
                       <li data-thumb="assets/img/property-1/property3.jpg">
-                        <img src="assets/img/property-1/property3.jpg" />
+                        <img src="assets/img/property-1/property3.jpg" alt="title"/>
                       </li>
                       <li data-thumb="assets/img/property-1/property4.jpg">
-                        <img src="assets/img/property-1/property4.jpg" />
+                        <img src="assets/img/property-1/property4.jpg" alt="title"/>
                       </li>
                     </ul>
                   </div>
@@ -69,7 +69,7 @@ const AllCart = () => {
                 <div class="property-meta entry-meta clearfix">
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-tag">
-                      <img src="assets/img/icon/sale-orange.png" />
+                      <img src="assets/img/icon/sale-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Status</span>
@@ -79,7 +79,7 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info icon-area">
-                      <img src="assets/img/icon/room-orange.png" />
+                      <img src="assets/img/icon/room-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Area</span>
@@ -91,7 +91,7 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-bed">
-                      <img src="assets/img/icon/bed-orange.png" />
+                      <img src="assets/img/icon/bed-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Bedrooms</span>
@@ -101,7 +101,7 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-bed">
-                      <img src="assets/img/icon/cars-orange.png" />
+                      <img src="assets/img/icon/cars-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Car garages</span>
@@ -111,7 +111,7 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-bath">
-                      <img src="assets/img/icon/os-orange.png" />
+                      <img src="assets/img/icon/os-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Bathrooms</span>
@@ -121,7 +121,7 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-garage">
-                      <img src="assets/img/icon/room-orange.png" />
+                      <img src="assets/img/icon/room-orange.png" alt="title" />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Garages</span>
@@ -131,7 +131,10 @@ const AllCart = () => {
 
                   <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
                     <span class="property-info-icon icon-garage">
-                      <img src="assets/img/icon/shawer-orange.png" />
+                      <img
+                        src="assets/img/icon/shawer-orange.png"
+                        alt="title"
+                      />
                     </span>
                     <span class="property-info-entry">
                       <span class="property-info-label">Garages</span>
@@ -258,37 +261,58 @@ const AllCart = () => {
                     <ul>
                       <li>
                         <a title="Share this on dribbble " href="/">
-                          <img src="assets/img/social_big/dribbble_grey.png" alt="title" />
+                          <img
+                            src="assets/img/social_big/dribbble_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on facebok " href="/">
-                          <img src="assets/img/social_big/facebook_grey.png" alt="title" />
+                          <img
+                            src="assets/img/social_big/facebook_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on delicious " href="/">
-                          <img src="assets/img/social_big/delicious_grey.png" alt="title" />
+                          <img
+                            src="assets/img/social_big/delicious_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on tumblr " href="/">
-                          <img src="assets/img/social_big/tumblr_grey.png"  alt="title"/>
+                          <img
+                            src="assets/img/social_big/tumblr_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on digg " href="/">
-                          <img src="assets/img/social_big/digg_grey.png"  alt="title"/>
+                          <img
+                            src="assets/img/social_big/digg_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on twitter " href="/">
-                          <img src="assets/img/social_big/twitter_grey.png" alt="title" />
+                          <img
+                            src="assets/img/social_big/twitter_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                       <li>
                         <a title="Share this on linkedin " href="/">
-                          <img src="assets/img/social_big/linkedin_grey.png"  alt="title"/>
+                          <img
+                            src="assets/img/social_big/linkedin_grey.png"
+                            alt="title"
+                          />
                         </a>
                       </li>
                     </ul>
@@ -369,7 +393,10 @@ const AllCart = () => {
                       <li>
                         <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
-                            <img src="assets/img/demo/small-property-2.jpg" alt="title"/>
+                            <img
+                              src="assets/img/demo/small-property-2.jpg"
+                              alt="title"
+                            />
                           </a>
                           <span class="property-seeker">
                             <b class="b-1">A</b>
@@ -386,7 +413,10 @@ const AllCart = () => {
                       <li>
                         <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
-                            <img src="assets/img/demo/small-property-1.jpg"  alt="title"/>
+                            <img
+                              src="assets/img/demo/small-property-1.jpg"
+                              alt="title"
+                            />
                           </a>
                           <span class="property-seeker">
                             <b class="b-1">A</b>
@@ -403,7 +433,10 @@ const AllCart = () => {
                       <li>
                         <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
-                            <img src="assets/img/demo/small-property-3.jpg" alt="title" />
+                            <img
+                              src="assets/img/demo/small-property-3.jpg"
+                              alt="title"
+                            />
                           </a>
                           <span class="property-seeker">
                             <b class="b-1">A</b>
@@ -421,7 +454,10 @@ const AllCart = () => {
                       <li>
                         <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
-                            <img src="assets/img/demo/small-property-2.jpg"  alt="title"/>
+                            <img
+                              src="assets/img/demo/small-property-2.jpg"
+                              alt="title"
+                            />
                           </a>
                           <span class="property-seeker">
                             <b class="b-1">A</b>
@@ -444,7 +480,7 @@ const AllCart = () => {
                     <h3 class="panel-title">Ads her</h3>
                   </div>
                   <div class="panel-body recent-property-widget">
-                    <img src="assets/img/ads.jpg"  alt="title"/>
+                    <img src="assets/img/ads.jpg" alt="title" />
                   </div>
                 </div>
 
