@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Main.css"
 
 function Navbar() {
   return (
@@ -17,10 +19,10 @@ function Navbar() {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <a className="navbar-brand" href="index.html">
+            <Link to="/" className="navbar-brand">
               <img src="assets/img/icon/logo.png" alt="" />
-            </a>
-            <span className="header-title">World Glamour Tour</span>
+              <span className="header-title-per">World_Glamour_Tour</span>
+            </Link>
           </div>
 
           <div className="collapse navbar-collapse yamm" id="navigation">
@@ -95,10 +97,7 @@ function Navbar() {
               </li>
 
               <li className="wow fadeInDown" data-wow-delay="0.2s">
-                {/* <Link to="/sayyohlar"></Link> */}
-                <a className="" href="properties.html" alt="title">
-                  Sayyohlar uchun
-                </a>
+                <Link to="/sayyohlar">Sayyohlar uchun</Link>
               </li>
               <li className="wow fadeInDown" data-wow-delay="0.3s">
                 <a className="" href="./property.html">
@@ -161,18 +160,6 @@ function Navbar() {
                                 <h5>Termiz</h5>
                               </a>
                             </li>
-                            {/*<li>*/}
-                            {/*  <a href="contact-3.html">Contact style (2)</a>*/}
-                            {/*</li>*/}
-                            {/*<li>*/}
-                            {/*  <a href="contact_3.html">Contact style (3)</a>*/}
-                            {/*</li>*/}
-                            {/*<li>*/}
-                            {/*  <a href="faq.html">FAQ page</a>*/}
-                            {/*</li>*/}
-                            {/*<li>*/}
-                            {/*  <a href="404.html">404 page</a>*/}
-                            {/*</li>*/}
                           </ul>
                         </div>
                         <div className="col-sm-3">

@@ -1,24 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Carts from "./Components/Carts";
-import Count from "./Components/Count";
-import Footer from "./Components/Footer";
+import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import Slider from "./Components/Slider";
-import WelcomeArea from "./Components/WelcomeArea";
-import "./Pages/Main.css";
+import Sayyoh from "./Components/Pages/Sayyoh";
 
 function App() {
   return (
     <div>
-      <div id="preloader">
-        <div id="status">&nbsp;</div>
-      </div>
       <Navbar />
-      <Slider />
-      <Carts />
-      <WelcomeArea />
-      <Count />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sayyohlar" element={<Sayyoh />} />
+      </Routes>
     </div>
   );
 }
