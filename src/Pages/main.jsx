@@ -94,7 +94,7 @@ const Main = () => {
                     <div className="yamm-content">
                       <div className="row">
                         <div className="col-sm-3">
-                          {/*<h5>Home pages</h5>*/}
+                          <h5>Tarixiy shaharlarga</h5>
                           <ul>
                             <li>
                               <a href="index.html">Toshkent</a>
@@ -109,112 +109,132 @@ const Main = () => {
                               <a href="index-4.html">Xiva</a>
                             </li>
                             <li>
-                              <a href="index-5.html">Shahrisabz </a>
+                              <a href="index-5.html">
+                                <h5>Qo'qon</h5>
+                              </a>
                             </li>
                           </ul>
                         </div>
                         <div className="col-sm-3">
-                          {/*<h5>Pages and blog</h5>*/}
+                          <h5>Yosh va navqiron</h5>
                           <ul>
                             <li>
-                              <a href="blog.html">Mo'ynoq</a>
+                              <a href="blog.html">Rishton</a>
                             </li>
                             <li>
-                              <a href="single.html">Zomin</a>
+                              <a href="single.html">Qarshi</a>
                             </li>
                             <li>
-                              <a href="single-right.html">Blog Post (Right)</a>
+                              <a href="single-right.html">Andijon</a>
                             </li>
                             <li>
-                              <a href="single-left.html">Blog Post (left)</a>
+                              <a href="single-left.html">Namangan</a>
                             </li>
                             <li>
-                              <a href="contact.html">Contact style (1)</a>
+                              <a href="contact.html">
+                                <h5>Termiz</h5>
+                              </a>
                             </li>
-                            <li>
-                              <a href="contact-3.html">Contact style (2)</a>
-                            </li>
-                            <li>
-                              <a href="contact_3.html">Contact style (3)</a>
-                            </li>
-                            <li>
-                              <a href="faq.html">FAQ page</a>
-                            </li>
-                            <li>
-                              <a href="404.html">404 page</a>
-                            </li>
+                            {/*<li>*/}
+                            {/*  <a href="contact-3.html">Contact style (2)</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*  <a href="contact_3.html">Contact style (3)</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*  <a href="faq.html">FAQ page</a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*  <a href="404.html">404 page</a>*/}
+                            {/*</li>*/}
                           </ul>
                         </div>
                         <div className="col-sm-3">
-                          <h5>Property</h5>
+                          <h5>Osiyo</h5>
                           <ul>
                             <li>
                               <a href="property-1.html">
-                                Property pages style (1)
+                                Dubay — Birlashgan Arab Amirliklari
                               </a>
                             </li>
                             <li>
                               <a href="property-2.html">
-                                Property pages style (2)
+                               Dehli - Hindiston
                               </a>
                             </li>
                             <li>
                               <a href="property-3.html">
-                                Property pages style (3)
+                               Pekin - Xitoy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="property-3.html">Anqara - Turkiya </a>
+                            </li>
+                            <li>
+                              <a href="property-3.html">
+                                <h5>Kuala Lumpur - Malayziya</h5>
                               </a>
                             </li>
                           </ul>
 
-                          <h5>Properties list</h5>
+                          {/*<h5>Properties list</h5>*/}
                           <ul>
-                            <li>
-                              <a href="properties.html">
-                                Properties list style (1)
-                              </a>
-                            </li>
-                            <li>
-                              <a href="properties-2.html">
-                                Properties list style (2)
-                              </a>
-                            </li>
-                            <li>
-                              <a href="properties-3.html">
-                                Properties list style (3)
-                              </a>
-                            </li>
+                            {/*<li>*/}
+                            {/*  <a href="properties.html">*/}
+                            {/*    Properties list style (1)*/}
+                            {/*  </a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*  <a href="properties-2.html">*/}
+                            {/*    Properties list style (2)*/}
+                            {/*  </a>*/}
+                            {/*</li>*/}
+                            {/*<li>*/}
+                            {/*  <a href="properties-3.html">*/}
+                            {/*    Properties list style (3)*/}
+                            {/*  </a>*/}
+                            {/*</li>*/}
                           </ul>
                         </div>
                         <div className="col-sm-3">
-                          <h5>Property process</h5>
+                          <h5>Yevropa</h5>
                           <ul>
                             <li>
-                              <a href="submit-property.html">Submit - step 1</a>
+                              <a href="submit-property.html">Parij - Fransiya</a>
                             </li>
                             <li>
-                              <a href="submit-property.html">Submit - step 2</a>
+                              <a href="submit-property.html">Rim - Italiya</a>
                             </li>
                             <li>
-                              <a href="submit-property.html">Submit - step 3</a>
+                              <a href="submit-property.html">Bern - Shveysariya</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">London - Birlashgan Qirollik</a>
+                            </li>
+                            <li>
+                              <a href="submit-property.html">
+                                <h5>Madrid - Ispaniya</h5>
+                              </a>
                             </li>
                           </ul>
-                          <h5>User account</h5>
-                          <ul>
-                            <li>
-                              <a href="register.html">Register / login</a>
-                            </li>
-                            <li>
-                              <a href="user-properties.html">Your properties</a>
-                            </li>
-                            <li>
-                              <a href="submit-property.html">Submit property</a>
-                            </li>
-                            <li>
-                              <a href="change-password.html">Change password</a>
-                            </li>
-                            <li>
-                              <a href="user-profile.html">Your profile</a>
-                            </li>
-                          </ul>
+                          {/*<h5>User account</h5>*/}
+                          {/*<ul>*/}
+                          {/*  <li>*/}
+                          {/*    <a href="register.html">Register / login</a>*/}
+                          {/*  </li>*/}
+                          {/*  <li>*/}
+                          {/*    <a href="user-properties.html">Your properties</a>*/}
+                          {/*  </li>*/}
+                          {/*  <li>*/}
+                          {/*    <a href="submit-property.html">Submit property</a>*/}
+                          {/*  </li>*/}
+                          {/*  <li>*/}
+                          {/*    <a href="change-password.html">Change password</a>*/}
+                          {/*  </li>*/}
+                          {/*  <li>*/}
+                          {/*    <a href="user-profile.html">Your profile</a>*/}
+                          {/*  </li>*/}
+                          {/*</ul>*/}
                         </div>
                       </div>
                     </div>
