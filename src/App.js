@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 import './App.css';
-import Main from './Pages/main';
-import BlogPage from './Pages/blog';
-=======
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
 import Sayyoh from "./Components/Pages/Sayyoh";
->>>>>>> c42b9d1a352f9b9bc006d97c8b96f789a65eb029
+import Navbar from './Components/Basic Page/Navbar';
+import Home from './Components/Basic Page/Home';
 
 function App() {
   return (
