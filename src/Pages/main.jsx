@@ -7,7 +7,7 @@ const Main = () => {
       <div id="preloader">
         <div id="status">&nbsp;</div>
       </div>
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-default yana">
         <div className="container">
           <div className="navbar-header">
             <button

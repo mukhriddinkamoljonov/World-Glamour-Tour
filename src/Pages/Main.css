@@ -15,9 +15,6 @@
   font-weight: bolder;
   color: #fdc600;
 }
-.header-simple {
-  color: rgb(153, 25, 3);
-}
 
 .navbar-default .navbar-nav > li > a {
   padding: 1rem;
@@ -152,15 +149,6 @@
   transition: top 0.3s ease, left 0.3s ease, fill 0.2s ease 0.2s;
 }
 
-/* body {
-  background: #E8EBF3;
-  height: 100vh;
-  font: 400 16px "Varela Round", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 .socials {
   position: fixed;
   display: block;
@@ -177,5 +165,12 @@
 .socials > a:hover {
   --scale: 1;
 }
-
 /* Search tugadi */
+
+.yana {
+  margin-left: 15rem;
+}
+
+.header-title-simple {
+  color: rgb(17, 76, 160);
+}
