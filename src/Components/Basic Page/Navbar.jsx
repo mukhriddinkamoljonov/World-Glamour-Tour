@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Main.css"
+import "./Main.css";
 
 function Navbar() {
   return (
@@ -97,12 +97,7 @@ function Navbar() {
               </li>
 
               <li className="wow fadeInDown" data-wow-delay="0.2s">
-                <Link to="/sayyohlar">Sayyohlar uchun</Link>
-              </li>
-              <li className="wow fadeInDown" data-wow-delay="0.3s">
-                <a className="" href="./property.html">
-                  Biz haqimizda
-                </a>
+                <Link to="/Sayyohlar">Sayyohlar uchun</Link>
               </li>
               <li className="dropdown yamm-fw" data-wow-delay="0.4s">
                 <a
@@ -218,6 +213,9 @@ function Navbar() {
                     </div>
                   </li>
                 </ul>
+              </li>
+              <li className="wow fadeInDown" data-wow-delay="0.3s">
+                <Link to="/about">Biz haqimizda</Link>
               </li>
             </ul>
           </div>
