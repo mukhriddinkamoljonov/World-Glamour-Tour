@@ -43,7 +43,7 @@ const Main = () => {
               </form>
             </div>
             <ul className="main-nav nav navbar-nav navbar-right">
-              <li className="dropdown ymm-sw" data-wow-delay="0.1s">
+              <li className="dropdown ymm-sw" data-wow-delay="0.1s" >
                 <a
                   href="index.html"
                   className="dropdown-toggle active"
