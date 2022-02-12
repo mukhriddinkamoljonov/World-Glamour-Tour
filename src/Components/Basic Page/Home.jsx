@@ -17,8 +17,7 @@ const Home = () => {
       <Carts />
       <WelcomeArea />
       <Count />
-      <Sale/>
-      <Footer />
+      <Sale />
     </div>
   );
 };
