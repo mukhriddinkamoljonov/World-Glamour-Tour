@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -96,8 +95,10 @@ function Navbar() {
               </li>
 
               <li className="wow fadeInDown" data-wow-delay="0.2s">
-                <Link to="/sayyohlar">Sayyohlar uchun</Link>
-                {/* <a className="" href="properties.html" alt="title"></a> */}
+                {/* <Link to="/sayyohlar"></Link> */}
+                <a className="" href="properties.html" alt="title">
+                  Sayyohlar uchun
+                </a>
               </li>
               <li className="wow fadeInDown" data-wow-delay="0.3s">
                 <a className="" href="./property.html">

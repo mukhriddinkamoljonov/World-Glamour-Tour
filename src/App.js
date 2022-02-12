@@ -1,19 +1,25 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Sayyohlar from "./Components/Sayyohlar";
-import Main from "./Pages/main";
+import Carts from "./Components/Carts";
+import Count from "./Components/Count";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
+import Slider from "./Components/Slider";
+import WelcomeArea from "./Components/WelcomeArea";
+import "./Pages/Main.css";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Main />
-        <Link to="/sayyohlar">Sayyohlar</Link>
-        <Routes>
-          <Route path="/sayyohlar" element={Sayyohlar} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div>
+      <div id="preloader">
+        <div id="status">&nbsp;</div>
+      </div>
+      <Navbar />
+      <Slider />
+      <Carts />
+      <WelcomeArea />
+      <Count />
+      <Footer />
+    </div>
   );
 }
 
