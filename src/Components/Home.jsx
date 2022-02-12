@@ -2,7 +2,6 @@ import React from "react";
 import Carts from "./Carts";
 import Count from "./Count";
 import Footer from "./Footer";
-import Navbar from "./Navbar";
 import Slider from "./Slider";
 import WelcomeArea from "./WelcomeArea";
 import "./Main.css";
