@@ -82,16 +82,16 @@ function Navbar() {
                 </a>
                 <ul className="dropdown-menu navbar-nav">
                   <li>
-                    <a href="./index-2.html">Chorvoq</a>
+                    <Link to="/chorvoq">Chorvoq</Link>
                   </li>
                   <li>
-                    <a href="./index-3.html">Amirsoy</a>
+                    <Link to="/amirsoy">Amirsoy</Link>
                   </li>
                   <li>
-                    <a href="./index-4.html">Chimyon</a>
+                    <Link to="/chimyon">Chimyon</Link>
                   </li>
                   <li>
-                    <a href="./index-5.html">Bostonliq</a>
+                    <Link to="/bostonliq">Bostonliq</Link>
                   </li>
                 </ul>
               </li>
