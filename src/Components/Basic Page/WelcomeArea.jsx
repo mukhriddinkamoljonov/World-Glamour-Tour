@@ -1,9 +1,8 @@
 import React from "react";
-import logo from "../icons/logo.png";
 import plane from "../icons/plane.png";
 import car from "../icons/car.png";
 import hotel from "../icons/hotel.png";
-import globe from "../icons/globe.png";
+import globe from "../icons/globe3.png";
 import "./Main.css";
 
 const WelcomeArea = () => {
@@ -19,12 +18,8 @@ const WelcomeArea = () => {
                 data-wow-offset="100"
               >
                 <div className="row">
-                  <div className="col-md-10 col-md-offset-1 brand col-sm-12 text-center page-title">
-                    <img
-                      src={logo}
-                      alt="companiy logo brand"
-                      classNam="brand"
-                    />
+                  <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+                    <h2 className="brand">World Glamour Tour</h2>
                   </div>
                 </div>
               </div>

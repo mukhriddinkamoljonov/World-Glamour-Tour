@@ -2494,19 +2494,27 @@ Welcom
   z-index: 1000;
 }
 .welcome_text .page-title h2 {
-  color: #9b9b9b;
+  color: #fdc600;
   text-transform: uppercase;
   background-color: #fff;
   position: absolute;
-  top: 126px;
+  top: 130px;
   right: 26px;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 23px;
   border-radius: 50%;
   padding: 35px 10px;
+  line-height: 3rem;
   width: 170px;
   height: 160px;
 }
+
+.welcome_text .page-title h2:hover {
+  background-color: #ffe893;
+  color: #fff;
+  transition: all 0.7s;
+}
+
 /*===================================================
 count-area
 ===================================================*/
@@ -3129,7 +3137,8 @@ ul.footer-adress li {
   font-weight: 500;
 }
 .footer img {
-  height: 32px;
+  height: 80px;
+  border-radius: 50%;
 }
 ul.footer-blog li {
   width: 100%;

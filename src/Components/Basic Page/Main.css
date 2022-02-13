@@ -192,6 +192,21 @@
 }
 
 .brand {
-  border-radius: 50%;
-  /* width: 31rem; */
+  font-size: 10px;
+}
+
+.count-img {
+  margin-top: 1.8rem;
+  height: 6rem;
+  width: auto;
+}
+
+.sale-img {
+  margin-top: 0.6rem;
+  height: 5.3rem;
+}
+
+.pulse {
+  height: 10rem;
+  /* border-radius: 50%; */
 }
