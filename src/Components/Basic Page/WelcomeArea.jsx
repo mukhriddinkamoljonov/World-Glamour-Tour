@@ -1,78 +1,86 @@
 import React from "react";
+import logo from "../icons/logo.png";
+import plane from "../icons/plane.png";
+import car from "../icons/car.png";
+import hotel from "../icons/hotel.png";
+import globe from "../icons/globe.png";
+import "./Main.css";
 
 const WelcomeArea = () => {
-    return (
-        <div className="Welcome-area">
-            <div className="container">
+  return (
+    <div className="Welcome-area">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12 Welcome-entry col-sm-12">
+            <div className="col-md-5 col-md-offset-2 col-sm-6 col-xs-12">
+              <div
+                className="welcome_text wow fadeInLeft"
+                data-wow-delay="0.3s"
+                data-wow-offset="100"
+              >
                 <div className="row">
-                    <div className="col-md-12 Welcome-entry col-sm-12">
-                        <div className="col-md-5 col-md-offset-2 col-sm-6 col-xs-12">
-                            <div
-                                className="welcome_text wow fadeInLeft"
-                                data-wow-delay="0.3s"
-                                data-wow-offset="100"
-                            >
-                                <div className="row">
-                                    <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-                                        <h2>
-                                            <img src="./travel.png" alt=""/>
-                                        </h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-5 col-sm-6 col-xs-12">
-                            <div
-                                className="welcome_services wow fadeInRight"
-                                data-wow-delay="0.3s"
-                                data-wow-offset="100"
-                            >
-                                <div className="row">
-                                    <div className="col-xs-6 m-padding">
-                                        <div className="welcome-estate">
-                                            <div className="welcome-icon">
-                                                <img src="/src/icons/plane.png" alt="plane img"/>
-                                            </div>
-                                            <h3>Any property</h3>
-                                        </div>
-                                    </div>
-                                    <div className="col-xs-6 m-padding">
-                                        <div className="welcome-estate">
-                                            <div className="welcome-icon">
-                                                <i className="pe-7s-users pe-4x"></i>
-                                            </div>
-                                            <h3>More Clients</h3>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-xs-12 text-center">
-                                        <i className="welcome-circle"></i>
-                                    </div>
-
-                                    <div className="col-xs-6 m-padding">
-                                        <div className="welcome-estate">
-                                            <div className="welcome-icon">
-                                                <i className="pe-7s-notebook pe-4x"></i>
-                                            </div>
-                                            <h3>Easy to use</h3>
-                                        </div>
-                                    </div>
-                                    <div className="col-xs-6 m-padding">
-                                        <div className="welcome-estate">
-                                            <div className="welcome-icon">
-                                                <i className="pe-7s-help2 pe-4x"></i>
-                                            </div>
-                                            <h3>Any help</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div className="col-md-10 col-md-offset-1 brand col-sm-12 text-center page-title">
+                    <img
+                      src={logo}
+                      alt="companiy logo brand"
+                      classNam="brand"
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
+            <div className="col-md-5 col-sm-6 col-xs-12">
+              <div
+                className="welcome_services wow fadeInRight"
+                data-wow-delay="0.3s"
+                data-wow-offset="100"
+              >
+                <div className="row">
+                  <div className="col-xs-6 m-padding">
+                    <div className="welcome-estate">
+                      <div className="welcome-icon">
+                        <img src={plane} alt="plane img" />
+                      </div>
+                      <h3>Any property</h3>
+                    </div>
+                  </div>
+                  <div className="col-xs-6 m-padding">
+                    <div className="welcome-estate">
+                      <div className="welcome-icon">
+                        <img src={car} alt="car img" />
+                      </div>
+                      <h3>More Clients</h3>
+                    </div>
+                  </div>
+
+                  <div className="col-xs-12 text-center">
+                    <i className="welcome-circle"></i>
+                  </div>
+
+                  <div className="col-xs-6 m-padding">
+                    <div className="welcome-estate">
+                      <div className="welcome-icon">
+                        <img src={hotel} alt="" />
+                      </div>
+                      <h3>Easy to use</h3>
+                    </div>
+                  </div>
+                  <div className="col-xs-6 m-padding">
+                    <div className="welcome-estate">
+                      <div className="welcome-icon">
+                        <img src={globe} alt="" />
+                      </div>
+                      <h3>Any help</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default WelcomeArea;
