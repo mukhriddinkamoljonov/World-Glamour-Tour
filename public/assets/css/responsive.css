@@ -88,6 +88,7 @@
     }
     .navbar{
         min-height: 75px;
+        background-color: rgb(223, 60, 60);
     }
     .navbar-collapse {
         margin-top: 15px;
