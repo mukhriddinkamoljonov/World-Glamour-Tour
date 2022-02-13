@@ -27,14 +27,14 @@ function Navbar() {
 
           <div className="collapse navbar-collapse yamm" id="navigation">
             <div className="button navbar-right">
-              <div class="search">
+              <div className="search">
                 <input type="text" placeholder="search" />
-                <div class="symbol">
-                  <svg class="cloud">
-                    <use xlink href="#cloud" />
+                <div className="symbol">
+                  <svg className="cloud">
+                    <use xlink="ture" href="#cloud" />
                   </svg>
-                  <svg class="lens">
-                    <use xlink href="#lens" />
+                  <svg className="lens">
+                    <use xlink="ture" href="#lens" />
                   </svg>
                 </div>
               </div>
@@ -107,7 +107,7 @@ function Navbar() {
                   data-hover="dropdown"
                   data-delay="200"
                 >
-                  Shaharlar <b class="caret"></b>
+                  Shaharlar <b className="caret"></b>
                 </Link>
                 <ul className="dropdown-menu">
                   <li>

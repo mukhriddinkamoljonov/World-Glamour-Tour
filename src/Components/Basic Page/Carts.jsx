@@ -16,7 +16,7 @@ const Carts = () => {
         console.log(error);
       });
   }, []);
-  console.log(item.images[0]);
+  // console.log(item.images.file[0]);
   return (
     <div
       className="content-area home-area-1 recent-property"
