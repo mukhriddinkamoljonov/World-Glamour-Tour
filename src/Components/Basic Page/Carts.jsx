@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Main.css";
 
 const Carts = () => {
+  const [item, setItem] = useState([]);
   return (
     <div
       className="content-area home-area-1 recent-property"
