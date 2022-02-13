@@ -20,7 +20,7 @@ const Sale = () => {
                 </p>
               </div>
               <div className="asks-first-arrow">
-                <a href="properties.html">
+                <a href="https://www.uzairways.com/uz/xorijdagi-vakolatxonalar">
                   <span className="fa fa-angle-right"></span>
                 </a>
               </div>
