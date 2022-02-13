@@ -14,9 +14,9 @@ const Sale = () => {
                 <img src={agreed} alt="agreed" className="sale-img" />
               </div>
               <div className="asks-first-info">
-                <h2>ARE YOU LOOKING FOR A Property?</h2>
+                <h2>Diplomatik vakolatxonalar.</h2>
                 <p>
-                 
+                  Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor.
                 </p>
               </div>
               <div className="asks-first-arrow">
