@@ -32,9 +32,9 @@ const Sale = () => {
                 <img src={visa} alt="visa" className="sale-img" />
               </div>
               <div className="asks-first-info">
-                <h2>DO YOU WANT TO SELL A Property?</h2>
+                <h2>E-Visa uchun murojaat etish.</h2>
                 <p>
-                  O‘zbekistonga viza olishni xohlaysizmi? Bu endi ancha osonlashdi.Sizga kerak bo‘lgan yagona narsa – internet va pasport xolos <span style={{color: "red", fontWeight: 600}}> e-visa.gov.uz </span>  murojaat eting.
+                  O‘zbekistonga viza olishni xohlaysizmi? Bu endi ancha osonlashdi.Sizga kerak bo‘lgan yagona narsa – internet va pasport xolos, <span style={{color: "red", fontWeight: 600}}> e-visa.gov.uz </span>  murojaat eting.
                 </p>
               </div>
               <div className="asks-first-arrow">
@@ -45,10 +45,10 @@ const Sale = () => {
             </div>
           </div>
           <div className="col-xs-12">
-            <p className="asks-call">
-              SAVOLLAR? MUROJAT UCHUN:
-              <span className="strong"> +998 97 214 44 01</span>
-            </p>
+            {/*<p className="asks-call">*/}
+            {/*  SAVOLLAR? MUROJAT UCHUN:*/}
+            {/*  <span className="strong"> +998 97 214 44 01</span>*/}
+            {/*</p>*/}
           </div>
         </div>
       </div>
