@@ -36,7 +36,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={plane} alt="plane img" />
                       </div>
-                      <h3>Any property</h3>
+                      <h3>Avia parvoz</h3>
                     </div>
                   </div>
                   <div className="col-xs-6 m-padding">
@@ -44,7 +44,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={car} alt="car img" />
                       </div>
-                      <h3>More Clients</h3>
+                      <h3>Mashina xizmatlari</h3>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={hotel} alt="" />
                       </div>
-                      <h3>Easy to use</h3>
+                      <h3>Mehmonxona xizmatlai</h3>
                     </div>
                   </div>
                   <div className="col-xs-6 m-padding">
@@ -65,7 +65,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={globe} alt="" />
                       </div>
-                      <h3>Any help</h3>
+                      <h3>Aloqa xizmati</h3>
                     </div>
                   </div>
                 </div>
