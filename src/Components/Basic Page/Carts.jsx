@@ -11,7 +11,7 @@ const Carts = () => {
                     <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                         <h2>Mashhur manzillarga maxsus takliflar!</h2>
                         <p>
-                            Eʼtiborga molik joylarni, World Glamour Tour topishingiz  topishingiz mumkin!
+                            Eʼtiborga molik joylarni, <span style={{color:"orange"}}>World Glamour Tour</span> da topishingiz mumkin!
                         </p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b>1-kun{" "}
+                    <b>Batafsil :</b>1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">1 000,000</span>
                                 </div>
@@ -51,7 +51,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">1 200,000</span>
                                 </div>
@@ -71,7 +71,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">1 300,000</span>
                                 </div>
@@ -91,7 +91,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">1 000,000</span>
                                 </div>
@@ -111,7 +111,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">800,000</span>
                                 </div>
@@ -131,7 +131,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right"> 300,000</span>
                                 </div>
@@ -151,7 +151,7 @@ const Carts = () => {
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 1-kun{" "}
+                    <b>Batafsil :</b> 1-kun{" "}
                   </span>
                                     <span className="proerty-price pull-right">400,000</span>
                                 </div>
