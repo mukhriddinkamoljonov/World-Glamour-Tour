@@ -2,7 +2,7 @@ import React from "react";
 import plane from "../icons/plane.png";
 import car from "../icons/car.png";
 import hotel from "../icons/hotel.png";
-import globe from "../icons/globe3.png";
+import globe from "../icons/phone.png";
 import "./Main.css";
 
 const WelcomeArea = () => {
@@ -44,7 +44,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={car} alt="car img" />
                       </div>
-                      <h3>Mashina xizmatlari</h3>
+                      <h3>Mashina xizmati</h3>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ const WelcomeArea = () => {
                       <div className="welcome-icon">
                         <img src={hotel} alt="" />
                       </div>
-                      <h3>Mehmonxona xizmatlai</h3>
+                      <h3>Mehmonxona xizmati</h3>
                     </div>
                   </div>
                   <div className="col-xs-6 m-padding">
