@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-3 col-sm-6 wow fadeInRight animated">
               <div className="single-footer">
-                <h4>About us</h4>
+                <h4>Biz haqimizda</h4>
                 <div className="footer-title-line"></div>
 
                 <img
@@ -38,33 +38,34 @@ const Footer = () => {
             </div>
             <div className="col-md-3 col-sm-6 wow fadeInRight animated">
               <div className="single-footer">
-                <h4>Quick links</h4>
+                <h4>Bo'limlar</h4>
                 <div className="footer-title-line"></div>
                 <ul className="footer-menu">
                   <li>
-                    <a href="properties.html">Properties</a>
+                    <a target="_blank" href="https://data.gov.uz/uz/sphere/authority/45">Turizm va sport vazirligi</a>
                   </li>
                   <li>
-                    <a href="/">Services</a>
+                    <a target="_blank" href="https://uzbekistan.travel/uz/turizm-qonunlari/">Turizm-qonunlari</a>
                   </li>
                   <li>
-                    <a href="submit-property.html">Submit property </a>
+
+                    <a  href="https://uzbektourism.uz/committee/spisokgostin">Mehmonxonalar ro'yxati</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact us</a>
+                    <a target="_blank"  href="https://kun.uz/">Yangiliklar</a>
                   </li>
                   <li>
-                    <a href="faq.html">fqa</a>
+                    <a href="faq.html">Biz bilan bog'lanish</a>
                   </li>
                   <li>
-                    <a href="faq.html">Terms </a>
+                    <a href="faq.html">Bosh sahifa</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-md-3 col-sm-6 wow fadeInRight animated">
               <div className="single-footer">
-                <h4>Last News</h4>
+                <h4>Hududlar</h4>
                 <div className="footer-title-line"></div>
                 <ul className="footer-blog">
                   <li>
@@ -79,7 +80,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                       <h6>
-                        <a href="single.html">Add news functions </a>
+                        <a href="single.html">Biz bilan bog'lanish </a>
                       </h6>
                       <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                         Lorem ipsum dolor sit amet, nulla ...
@@ -131,11 +132,12 @@ const Footer = () => {
             </div>
             <div className="col-md-3 col-sm-6 wow fadeInRight animated">
               <div className="single-footer news-letter">
-                <h4>Stay in touch</h4>
+                <h4>Biz bilan aloqa</h4>
                 <div className="footer-title-line"></div>
+                <p>Barcha xuquqlar himoyalangan. Batafsil ma'lumot uchun:</p>
+
                 <p>
-                  Lorem ipsum dolor sit amet, nulla suscipit similique quisquam
-                  molestias. Vel unde, blanditiis.
+                  (998) 90 353-01-04
                 </p>
 
                 <form>
@@ -215,50 +217,50 @@ const Footer = () => {
           <div className="row">
             <div className="pull-left">
               <span>
-                (C) <a href="http://www.KimaroTec.com">KimaroTheme</a> , All
-                rights reserved 2016
+                (C) <a href="http://www.KimaroTec.com">Bosh sahifa</a>
+
               </span>
             </div>
-            <div className="bottom-menu pull-right">
-              <ul>
-                <li>
-                  <a
-                    className="wow fadeInUp animated"
-                    href="/"
-                    data-wow-delay="0.2s"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="wow fadeInUp animated"
-                    href="/"
-                    data-wow-delay="0.3s"
-                  >
-                    Property
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="wow fadeInUp animated"
-                    href="/"
-                    data-wow-delay="0.4s"
-                  >
-                    Faq
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="wow fadeInUp animated"
-                    href="/"
-                    data-wow-delay="0.6s"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
+            {/*<div className="bottom-menu pull-right">*/}
+            {/*  <ul>*/}
+            {/*    <li>*/}
+            {/*      <a*/}
+            {/*        className="wow fadeInUp animated"*/}
+            {/*        href="/"*/}
+            {/*        data-wow-delay="0.2s"*/}
+            {/*      >*/}
+            {/*        Home*/}
+            {/*      </a>*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      <a*/}
+            {/*        className="wow fadeInUp animated"*/}
+            {/*        href="/"*/}
+            {/*        data-wow-delay="0.3s"*/}
+            {/*      >*/}
+            {/*        Property*/}
+            {/*      </a>*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      <a*/}
+            {/*        className="wow fadeInUp animated"*/}
+            {/*        href="/"*/}
+            {/*        data-wow-delay="0.4s"*/}
+            {/*      >*/}
+            {/*        Faq*/}
+            {/*      </a>*/}
+            {/*    </li>*/}
+            {/*    <li>*/}
+            {/*      <a*/}
+            {/*        className="wow fadeInUp animated"*/}
+            {/*        href="/"*/}
+            {/*        data-wow-delay="0.6s"*/}
+            {/*      >*/}
+            {/*        Contact*/}
+            {/*      </a>*/}
+            {/*    </li>*/}
+            {/*  </ul>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
