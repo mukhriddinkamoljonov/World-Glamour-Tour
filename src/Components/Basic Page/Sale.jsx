@@ -16,11 +16,11 @@ const Sale = () => {
               <div className="asks-first-info">
                 <h2>Diplomatik vakolatxonalar.</h2>
                 <p>
-                  Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor.
+                  Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor <span>uzairways.com/uz/xorijdagi-vakolatxonalar</span>.
                 </p>
               </div>
               <div className="asks-first-arrow">
-                <a href="https://www.uzairways.com/uz/xorijdagi-vakolatxonalar">
+                <a target="_blank" href="https://www.uzairways.com/uz/xorijdagi-vakolatxonalar">
                   <span className="fa fa-angle-right"></span>
                 </a>
               </div>
