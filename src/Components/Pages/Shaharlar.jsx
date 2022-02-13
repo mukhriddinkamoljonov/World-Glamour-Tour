@@ -7,7 +7,7 @@ function Shaharlar() {
         <div className="container">
           <div className="row">
             <div className="page-head-content">
-              <h1 className="page-title">List Layout With Sidebar</h1>
+              <h1 className="page-title">Bizning sayohatlarimiz...</h1>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ function Shaharlar() {
               <div className="blog-asside-right pr0">
                 <div className="panel panel-default sidebar-menu wow fadeInRight animated">
                   <div className="panel-heading">
-                    <h3 className="panel-title">Smart search</h3>
+                    <h3 className="panel-title">Shahar nomi</h3>
                   </div>
                   <div className="panel-body search-widget">
                     <form action="" className="form-inline">
@@ -32,7 +32,7 @@ function Shaharlar() {
                           <div className="col-xs-12">
                             <input
                               className="form-control"
-                              placeholder="Key word"
+                              placeholder="izlash..."
                               type="text"
                             />
                           </div>
@@ -44,7 +44,7 @@ function Shaharlar() {
                             <input
                               className="button btn largesearch-btn"
                               type="submit"
-                              value="Search"
+                              value="Izlash..."
                             />
                           </div>
                         </div>
@@ -54,7 +54,7 @@ function Shaharlar() {
                 </div>
                 <div className="panel panel-default sidebar-menu wow fadeInRight animated">
                   <div className="panel-heading">
-                    <h3 className="panel-title">Recommended</h3>
+                    <h3 className="panel-title">Tavsya etamiz !</h3>
                   </div>
                   <div className="panel-body recent-property-widget">
                     <ul>
@@ -64,15 +64,15 @@ function Shaharlar() {
                             <img src="assets/img/demo/small-property-2.jpg" />
                           </a>
                           <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                            {/*<b className="b-1">A</b>*/}
+                            {/*<b className="b-2">S</b>*/}
                           </span>
                         </div>
                         <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Chorvoq </a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span className="property-price">100000 so'm</span>
                         </div>
                       </li>
                       <li>
@@ -81,15 +81,15 @@ function Shaharlar() {
                             <img src="assets/img/demo/small-property-1.jpg" />
                           </a>
                           <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                            {/*<b className="b-1">A</b>*/}
+                            {/*<b className="b-2">S</b>*/}
                           </span>
                         </div>
                         <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Amirsoy</a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span className="property-price">2 000000 so'm</span>
                         </div>
                       </li>
                       <li>
@@ -98,15 +98,15 @@ function Shaharlar() {
                             <img src="assets/img/demo/small-property-3.jpg" />
                           </a>
                           <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                            {/*<b className="b-1">A</b>*/}
+                            {/*<b className="b-2">S</b>*/}
                           </span>
                         </div>
                         <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Chimyon</a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span className="property-price">1 300 000 so'm</span>
                         </div>
                       </li>
 
@@ -116,15 +116,15 @@ function Shaharlar() {
                             <img src="assets/img/demo/small-property-2.jpg" />
                           </a>
                           <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                            {/*<b className="b-1">A</b>*/}
+                            {/*<b className="b-2">S</b>*/}
                           </span>
                         </div>
                         <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Bo'stonliq</a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span className="property-price"> 1 100 000 so'm</span>
                         </div>
                       </li>
                     </ul>

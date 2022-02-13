@@ -16,7 +16,7 @@ const Carts = () => {
         console.log(error);
       });
   }, []);
-  console.log(item.images[0]);
+
   return (
     <div
       className="content-area home-area-1 recent-property"
@@ -46,7 +46,7 @@ const Carts = () => {
                 </div>
                 <div className="item-entry overflow">
                   <h5>
-                    <a href="property-1.html">{item.direction} </a>
+                    <a href="property-1.html">{item.name} </a>
                   </h5>
                   <div className="dot-hr"></div>
                   <span className="pull-left">
@@ -198,7 +198,7 @@ const Carts = () => {
                 </div>
                 <div className="more-entry overflow">
                   <h5>
-                    <a href="property-1.html">CAN'T DECIDE ? </a>
+                    <a href="/">CAN'T DECIDE ? </a>
                   </h5>
                   <h5 className="tree-sub-ttl">Show all properties</h5>
                   <button
