@@ -11,7 +11,7 @@ const Count = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-            <h2>You can trust Us</h2>
+            <h2>Bizga ishonishingiz mumkin !</h2>
           </div>
         </div>
         <div className="row">
