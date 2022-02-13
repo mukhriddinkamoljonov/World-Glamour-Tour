@@ -16,7 +16,7 @@ const Sale = () => {
               <div className="asks-first-info">
                 <h2>Diplomatik vakolatxonalar.</h2>
                 <p>
-                  Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor <span>uzairways.com/uz/xorijdagi-vakolatxonalar</span>.
+                  Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor   <span style={{color: "red", fontWeight: 600}}>uzairways.uz.</span>xorijdagi-vakolatxonalar.
                 </p>
               </div>
               <div className="asks-first-arrow">
@@ -34,7 +34,7 @@ const Sale = () => {
               <div className="asks-first-info">
                 <h2>DO YOU WANT TO SELL A Property?</h2>
                 <p>
-                  O‘zbekistonga elektron turistik viza olish uchun:  e-visa.gov.uz   murojaat eting
+                  O‘zbekistonga viza olishni xohlaysizmi? Bu endi ancha osonlashdi.Sizga kerak bo‘lgan yagona narsa – internet va pasport xolos <span style={{color: "red", fontWeight: 600}}> e-visa.gov.uz </span>  murojaat eting.
                 </p>
               </div>
               <div className="asks-first-arrow">
@@ -46,8 +46,8 @@ const Sale = () => {
           </div>
           <div className="col-xs-12">
             <p className="asks-call">
-              QUESTIONS? CALL US :
-              <span className="strong"> + 3-123- 424-5700</span>
+              SAVOLLAR? MUROJAT UCHUN:
+              <span className="strong"> +998 97 214 44 01</span>
             </p>
           </div>
         </div>
