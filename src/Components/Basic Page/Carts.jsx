@@ -1,7 +1,22 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import "./Main.css";
 
 const Carts = () => {
+  const [item, setItem] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://wgtour.pythonanywhere.com/api/places/1/")
+      .then((res) => {
+        console.log(res);
+        setItem(res.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  console.log(item.images[0]);
   return (
     <div
       className="content-area home-area-1 recent-property"
@@ -25,12 +40,13 @@ const Carts = () => {
               <div className="box-two proerty-item">
                 <div className="item-thumb">
                   <a href="property-1.html">
-                    <img src="assets/img/demo/property-1.jpg" alt="title" />
+                    <img src={item.images} alt="" />
+                    {/* <img src="assets/img/demo/property-1.jpg" alt="title" /> */}
                   </a>
                 </div>
                 <div className="item-entry overflow">
                   <h5>
-                    <a href="property-1.html">Toshkent </a>
+                    <a href="property-1.html">{item.direction} </a>
                   </h5>
                   <div className="dot-hr"></div>
                   <span className="pull-left">
