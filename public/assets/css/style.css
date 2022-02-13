@@ -3136,10 +3136,15 @@ ul.footer-adress li {
   color: #000;
   font-weight: 500;
 }
-.footer img {
+.footer .pulse {
   height: 80px;
   border-radius: 50%;
 }
+
+.footer img {
+  height: 80px;
+}
+
 ul.footer-blog li {
   width: 100%;
   display: table;

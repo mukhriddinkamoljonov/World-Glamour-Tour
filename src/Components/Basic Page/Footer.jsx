@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../icons/logo.png";
-import "./Main.css"
+import "./Main.css";
 
 const Footer = () => {
   return (
@@ -19,10 +19,9 @@ const Footer = () => {
                   className="wow pulse"
                   data-wow-delay="1s"
                 />
-                <p>
-                  Lorem ipsum dolor cum necessitatibus su quisquam molestias.
-                  Vel unde, blanditiis.
-                </p>
+                <h6 style={{ color: "#000", fontWeight: 400 }}>
+                  World Glamour Tour
+                </h6>
                 <ul className="footer-adress">
                   <li>
                     <i className="pe-7s-map-marker strong"> </i> 9089 your
