@@ -14,7 +14,7 @@ const Sale = () => {
                 <img src={agreed} alt="agreed" className="sale-img" />
               </div>
               <div className="asks-first-info">
-                <h2>Diplomatik vakolatxonalar.</h2>
+                <h2>Diplomatik vakolatxonalar</h2>
                 <p>
                   Bugungi kunda O‘zbekistonning 50 dan ortiq mamlakatlarda diplomatik vakolatxonalari bor   <span style={{color: "red", fontWeight: 600}}>uzairways.uz.</span>xorijdagi-vakolatxonalar.
                 </p>
@@ -32,7 +32,7 @@ const Sale = () => {
                 <img src={visa} alt="visa" className="sale-img" />
               </div>
               <div className="asks-first-info">
-                <h2>E-Visa uchun murojaat etish.</h2>
+                <h2>E-Visa uchun murojaat etish</h2>
                 <p>
                   O‘zbekistonga viza olishni xohlaysizmi? Bu endi ancha osonlashdi.Sizga kerak bo‘lgan yagona narsa – internet va pasport xolos, <span style={{color: "red", fontWeight: 600}}> e-visa.gov.uz </span>  murojaat eting.
                 </p>
