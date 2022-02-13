@@ -9,10 +9,9 @@ const Carts = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-                        <h2>Top submitted property</h2>
+                        <h2>Mashhur manzillarga maxsus takliflar!</h2>
                         <p>
-                            Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec
-                            pretium. Nullam sed arcu ultricies .
+                            Eʼtiborga molik joylarni, World Glamour Tour topishingiz  topishingiz mumkin!
                         </p>
                     </div>
                 </div>
@@ -28,13 +27,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-1.html">Super nice villa </a>
+                                        <a href="property-1.html">Toshkent </a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b>1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">1 000,000</span>
                                 </div>
                             </div>
                         </div>
@@ -48,13 +47,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-2.html">Super nice villa </a>
+                                        <a href="property-2.html">Samarqand</a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">1 200,000</span>
                                 </div>
                             </div>
                         </div>
@@ -68,13 +67,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-3.html">Super nice villa </a>
+                                        <a href="property-3.html">Buxoro</a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">1 300,000</span>
                                 </div>
                             </div>
                         </div>
@@ -88,13 +87,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-1.html">Super nice villa </a>
+                                        <a href="property-1.html">Xiva</a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">1 000,000</span>
                                 </div>
                             </div>
                         </div>
@@ -108,13 +107,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-3.html">Super nice villa </a>
+                                        <a href="property-3.html">Qo'qon </a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">800,000</span>
                                 </div>
                             </div>
                         </div>
@@ -128,13 +127,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-2.html">Super nice villa </a>
+                                        <a href="property-2.html">Rishton </a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right"> 300,000</span>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +147,13 @@ const Carts = () => {
                                 </div>
                                 <div className="item-entry overflow">
                                     <h5>
-                                        <a href="property-1.html">Super nice villa </a>
+                                        <a href="property-1.html">Qarshi</a>
                                     </h5>
                                     <div className="dot-hr"></div>
                                     <span className="pull-left">
-                    <b>Area :</b> 120m{" "}
+                    <b>Area :</b> 1-kun{" "}
                   </span>
-                                    <span className="proerty-price pull-right">$ 300,000</span>
+                                    <span className="proerty-price pull-right">400,000</span>
                                 </div>
                             </div>
                         </div>
