@@ -16,8 +16,7 @@ const Sale = () => {
               <div className="asks-first-info">
                 <h2>ARE YOU LOOKING FOR A Property?</h2>
                 <p>
-                  varius od lio eget conseq uat blandit, lorem auglue comm lodo
-                  nisl no us nibh mas lsa
+                 
                 </p>
               </div>
               <div className="asks-first-arrow">
@@ -35,12 +34,11 @@ const Sale = () => {
               <div className="asks-first-info">
                 <h2>DO YOU WANT TO SELL A Property?</h2>
                 <p>
-                  varius od lio eget conseq uat blandit, lorem auglue comm lodo
-                  nisl no us nibh mas lsa
+                  O‘zbekistonga elektron turistik viza olish uchun:  e-visa.gov.uz   murojaat eting
                 </p>
               </div>
               <div className="asks-first-arrow">
-                <a href="properties.html">
+                <a target="_blank"   href="https://e-visa.gov.uz/application">
                   <span className="fa fa-angle-right"></span>
                 </a>
               </div>
