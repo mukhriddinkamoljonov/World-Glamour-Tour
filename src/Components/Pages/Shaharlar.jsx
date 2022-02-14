@@ -7,7 +7,7 @@ function Shaharlar() {
         <div className="container">
           <div className="row">
             <div className="page-head-content">
-              <h1 className="page-title">Bizning sayohatlarimiz...</h1>
+              <h1 className="page-title">Dunyo bo'ylab sayohat qiling!</h1>
             </div>
           </div>
         </div>
@@ -203,7 +203,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Toshkent shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -214,9 +214,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                         <span style={{color:"orange"}}> Toshkent shahri</span> – O‘zbekistonning poytaxti va shu bilan birga Markaziy Osiyodagi eng yirik shahardir.
                         </p>
                       </div>
                     </div>
@@ -232,7 +230,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html"> Samarqand shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -243,9 +241,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                         <span style={{color:"orange"}}>Samarqand</span> - Jahon sivilizatsiyasining qadimiy o‘choqlaridan biri, yer yuzining sayqali nomini olgan Samarqand mustaqil O‘zbekistonning yirik iqtisodiy va ilmiy-madaniy markazlaridan biri hisoblanadi.
                         </p>
                       </div>
                     </div>
@@ -261,7 +257,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Buxoro shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -272,9 +268,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                          <span style={{color:"orange"}}>Buxoro</span> - O'zbekistonning sayyohlik durdonalaridan biridir. Tarixiy shahar markazi YUNESKOning Butunjahon merosi ro'yxatiga kiritilgan.
                         </p>
                       </div>
                     </div>
@@ -290,7 +284,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Xiva shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -301,9 +295,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                         <span style={{color:"orange"}}> Xiva</span> - qadimiy devorlar, minoralar va loydan qurilgan betakror binolar shahri.Sharqning haqiqiy go‘zalligini ko‘rishni istasangiz, Xivaga tashrif buyuring.
                         </p>
                
                       </div>
@@ -320,7 +312,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html"> Qoqon shahri </a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -331,9 +323,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                         <span style={{color:"orange"}} >Qo'qon</span> - Shahar hashamatli yodgorliklarga va ulug‘vor madrasalarga boy va bu ajablanarli emas, chunki Qo‘qon ilm-fan rivojlanishining   markazi edi.
                         </p>
      
                       </div>
@@ -350,7 +340,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html"> Qarshi shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -361,9 +351,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                          <span style={{color:"orange"}}>Qarshi</span> - Qadimiy Qarshi shahri 2006 yilda YUNESKO shafeligida 2700 yillik yubileyini nishonladi. Buyuk Aleksandr Makedonskiy bu yerda bo‘lgan.
                         </p>
                
                       </div>
@@ -380,7 +368,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Andijon shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -391,9 +379,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                          <span style={{color:"orange"}}> Andijon </span> - Bir vaqtlar Buyuk Ipak yo‘li bo‘ylab joylashgan, arxeologik yodgorliklar va tarixiy obidalarga boy bo‘lgan shahar.
                         </p>
        
                       </div>
@@ -410,7 +396,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Mo'ynoq shahri</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -421,9 +407,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                          <span style={{color:"orange"}}>Mo‘ynoq</span> - O‘rta Osiyodagi eng yirik baliq ovlash shaharlaridan biri edi.Bu yerda toza suv bilan daryo baliqlari, ko‘plab dam olish joylari bo‘lgan ajoyib plyajlar bor edi.
                         </p>
       
                       </div>
@@ -440,7 +424,7 @@ function Shaharlar() {
 
                       <div className="item-entry overflow">
                         <h5>
-                          <a href="property-1.html"> Super nice villa </a>
+                          <a href="property-1.html">Zomin shaharchasi</a>
                         </h5>
                         <div className="dot-hr"></div>
                         <span className="pull-left">
@@ -451,9 +435,7 @@ function Shaharlar() {
                           $ 300,000
                         </span>
                         <p style={{ display: "none" }}>
-                          Suspendisse ultricies Suspendisse ultricies Nulla quis
-                          dapibus nisl. Suspendisse ultricies commodo arcu nec
-                          pretium ...
+                          <span style={{color:"orange"}}>Zomin</span> - Ajoyib landshaftlar va toza tog‘ havosi, flora va faunaning  xilma-xilligi, qadimiy ziyoratgohlar va noyob milliy sihatgoh - bularning barchasi Zomin.
                         </p>
          
                       </div>
