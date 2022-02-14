@@ -16,7 +16,7 @@ const Carts = () => {
         .catch((error) => {
           console.log(error);
         });
-  }, []);
+  }, []); 
 
   return (
       <div
