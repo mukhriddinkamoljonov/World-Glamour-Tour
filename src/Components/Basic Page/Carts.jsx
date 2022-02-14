@@ -11,7 +11,7 @@ const Carts = () => {
       .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
         setItem(res.data);
-        setIsReady(true);
+        console.log(res.data.images);
       })
       .catch((error) => {
         console.log(error);
@@ -120,7 +120,7 @@ const Carts = () => {
                     <span className="pull-left">
                       <button type="submit" className="btn-grad">
                         Batafsil
-                      </button>{" "}
+                      </button>
                     </span>
                     <span className="proerty-price pull-right">1 000,000</span>
                   </div>

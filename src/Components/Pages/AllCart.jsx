@@ -3,8 +3,8 @@ import property1 from "../property-1/property1.jpg";
 import property2 from "../property-1/property2.jpg";
 import property3 from "../property-1/property3.jpg";
 import "../Basic Page/Main.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const AllCart = () => {
   return (
@@ -27,46 +27,30 @@ const AllCart = () => {
         <div class="container">
           <div class="clearfix padding-top-40">
             <div class="col-md-8 single-property-content prp-style-1">
-              <div class="row"> 
-                 <div class="light-slide-item">
-                  <div class="clearfix">
-                  <div class="favorite-and-print">
-                    <a
-                      class="add-to-fav"  
-                      href="#login-modal"
-                      data-toggle="modal"
-                    >
-                      <i class="fa fa-star-o"></i>
-                    </a>
-                    <a class="printer-icon" href="/">
-                      <i class="fa fa-print"></i>
-                    </a>
+              <div class="row">
+                <div class="light-slide-item">
+                  <div className="slider-courusel">
+                    <Carousel autoPlay={"	boolean"}>
+                      <div className="box1">
+                        <img src={property1} alt="title" />{" "}
+                        {/* <p className="legend">Chorvoq</p> */}
+                      </div>
+                      <div className="box2">
+                        <img src={property2} alt="title" />{" "}
+                        {/* <p className="legend">Chorvoq</p> */}
+                      </div>
+                      <div className="box3">
+                        <img src={property3} alt="title" />{" "}
+                        {/* <p className="legend">Chorvoq</p> */}
+                      </div>
+                      <div className="box4">
+                        <img src={property1} alt="title" />{" "}
+                        {/* <p className="legend">Legend 1</p> */}
+                      </div>
+                    </Carousel>
                   </div>
-
-                  <ul
-                    id="image-gallery"
-                    class="gallery list-unstyled cS-hidden"
-                  >
-                    <li data-thumb={property1}>
-                      <img src={property1} alt="title" />{" "}
-                      <p className="legend">Chorvoq</p>
-                    </li>
-                    <li data-thumb={property2}>
-                      <img src={property2} alt="title" />{" "}
-                      <p className="legend">Chorvoq</p>
-                    </li>
-                    <li data-thumb={property3}>
-                      <img src={property3} alt="title" />{" "}
-                      <p className="legend">Chorvoq</p>
-                    </li>
-                    <li data-thumb={property1}>
-                      <img src={property1} alt="title" />{" "}
-                      <p className="legend">Legend 1</p>
-                    </li>
-                  </ul>
-                  </div>
-                </div> 
-               </div>
+                </div>
+              </div>
               <div class="single-property-wrapper">
                 <div class="single-property-header">
                   <h1 class="property-title pull-left">
