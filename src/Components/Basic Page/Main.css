@@ -218,7 +218,7 @@
   transition: 0.5s;
   background-size: 200% auto;
   color: #000;
-  box-shadow: 5 0 2px #000;
+  box-shadow: 1px 0 2px #000;
   border-radius: 5px;
   display: block;
 }
@@ -228,4 +228,9 @@
   color: #fdc703;
   text-decoration: none;
   /* border: dotted; */
+}
+
+.card-image1 img {
+  height: 220px;
+  object-fit: cover;
 }

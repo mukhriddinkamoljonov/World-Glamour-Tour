@@ -24,14 +24,14 @@ const Footer = () => {
                 </h6>
                 <ul className="footer-adress">
                   <li>
-                    <i className="pe-7s-map-marker strong"> </i> 9089 your
-                    adress her
+                    <i className="pe-7s-map-marker strong"> </i> Farg'ona shahar, Birodarlik 28 uy
+
                   </li>
                   <li>
                     <i className="pe-7s-mail strong"> </i> rnj-787@mail.ru
                   </li>
                   <li>
-                    <i className="pe-7s-call strong"> </i> +99897 214 44 01
+                    <i className="pe-7s-call strong"> </i> (998) 97 214 44 01
                   </li>
                 </ul>
               </div>
@@ -76,11 +76,31 @@ const Footer = () => {
                           alt="title"
                         />
                       </a>
-                      <span className="blg-date">12-12-2016</span>
+                      <span className="blg-date">5-01-2021</span>
                     </div>
                     <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                       <h6>
-                        <a href="single.html">Biz bilan bog'lanish </a>
+                        <a href="single.html">Chorvoq </a>
+                      </h6>
+                      <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
+                        Lorem ipsum dolor sit amet, nulla ...
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
+                      <a href="single.html">
+                        <img
+                          src="assets/img/demo/small-proerty-2.jpg"
+                          alt="title"
+                        />
+                      </a>
+                      <span className="blg-date">12-01-2022</span>
+                    </div>
+                    <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                      <h6>
+                        <a href="single.html">Shohimardon</a>
                       </h6>
                       <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                         Lorem ipsum dolor sit amet, nulla ...
@@ -100,27 +120,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
                       <h6>
-                        <a href="single.html">Add news functions </a>
-                      </h6>
-                      <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
-                        Lorem ipsum dolor sit amet, nulla ...
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <div className="col-md-3 col-sm-4 col-xs-4 blg-thumb p0">
-                      <a href="single.html">
-                        <img
-                          src="assets/img/demo/small-proerty-2.jpg"
-                          alt="title"
-                        />
-                      </a>
-                      <span className="blg-date">12-12-2016</span>
-                    </div>
-                    <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                      <h6>
-                        <a href="single.html">Add news functions </a>
+                        <a href="single.html">Amirsoy</a>
                       </h6>
                       <p style={{ lineHeight: "17px", padding: "8px 2px" }}>
                         Lorem ipsum dolor sit amet, nulla ...
