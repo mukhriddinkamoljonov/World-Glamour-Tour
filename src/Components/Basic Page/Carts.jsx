@@ -11,11 +11,8 @@ const Carts = () => {
       .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
         setItem(res.data);
-<<<<<<< Updated upstream
         setIsReady(true);
-=======
         console.log(res.data.images);
->>>>>>> Stashed changes
       })
       .catch((error) => {
         console.log(error);
@@ -36,6 +33,18 @@ const Carts = () => {
               <span style={{ color: "orange" }}>World Glamour Tour</span> da
               topishingiz mumkin!
             </p>
+      <div
+          className="content-area home-area-1 recent-property"
+          style={{backgroundColor: "#fcfcfc", paddingBottom: " 55px"}}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
+              <h2 style={{color:"orange"}}>Mashhur manzillarga maxsus takliflar!</h2>
+              <p>
+                  Bizning mijozlarimiz biz bilan o'sib boradi. Sizning muvaffaqiyatingiz bizning ustuvorligimizdir!
+              </p>
+            </div>
           </div>
         </div>
         {isReady ? (
