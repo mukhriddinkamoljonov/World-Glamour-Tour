@@ -12,7 +12,7 @@ const Slider = () => {
                         <div className="item">
                             <img
                                 src="assets/img/slide1/slider-image-2.jpg"
-                                alt="The Last of us"
+                                alt="The Last of"
                             />
                         </div>
                         <div className="item">

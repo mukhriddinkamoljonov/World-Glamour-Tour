@@ -234,3 +234,8 @@
   height: 220px;
   object-fit: cover;
 }
+
+.light-slide-item1 {
+  position: relative;
+  overflow: hidden;
+}

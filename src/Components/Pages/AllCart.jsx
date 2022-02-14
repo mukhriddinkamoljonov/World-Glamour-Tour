@@ -1,161 +1,160 @@
 import React from "react";
-import property1 from "../property-1/property1.jpg"
+import property1 from "../property-1/property1.jpg";
+import property2 from "../property-1/property2.jpg";
+import property3 from "../property-1/property3.jpg";
+import "../Basic Page/Main.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const AllCart = () => {
   return (
     <div>
-      <div className="page-head">
-        <div className="container">
-          <div className="row">
-            <div className="page-head-content">
-              <h1 className="page-title">Super nice villa</h1>
+      <div class="page-head">
+        <div class="container">
+          <div class="row">
+            <div class="page-head-content">
+              <h1 class="page-title">Super nice villa</h1>
             </div>
           </div>
         </div>
       </div>
 
       <div
-        className="content-area single-property"
+        class="content-area single-property"
         style={{ backgroundColor: "#fcfcfc" }}
       >
         &nbsp;
-        <div className="container">
-          <div className="clearfix padding-top-40">
-            <div className="col-md-8 single-property-content prp-style-1">
-              <div className="row">
-                <div className="light-slide-item">
-                  <div className="clearfix">
-                    <div className="favorite-and-print">
-                      <a
-                        className="add-to-fav"
-                        href="#login-modal"
-                        data-toggle="modal"
-                      >
-                        <i className="fa fa-star-o"></i>
-                      </a>
-                      <a className="printer-icon" href="/">
-                        <i className="fa fa-print"></i>
-                      </a>
-                    </div>
-
-                    <ul
-                      id="image-gallery"
-                      className="gallery list-unstyled cS-hidden"
+        <div class="container">
+          <div class="clearfix padding-top-40">
+            <div class="col-md-8 single-property-content prp-style-1">
+              <div class="row"> 
+                 <div class="light-slide-item">
+                  <div class="clearfix">
+                  <div class="favorite-and-print">
+                    <a
+                      class="add-to-fav"  
+                      href="#login-modal"
+                      data-toggle="modal"
                     >
-                      <li data-thumb="assets/img/property-1/property1.jpg">
-                        <img src={property1} alt="title" />
-                      </li>
-                      <li data-thumb="assets/img/property-1/property2.jpg">
-                        <img
-                          src="assets/img/property-1/property3.jpg"
-                          alt="title"
-                        />
-                      </li>
-                      <li data-thumb="assets/img/property-1/property3.jpg">
-                        <img
-                          src="assets/img/property-1/property3.jpg"
-                          alt="title"
-                        />
-                      </li>
-                      <li data-thumb="assets/img/property-1/property4.jpg">
-                        <img
-                          src="assets/img/property-1/property4.jpg"
-                          alt="title"
-                        />
-                      </li>
-                    </ul>
+                      <i class="fa fa-star-o"></i>
+                    </a>
+                    <a class="printer-icon" href="/">
+                      <i class="fa fa-print"></i>
+                    </a>
                   </div>
-                </div>
-              </div>
 
-              <div className="single-property-wrapper">
-                <div className="single-property-header">
-                  <h1 className="property-title pull-left">
+                  <ul
+                    id="image-gallery"
+                    class="gallery list-unstyled cS-hidden"
+                  >
+                    <li data-thumb={property1}>
+                      <img src={property1} alt="title" />{" "}
+                      <p className="legend">Chorvoq</p>
+                    </li>
+                    <li data-thumb={property2}>
+                      <img src={property2} alt="title" />{" "}
+                      <p className="legend">Chorvoq</p>
+                    </li>
+                    <li data-thumb={property3}>
+                      <img src={property3} alt="title" />{" "}
+                      <p className="legend">Chorvoq</p>
+                    </li>
+                    <li data-thumb={property1}>
+                      <img src={property1} alt="title" />{" "}
+                      <p className="legend">Legend 1</p>
+                    </li>
+                  </ul>
+                  </div>
+                </div> 
+               </div>
+              <div class="single-property-wrapper">
+                <div class="single-property-header">
+                  <h1 class="property-title pull-left">
                     Villa in Coral Gables
                   </h1>
-                  <span className="property-price pull-right">$825,000</span>
+                  <span class="property-price pull-right">$825,000</span>
                 </div>
 
-                <div className="property-meta entry-meta clearfix">
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-tag">
+                <div class="property-meta entry-meta clearfix">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-tag">
                       <img src="assets/img/icon/sale-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Status</span>
-                      <span className="property-info-value">For Sale</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Status</span>
+                      <span class="property-info-value">For Sale</span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info icon-area">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info icon-area">
                       <img src="assets/img/icon/room-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Area</span>
-                      <span className="property-info-value">
-                        3500<b className="property-info-unit">Sq Ft</b>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Area</span>
+                      <span class="property-info-value">
+                        3500<b class="property-info-unit">Sq Ft</b>
                       </span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-bed">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-bed">
                       <img src="assets/img/icon/bed-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Bedrooms</span>
-                      <span className="property-info-value">3</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Bedrooms</span>
+                      <span class="property-info-value">3</span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-bed">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-bed">
                       <img src="assets/img/icon/cars-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Car garages</span>
-                      <span className="property-info-value">1</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Car garages</span>
+                      <span class="property-info-value">1</span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-bath">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-bath">
                       <img src="assets/img/icon/os-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Bathrooms</span>
-                      <span className="property-info-value">3.5</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Bathrooms</span>
+                      <span class="property-info-value">3.5</span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-garage">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-garage">
                       <img src="assets/img/icon/room-orange.png" alt="title" />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Garages</span>
-                      <span className="property-info-value">2</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Garages</span>
+                      <span class="property-info-value">2</span>
                     </span>
                   </div>
 
-                  <div className="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span className="property-info-icon icon-garage">
+                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
+                    <span class="property-info-icon icon-garage">
                       <img
                         src="assets/img/icon/shawer-orange.png"
                         alt="title"
                       />
                     </span>
-                    <span className="property-info-entry">
-                      <span className="property-info-label">Garages</span>
-                      <span className="property-info-value">2</span>
+                    <span class="property-info-entry">
+                      <span class="property-info-label">Garages</span>
+                      <span class="property-info-value">2</span>
                     </span>
                   </div>
                 </div>
 
-                <div className="section">
-                  <h4 className="s-property-title">Description</h4>
-                  <div className="s-property-content">
+                <div class="section">
+                  <h4 class="s-property-title">Description</h4>
+                  <div class="s-property-content">
                     <p>
                       Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis
                       dapibus nisl. Suspendisse ultricies commodo arcu nec
@@ -169,67 +168,67 @@ const AllCart = () => {
                   </div>
                 </div>
 
-                <div className="section additional-details">
-                  <h4 className="s-property-title">Additional Details</h4>
+                <div class="section additional-details">
+                  <h4 class="s-property-title">Additional Details</h4>
 
-                  <ul className="additional-details-list clearfix">
+                  <ul class="additional-details-list clearfix">
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         Waterfront
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         Yes
                       </span>
                     </li>
 
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         Built In
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         2003
                       </span>
                     </li>
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         Parking
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         2 Or More Spaces,Covered Parking,Valet Parking
                       </span>
                     </li>
 
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         Waterfront
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         Yes
                       </span>
                     </li>
 
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         View
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         Intracoastal View,Direct ew
                       </span>
                     </li>
 
                     <li>
-                      <span className="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
                         Waterfront Description:
                       </span>
-                      <span className="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
                         Intracoastal Front,Ocean Access
                       </span>
                     </li>
                   </ul>
                 </div>
 
-                <div className="section property-features">
-                  <h4 className="s-property-title">Features</h4>
+                <div class="section property-features">
+                  <h4 class="s-property-title">Features</h4>
                   <ul>
                     <li>
                       <a href="properties.html">Swimming Pool</a>
@@ -252,22 +251,22 @@ const AllCart = () => {
                   </ul>
                 </div>
 
-                <div className="section property-video">
-                  <h4 className="s-property-title">Property Video</h4>
-                  <div className="video-thumb">
-                    <a className="video-popup" href="yout" title="Virtual Tour">
+                <div class="section property-video">
+                  <h4 class="s-property-title">Property Video</h4>
+                  <div class="video-thumb">
+                    <a class="video-popup" href="yout" title="Virtual Tour">
                       <img
                         src="assets/img/property-video.jpg"
-                        className="img-responsive wp-post-image"
+                        class="img-responsive wp-post-image"
                         alt="Exterior"
                       />
                     </a>
                   </div>
                 </div>
 
-                <div className="section property-share">
-                  <h4 className="s-property-title">Share width your friends</h4>
-                  <div className="roperty-social">
+                <div class="section property-share">
+                  <h4 class="s-property-title">Share width your friends</h4>
+                  <div class="roperty-social">
                     <ul>
                       <li>
                         <a title="Share this on dribbble " href="/">
@@ -331,58 +330,58 @@ const AllCart = () => {
               </div>
             </div>
 
-            <div className="col-md-4 p0">
-              <aside className="sidebar sidebar-property blog-asside-right">
-                <div className="dealer-widget">
-                  <div className="dealer-content">
-                    <div className="inner-wrapper">
-                      <div className="clear">
-                        <div className="col-xs-4 col-sm-4 dealer-face">
+            <div class="col-md-4 p0">
+              <aside class="sidebar sidebar-property blog-asside-right">
+                <div class="dealer-widget">
+                  <div class="dealer-content">
+                    <div class="inner-wrapper">
+                      <div class="clear">
+                        <div class="col-xs-4 col-sm-4 dealer-face">
                           <a href="/">
                             <img
                               src="assets/img/client-face1.png"
-                              className="img-circle"
+                              class="img-circle"
                               alt="title"
                             />
                           </a>
                         </div>
-                        <div className="col-xs-8 col-sm-8">
-                          <h3 className="dealer-name">
+                        <div class="col-xs-8 col-sm-8">
+                          <h3 class="dealer-name">
                             <a href="/">Nathan James</a>
                             <span>Real Estate Agent</span>
                           </h3>
-                          <div className="dealer-social-media">
-                            <a className="twitter" target="_blank" href="/">
-                              <i className="fa fa-twitter"></i>
+                          <div class="dealer-social-media">
+                            <a class="twitter" target="_blank" href="/">
+                              <i class="fa fa-twitter"></i>
                             </a>
-                            <a className="facebook" target="_blank" href="/">
-                              <i className="fa fa-facebook"></i>
+                            <a class="facebook" target="_blank" href="/">
+                              <i class="fa fa-facebook"></i>
                             </a>
-                            <a className="gplus" target="_blank" href="/">
-                              <i className="fa fa-google-plus"></i>
+                            <a class="gplus" target="_blank" href="/">
+                              <i class="fa fa-google-plus"></i>
                             </a>
-                            <a className="linkedin" target="_blank" href="/">
-                              <i className="fa fa-linkedin"></i>
+                            <a class="linkedin" target="_blank" href="/">
+                              <i class="fa fa-linkedin"></i>
                             </a>
-                            <a className="instagram" target="_blank" href="/">
-                              <i className="fa fa-instagram"></i>
+                            <a class="instagram" target="_blank" href="/">
+                              <i class="fa fa-instagram"></i>
                             </a>
                           </div>
                         </div>
                       </div>
 
-                      <div className="clear">
-                        <ul className="dealer-contacts">
+                      <div class="clear">
+                        <ul class="dealer-contacts">
                           <li>
-                            <i className="pe-7s-map-marker strong"> </i> 9089 your
+                            <i class="pe-7s-map-marker strong"> </i> 9089 your
                             adress her
                           </li>
                           <li>
-                            <i className="pe-7s-mail strong"> </i>
+                            <i class="pe-7s-mail strong"> </i>
                             email@yourcompany.com
                           </li>
                           <li>
-                            <i className="pe-7s-call strong"> </i> +1 908 967 5906
+                            <i class="pe-7s-call strong"> </i> +1 908 967 5906
                           </li>
                         </ul>
                         <p>
@@ -394,118 +393,118 @@ const AllCart = () => {
                   </div>
                 </div>
 
-                <div className="panel panel-default sidebar-menu similar-property-wdg wow fadeInRight animated">
-                  <div className="panel-heading">
-                    <h3 className="panel-title">Similar Properties</h3>
+                <div class="panel panel-default sidebar-menu similar-property-wdg wow fadeInRight animated">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Similar Properties</h3>
                   </div>
-                  <div className="panel-body recent-property-widget">
+                  <div class="panel-body recent-property-widget">
                     <ul>
                       <li>
-                        <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
                             <img
                               src="assets/img/demo/small-property-2.jpg"
                               alt="title"
                             />
                           </a>
-                          <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                          <span class="property-seeker">
+                            <b class="b-1">A</b>
+                            <b class="b-2">S</b>
                           </span>
                         </div>
-                        <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
                             <a href="single.html">Super nice villa </a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span class="property-price">3000000$</span>
                         </div>
                       </li>
                       <li>
-                        <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
                             <img
                               src="assets/img/demo/small-property-1.jpg"
                               alt="title"
                             />
                           </a>
-                          <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                          <span class="property-seeker">
+                            <b class="b-1">A</b>
+                            <b class="b-2">S</b>
                           </span>
                         </div>
-                        <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
                             <a href="single.html">Super nice villa </a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span class="property-price">3000000$</span>
                         </div>
                       </li>
                       <li>
-                        <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
                             <img
                               src="assets/img/demo/small-property-3.jpg"
                               alt="title"
                             />
                           </a>
-                          <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                          <span class="property-seeker">
+                            <b class="b-1">A</b>
+                            <b class="b-2">S</b>
                           </span>
                         </div>
-                        <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
                             <a href="single.html">Super nice villa </a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span class="property-price">3000000$</span>
                         </div>
                       </li>
 
                       <li>
-                        <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
+                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                           <a href="single.html">
                             <img
                               src="assets/img/demo/small-property-2.jpg"
                               alt="title"
                             />
                           </a>
-                          <span className="property-seeker">
-                            <b className="b-1">A</b>
-                            <b className="b-2">S</b>
+                          <span class="property-seeker">
+                            <b class="b-1">A</b>
+                            <b class="b-2">S</b>
                           </span>
                         </div>
-                        <div className="col-md-8 col-sm-8 col-xs-8 blg-entry">
+                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
                             <a href="single.html">Super nice villa </a>
                           </h6>
-                          <span className="property-price">3000000$</span>
+                          <span class="property-price">3000000$</span>
                         </div>
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                  <div className="panel-heading">
-                    <h3 className="panel-title">Ads her</h3>
+                <div class="panel panel-default sidebar-menu wow fadeInRight animated">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Ads her</h3>
                   </div>
-                  <div className="panel-body recent-property-widget">
+                  <div class="panel-body recent-property-widget">
                     <img src="assets/img/ads.jpg" alt="title" />
                   </div>
                 </div>
 
-                <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                  <div className="panel-heading">
-                    <h3 className="panel-title">Smart search</h3>
+                <div class="panel panel-default sidebar-menu wow fadeInRight animated">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Smart search</h3>
                   </div>
-                  <div className="panel-body search-widget">
-                    <form action="" className="form-inline">
+                  <div class="panel-body search-widget">
+                    <form action="" class="form-inline">
                       <fieldset>
-                        <div className="row">
-                          <div className="col-xs-12">
+                        <div class="row">
+                          <div class="col-xs-12">
                             <input
                               type="text"
-                              className="form-control"
+                              class="form-control"
                               placeholder="Key word"
                             />
                           </div>
@@ -513,11 +512,11 @@ const AllCart = () => {
                       </fieldset>
 
                       <fieldset>
-                        <div className="row">
-                          <div className="col-xs-6">
+                        <div class="row">
+                          <div class="col-xs-6">
                             <select
                               id="lunchBegins"
-                              className="selectpicker"
+                              class="selectpicker"
                               data-live-search="true"
                               data-live-search-style="begins"
                               title="Select Your City"
@@ -530,10 +529,10 @@ const AllCart = () => {
                               <option>kyoto , shibua</option>
                             </select>
                           </div>
-                          <div className="col-xs-6">
+                          <div class="col-xs-6">
                             <select
                               id="basic"
-                              className="selectpicker show-tick form-control"
+                              class="selectpicker show-tick form-control"
                             >
                               <option>-Status-</option>
                               <option>Rent</option>
@@ -544,13 +543,13 @@ const AllCart = () => {
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
                             <label for="price-range">Price range ($):</label>
                             <input
                               type="text"
-                              className="span2"
+                              class="span2"
                               value=""
                               data-slider-min="0"
                               data-slider-max="600"
@@ -559,16 +558,16 @@ const AllCart = () => {
                               id="price-range"
                             />
                             <br />
-                            <b className="pull-left color">2000$</b>
-                            <b className="pull-right color">100000$</b>
+                            <b class="pull-left color">2000$</b>
+                            <b class="pull-right color">100000$</b>
                           </div>
-                          <div className="col-xs-6">
+                          <div class="col-xs-6">
                             <label for="property-geo">
                               Property geo (m2) :
                             </label>
                             <input
                               type="text"
-                              className="span2"
+                              class="span2"
                               value=""
                               data-slider-min="0"
                               data-slider-max="600"
@@ -577,19 +576,19 @@ const AllCart = () => {
                               id="property-geo"
                             />
                             <br />
-                            <b className="pull-left color">40m</b>
-                            <b className="pull-right color">12000m</b>
+                            <b class="pull-left color">40m</b>
+                            <b class="pull-right color">12000m</b>
                           </div>
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
                             <label for="price-range">Min baths :</label>
                             <input
                               type="text"
-                              className="span2"
+                              class="span2"
                               value=""
                               data-slider-min="0"
                               data-slider-max="600"
@@ -598,15 +597,15 @@ const AllCart = () => {
                               id="min-baths"
                             />
                             <br />
-                            <b className="pull-left color">1</b>
-                            <b className="pull-right color">120</b>
+                            <b class="pull-left color">1</b>
+                            <b class="pull-right color">120</b>
                           </div>
 
-                          <div className="col-xs-6">
+                          <div class="col-xs-6">
                             <label for="property-geo">Min bed :</label>
                             <input
                               type="text"
-                              className="span2"
+                              class="span2"
                               value=""
                               data-slider-min="0"
                               data-slider-max="600"
@@ -615,24 +614,24 @@ const AllCart = () => {
                               id="min-bed"
                             />
                             <br />
-                            <b className="pull-left color">1</b>
-                            <b className="pull-right color">120</b>
+                            <b class="pull-left color">1</b>
+                            <b class="pull-right color">120</b>
                           </div>
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" checked /> Fire Place
                               </label>
                             </div>
                           </div>
 
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 {" "}
                                 <input type="checkbox" /> Dual Sinks
@@ -642,17 +641,17 @@ const AllCart = () => {
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" checked /> Swimming Pool
                               </label>
                             </div>
                           </div>
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" checked /> 2 Stories
                               </label>
@@ -661,17 +660,17 @@ const AllCart = () => {
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" /> Laundry Room
                               </label>
                             </div>
                           </div>
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" /> Emergency Exit
                               </label>
@@ -680,17 +679,17 @@ const AllCart = () => {
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" checked /> Jog Path
                               </label>
                             </div>
                           </div>
-                          <div className="col-xs-6">
-                            <div className="checkbox">
+                          <div class="col-xs-6">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" /> 26' Ceilings
                               </label>
@@ -699,10 +698,10 @@ const AllCart = () => {
                         </div>
                       </fieldset>
 
-                      <fieldset className="padding-5">
-                        <div className="row">
-                          <div className="col-xs-12">
-                            <div className="checkbox">
+                      <fieldset class="padding-5">
+                        <div class="row">
+                          <div class="col-xs-12">
+                            <div class="checkbox">
                               <label>
                                 <input type="checkbox" /> Hurricane Shutters
                               </label>
@@ -712,10 +711,10 @@ const AllCart = () => {
                       </fieldset>
 
                       <fieldset>
-                        <div className="row">
-                          <div className="col-xs-12">
+                        <div class="row">
+                          <div class="col-xs-12">
                             <input
-                              className="button btn largesearch-btn"
+                              class="button btn largesearch-btn"
                               value="Search"
                               type="submit"
                             />

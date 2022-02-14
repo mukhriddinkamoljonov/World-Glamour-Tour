@@ -13,7 +13,7 @@ const Home = () => {
                 <div id="status">&nbsp;</div>
             </div>
             <Slider/>
-            <Carts/>
+            <Carts />
             <WelcomeArea/>
             <Count/>
             <Sale/>
