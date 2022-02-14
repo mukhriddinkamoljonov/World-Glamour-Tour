@@ -34,7 +34,7 @@ const WelcomeArea = () => {
                   <div className="col-xs-6 m-padding">
                     <div className="welcome-estate">
                       <div className="welcome-icon">
-                        <img src={plane} alt="plane img" />
+                        <a target="_blank" href="https://www.uzairways.com/uz"><img src={plane} alt="plane img" /></a>
                       </div>
                       <h3>Avia parvoz</h3>
                     </div>
@@ -42,7 +42,9 @@ const WelcomeArea = () => {
                   <div className="col-xs-6 m-padding">
                     <div className="welcome-estate">
                       <div className="welcome-icon">
-                        <img src={car} alt="car img" />
+                        <a target="_blank" href="https://taxi.yandex.ru/">
+                          <img src={car} alt="car img" />
+                        </a>
                       </div>
                       <h3>Mashina xizmati</h3>
                     </div>
@@ -55,7 +57,9 @@ const WelcomeArea = () => {
                   <div className="col-xs-6 m-padding">
                     <div className="welcome-estate">
                       <div className="welcome-icon">
-                        <img src={hotel} alt="" />
+                       <a target="_blank" href="https://uzbektourism.uz/committee/spisokgostin">
+                         <img src={hotel} alt="" />
+                       </a>
                       </div>
                       <h3>Mehmonxona xizmati</h3>
                     </div>
@@ -63,7 +67,7 @@ const WelcomeArea = () => {
                   <div className="col-xs-6 m-padding">
                     <div className="welcome-estate">
                       <div className="welcome-icon">
-                        <img src={globe} alt="" />
+                       <a target="_blank" href="/" > <img src={globe} alt="" /></a>
                       </div>
                       <h3>Aloqa xizmati</h3>
                     </div>
