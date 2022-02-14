@@ -199,15 +199,17 @@ const Carts = () => {
                 </div>
                 <div className="more-entry overflow">
                   <h5>
-                    <a href="/">CAN'T DECIDE ? </a>
+                    <a href="/">Covid-2019 </a>
                   </h5>
-                  <h5 className="tree-sub-ttl">Show all properties</h5>
-                  <button
-                    className="btn border-btn more-black"
-                    value="All properties"
-                  >
-                    All properties
-                  </button>
+                  <h5 className="tree-sub-ttl">Muhim ma'lumotlar va jadval</h5>
+                  <a target="_blank" href="https://www.worldometers.info/coronavirus/">
+                    <button
+                        className="btn border-btn more-black"
+                        value="All properties"
+                    >
+                      Batafsil
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
