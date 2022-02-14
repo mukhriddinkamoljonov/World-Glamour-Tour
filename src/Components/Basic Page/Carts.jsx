@@ -11,7 +11,11 @@ const Carts = () => {
       .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
         setItem(res.data);
+<<<<<<< Updated upstream
         setIsReady(true);
+=======
+        console.log(res.data.images);
+>>>>>>> Stashed changes
       })
       .catch((error) => {
         console.log(error);
@@ -217,13 +221,34 @@ const Carts = () => {
                       </button>
                     </a>
                   </div>
+=======
+            <div className="col-sm-6 col-md-3 p0">
+              <div className="box-tree more-proerty text-center">
+                <div className="item-tree-icon">
+                  <i className="fa fa-th"></i>
+                </div>
+                <div className="more-entry overflow">
+                  <h5>
+                    <a href="/">Covid-2019 </a>
+                  </h5>
+                  <h5 className="tree-sub-ttl">Muhim ma'lumotlar va jadval</h5>
+                  <a
+                    target="_blank"
+                    href="https://www.worldometers.info/coronavirus/"
+                  >
+                    <button
+                      className="btn border-btn more-black"
+                      value="All properties"
+                    >
+                      Batafsil
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         ) : (
-          ""
-        )}
+        ) }
       </div>
     </div>
   );

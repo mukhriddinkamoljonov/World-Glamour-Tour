@@ -18,11 +18,11 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .form-inline {
-  margin-left: -2rem !important;
+  /* margin-left: -2rem !important; */
 }
 
 /* Search input  */
