@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import blog from "../../../Page/blog";
 
 function AboutWe() {
     return (
@@ -8,7 +9,7 @@ function AboutWe() {
                 <div className="container">
                     <div className="row">
                         <div className="page-head-content">
-                            <h1 className="page-title">Biz haqimizda</h1>
+                            <h1 className="page-title">Biz haqimizda...</h1>
                         </div>
                     </div>
                 </div>
@@ -24,7 +25,7 @@ function AboutWe() {
                             <section id="id-100" className="post single">
                                 <div className="post-header single">
                                     <div className="">
-                                        <h2 className="wow fadeInLeft animated">World Glamour Tour</h2>
+                                        <h2 className="wow fadeInLeft animated " style={{backgroundColor:"orange", textAlign:"center",padding:10, }}>World Glamour Tour</h2>
                                         <div className="title-line wow fadeInRight animated"></div>
                                     </div>
                                     <div className="row wow fadeInRight animated">
