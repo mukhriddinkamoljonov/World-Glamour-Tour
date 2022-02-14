@@ -26,11 +26,9 @@ const Carts = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-              <h2>Mashhur manzillarga maxsus takliflar!</h2>
+              <h2 style={{color:"orange"}}>Mashhur manzillarga maxsus takliflar!</h2>
               <p>
-                Eʼtiborga molik joylarni,{" "}
-                <span style={{color: "orange"}}>World Glamour Tour</span> da
-                topishingiz mumkin!
+                  Bizning mijozlarimiz biz bilan o'sib boradi. Sizning muvaffaqiyatingiz bizning ustuvorligimizdir!
               </p>
             </div>
           </div>
