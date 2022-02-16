@@ -13,7 +13,7 @@ const AllCart = () => {
         <div class="container">
           <div class="row">
             <div class="page-head-content">
-              <h1 class="page-title">Super nice villa</h1>
+              <h1 class="page-title">Chorvoq </h1>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ const AllCart = () => {
         style={{ backgroundColor: "#fcfcfc" }}
       >
         &nbsp;
-        <div class="container">
+        <div class="contai  3ner">
           <div class="clearfix padding-top-40">
             <div class="col-md-8 single-property-content prp-style-1">
               <div class="row">
