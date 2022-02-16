@@ -13,7 +13,7 @@ const AllCart = () => {
         <div class="container">
           <div class="row">
             <div class="page-head-content">
-              <h1 class="page-title">Chorvoq </h1>
+              <h1 class="page-title">Chorvoq - Toshkent viloyati </h1>
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ const AllCart = () => {
               <div class="single-property-wrapper">
                 <div class="single-property-header">
                   <h1 class="property-title pull-left">
-                    Villa in Coral Gables
+                    Chorvoq dam olish maskani
                   </h1>
                   <span class="property-price pull-right">$825,000</span>
                 </div>
@@ -139,16 +139,9 @@ const AllCart = () => {
                 <div class="section">
                   <h4 class="s-property-title">Description</h4>
                   <div class="s-property-content">
-                    <p>
-                      Nulla quis dapibus nisl. Suspendisse ultricies Nulla quis
-                      dapibus nisl. Suspendisse ultricies commodo arcu nec
-                      pretium. Nullam sed arcu ultricies commodo arcu nec
-                      pretium. Nullam sed arcu ultricies Nulla quis dapibus
-                      nisl. Suspendisse ultricies commodo arcu nec pretium.
-                      Nullam sed arcu ultricies Nulla quis dapibus nisl.
-                      Suspendisse ultricies commodo arcu nec pretium. Nullam sed
-                      arcu ultricies
-                    </p>
+                   <p>
+                     O‘zbekistonda plyaj ta’tilini o‘ylab yurgan bo‘lsangiz Toshkent viloyatining Bo‘stonliq tumanida joylashgan Chorvoq suv omboriga e’tibor qaratishingiz kerak. Dam olish maskaniga poytaxtdan taksi, poyezd yoki avtobusda borish mumkin.Ulkan suv havzasi bo‘yidagi jihozlangan plyajlar dam olish joylari, soyabonlar, an’anaviy yog‘och karavotlar va kafelarni taklif etadi. Bu yerda dam oluvchilar skuterda, katamaranda yoki suv bananida uchishi mumkin, ekstremal sport turlari muxlislari paraplanda uchib, tevarak atrofni o‘rganishlari mumkin.
+                   </p>
                   </div>
                 </div>
 
@@ -357,8 +350,8 @@ const AllCart = () => {
                       <div class="clear">
                         <ul class="dealer-contacts">
                           <li>
-                            <i class="pe-7s-map-marker strong"> </i> 9089 your
-                            adress her
+                            <i class="pe-7s-map-marker strong"> </i> Toshkent viloyati Bo'stonliq tumani.
+
                           </li>
                           <li>
                             <i class="pe-7s-mail strong"> </i>
@@ -369,8 +362,7 @@ const AllCart = () => {
                           </li>
                         </ul>
                         <p>
-                          Duis mollis blandit tempus porttitor curabiturDuis
-                          mollis blandit tempus porttitor curabitur , est non…
+                          Bizning mijozlarimiz biz bilan o'sib boradi. Sizning muvaffaqiyatingiz bizning ustuvorligimizdir!
                         </p>
                       </div>
                     </div>
@@ -398,7 +390,7 @@ const AllCart = () => {
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Farg'ona viloyati </a>
                           </h6>
                           <span class="property-price">3000000$</span>
                         </div>
@@ -418,7 +410,7 @@ const AllCart = () => {
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Qo'qon shahar  </a>
                           </h6>
                           <span class="property-price">3000000$</span>
                         </div>
@@ -438,7 +430,7 @@ const AllCart = () => {
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Samarqand shahar </a>
                           </h6>
                           <span class="property-price">3000000$</span>
                         </div>
@@ -459,7 +451,7 @@ const AllCart = () => {
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
                           <h6>
-                            <a href="single.html">Super nice villa </a>
+                            <a href="single.html">Buxoro shahar </a>
                           </h6>
                           <span class="property-price">3000000$</span>
                         </div>
