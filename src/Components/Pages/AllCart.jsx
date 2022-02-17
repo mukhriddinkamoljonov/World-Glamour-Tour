@@ -33,19 +33,19 @@ const AllCart = () => {
                     <Carousel autoPlay={"	boolean"}>
                       <div className="box1">
                         <img src={property1} alt="title" />{" "}
-                        {/* <p className="legend">Chorvoq</p> */}
+                        <p className="legend">Chorvoq</p>
                       </div>
                       <div className="box2">
                         <img src={property2} alt="title" />{" "}
-                        {/* <p className="legend">Chorvoq</p> */}
+                        <p className="legend">Ajoyib Maskan</p>
                       </div>
                       <div className="box3">
                         <img src={property3} alt="title" />{" "}
-                        {/* <p className="legend">Chorvoq</p> */}
+                        <p className="legend">Bir narsalar</p>
                       </div>
                       <div className="box4">
                         <img src={property1} alt="title" />{" "}
-                        {/* <p className="legend">Legend 1</p> */}
+                        <p className="legend">Lorem, ipsum.</p>
                       </div>
                     </Carousel>
                   </div>

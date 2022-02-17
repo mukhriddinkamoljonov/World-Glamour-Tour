@@ -11,12 +11,14 @@ const Carts = () => {
       .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
         setItem(res.data);
+        setIsReady(true);
         console.log(res.data.images);
       })
       .catch((error) => {
         console.log(error);
       });
   }, []);
+  console.log(item.title);
 
   return (
     <div
