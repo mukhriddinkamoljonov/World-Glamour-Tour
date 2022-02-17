@@ -69,11 +69,11 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <p>
-                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> :
-                    Eng yaxshi diqqatga sazovor joylar Toshkentda tashrif uchun
-                    bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning
-                    ro‘yxati juda katta, sayr qilish uchun keng va yashil
-                    xiyobonlar, favvoralar va ekologik bog‘lar.
+                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> : Eng yaxshi diqqatga
+                    sazovor joylar Toshkentda tashrif uchun bir necha kun kerak
+                    bo‘ladigan diqqatga sazovor joylarning ro‘yxati juda katta,
+                    sayr qilish uchun keng va yashil xiyobonlar, favvoralar va
+                    ekologik bog‘lar.
                   </p>
                   <p>✔️Buyuk me'moriy ansambllar, masjidlar va minoralar;</p>
                   <p>
@@ -288,55 +288,105 @@ function AboutWe() {
                   </ul>
                 </div>
               </div>
+            </div>
 
-              <div className="panel sidebar-menu wow fadeInRight animated">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Tags</h3>
-                </div>
-                <div className="panel-body">
-                  <ul className="tag-cloud">
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> html5
+            <div className="panel sidebar-menu wow fadeInRight animated">
+              <div className="panel-heading">
+                <h3 className="panel-title">Tags</h3>
+              </div>
+              <div className="panel-body">
+                <ul className="tag-cloud">
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> html5
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i className="fa fa-tags"></i> css3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> jquery
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> ajax
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> php
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> responsive
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> visio
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <i className="fa fa-tags"></i> bootstrap
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>
+                  <i class="fa fa-map-marker"></i> Address
+                </h3>
+                <p>
+                  13/25 shibuia <br />
+                  Fergana <br />
+                  Festival kochasi
+                  <br />
+                  <strong>Uzbekistan</strong>
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <h3>
+                  <i class="fa fa-phone"></i> Qo'ng'iroqlar markazi
+                </h3>
+                <p class="text-muted">
+                  Agar Uzbekistandan qo'ng'iroq qilsangiz, bu raqam bepul, aks
+                  holda elektron aloqa shaklidan foydalanishni maslahat beramiz.
+                </p>
+                <p>
+                  <strong>+998(91) 658 78 41</strong>
+                </p>
+              </div>
+              <div class="col-sm-4">
+                <h3>
+                  <i class="fa fa-envelope"></i> Elektron pochta
+                </h3>
+                <p class="text-muted">
+                  Iltimos, bizga elektron pochta xabarini yozing yoki elektron
+                  chiptalar tizimimizdan foydalaning.
+                </p>
+                <ul>
+                  <li>
+                    <strong>
+                      <a href="mailto:">raymjonovbobur@gmail.com</a>
+                    </strong>
+                  </li>
+                  <li>
+                    <strong>
+                      <a href="https://e-visa.gov.uz/application">
+                        Uzbekistan Viza
                       </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-tags"></i> css3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> jquery
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> ajax
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> php
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> responsive
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> visio
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <i className="fa fa-tags"></i> bootstrap
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                    </strong>
+                    - bizning chiptalarni qo'llab-quvvatlash platformamiz
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
