@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import property1 from "../property-1/property1.jpg";
 import property2 from "../property-1/property2.jpg";
 import property3 from "../property-1/property3.jpg";
 import "./AllCart.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import axios from "axios";
 
 const AllCart = () => {
+  const [item, setItem] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://wgtour.pythonanywhere.com/api/places/1")
+      .then((res) => {
+        setItem(res.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  console.log(item);
   return (
     <div>
       <div class="page-head">
         <div class="container">
           <div class="row">
             <div class="page-head-content">
-              <h1 class="page-title">Chorvoq - Toshkent viloyati </h1>
+              <h1 class="page-title">{item.address}</h1>
             </div>
           </div>
         </div>
@@ -33,19 +47,19 @@ const AllCart = () => {
                     <Carousel autoPlay={"	boolean"}>
                       <div className="box1">
                         <img src={property1} alt="title" />{" "}
-                        <p className="legend">Chorvoq</p>
+                        {/* <p className="legend">Chorvoq</p> */}
                       </div>
                       <div className="box2">
                         <img src={property2} alt="title" />{" "}
-                        <p className="legend">Ajoyib Maskan</p>
+                        {/* <p className="legend">Ajoyib Maskan</p> */}
                       </div>
                       <div className="box3">
                         <img src={property3} alt="title" />{" "}
-                        <p className="legend">Bir narsalar</p>
+                        {/* <p className="legend">Bir narsalar</p> */}
                       </div>
                       <div className="box4">
                         <img src={property1} alt="title" />{" "}
-                        <p className="legend">Lorem, ipsum.</p>
+                        {/* <p className="legend">Lorem, ipsum.</p> */}
                       </div>
                     </Carousel>
                   </div>

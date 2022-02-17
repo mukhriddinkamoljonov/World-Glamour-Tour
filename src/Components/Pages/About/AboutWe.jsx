@@ -55,13 +55,7 @@ function AboutWe() {
                       </p>
                     </div>
                   </div>
-                  <div className="image wow fadeInRight animated">
-                    <img
-                      src="assets/img/blog2.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </div>
+
                 </div>
 
                 <div
@@ -91,13 +85,7 @@ function AboutWe() {
                     <a href="/">Donec non enim</a> in turpis pulvinar facilisis.
                     Ut felis.
                   </p>
-                  <p>
-                    <img
-                      src="assets/img/blog10.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </p>
+
 
                   <h2>Header Level 2</h2>
                   <ol>
@@ -138,13 +126,6 @@ function AboutWe() {
                     <li>Aliquam tincidunt mauris eu risus.</li>
                   </ul>
                   <p>
-                    <img
-                      src="assets/img/blog.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </p>
-                  <p>
                     Pellentesque habitant morbi tristique senectus et netus et
                     malesuada fames ac turpis egestas. Vestibulum tortor quam,
                     feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
@@ -182,37 +163,6 @@ function AboutWe() {
                 <h4 className="text-uppercase wow fadeInLeft animated">
                   3 comments
                 </h4>
-
-                <div className="row comment">
-                  <div className="col-sm-3 col-md-2 text-center-xs">
-                    <p>
-                      <img
-                        src="assets/img/client-face1.png"
-                        className="img-responsive img-circle"
-                        alt=""
-                      />
-                    </p>
-                  </div>
-                  <div className="col-sm-9 col-md-10">
-                    <h5 className="text-uppercase">Julie Alma</h5>
-                    <p className="posted">
-                      <i className="fa fa-clock-o"></i> September 23, 2011 at
-                      12:00 am
-                    </p>
-                    <p>
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                      feugiat vitae, ultricies eget, tempor sit amet, ante.
-                      Donec eu libero sit amet quam egestas semper. Aenean
-                      ultricies mi vitae est. Mauris placerat eleifend leo.
-                    </p>
-                    <p className="reply">
-                      <a href="/">
-                        <i className="fa fa-reply"></i> Reply
-                      </a>
-                    </p>
-                  </div>
-                </div>
 
                 <div className="row comment last">
                   <div className="col-sm-3 col-md-2 text-center-xs">
@@ -257,28 +207,6 @@ function AboutWe() {
                   <p>
                     "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston respublikasi bo'yicha ichki turizm kompaniyasi. Bizning kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari va viloyatlariga sayohat qilishingiz mumkin.
                   </p>
-                </div>
-              </div>
-
-              <div className="panel panel-default sidebar-menu wow fadeInRight animated">
-                <div className="panel-heading">
-                  <h3 className="panel-title">Search</h3>
-                </div>
-                <div className="panel-body">
-                  <form role="search">
-                    <div className="input-group">
-                      <input
-                        className="form-control"
-                        placeholder="Search"
-                        type="text"
-                      />
-                      <span className="input-group-btn">
-                        <button type="submit" className="btn btn-smal">
-                          <i className="fa fa-search"></i>
-                        </button>
-                      </span>
-                    </div>
-                  </form>
                 </div>
               </div>
 

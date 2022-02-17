@@ -10,7 +10,7 @@ const Carts = () => {
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places")
+      .get("https://wgtour.pythonanywhere.com/api/places/shuffle?count=7")
       .then((res) => {
         setItems(res.data);
         setIsReady(true);
