@@ -69,11 +69,7 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <p>
-                    <strong>Pellentesque habitant morbi tristique</strong>
-                    senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget,
-                    tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                    semper.
+                    <strong>Va albatta, biz ushbu saytni ishga tushirganimizda asosan, siz O‘zbekistonga yangicha qarashingiz,uning eng go‘zal va o‘rganilmagan joylarini kashf etishingiz hamda O‘zbekiston nafaqat Buyuk Ipak yo‘li merosi sifatida YUNESKO ro‘yxatiga kiritilgan tarixiy shaharlardan iboratligini, balki Tyan-Shan tizmasi etaklarida va Pomir tizmalaridagi g‘oyat go‘zal tabiati, qadimgi sivilizatsiyalarning cho‘l qalʼalari, madaniyati va tarixi, Sharqning mazali taomlari va ajablanarli darajada mehmondo‘st xalqi haqida bilishingizni o‘zimizga maqsad qilib qo‘yganmiz.
                     <em>Aenean ultricies mi vitae est.</em> Mauris placerat
                     eleifend leo. Quisque sit amet est et sapien ullamcorper
                     pharetra. Vestibulum erat wisi, condimentum sed,
@@ -247,10 +243,7 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    Improved own provided blessing may peculiar domestic. Sight
-                    house has sex never. No visited raising gravity outward
-                    subject my cottage mr be. Hold do at tore in park feet near
-                    my case.
+                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston respublikasi bo'yicha ichki turizm kompaniyasi. Bizning kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari va viloyatlariga sayohat qilishingiz mumkin.
                   </p>
                 </div>
               </div>
