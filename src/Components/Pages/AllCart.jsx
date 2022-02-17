@@ -58,84 +58,6 @@ const AllCart = () => {
                   </h1>
                   <span class="property-price pull-right">$825,000</span>
                 </div>
-
-                <div class="property-meta entry-meta clearfix">
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-tag">
-                      <img src="assets/img/icon/sale-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Status</span>
-                      <span class="property-info-value">For Sale</span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info icon-area">
-                      <img src="assets/img/icon/room-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Area</span>
-                      <span class="property-info-value">
-                        3500<b class="property-info-unit">Sq Ft</b>
-                      </span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-bed">
-                      <img src="assets/img/icon/bed-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Bedrooms</span>
-                      <span class="property-info-value">3</span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-bed">
-                      <img src="assets/img/icon/cars-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Car garages</span>
-                      <span class="property-info-value">1</span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-bath">
-                      <img src="assets/img/icon/os-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Bathrooms</span>
-                      <span class="property-info-value">3.5</span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-garage">
-                      <img src="assets/img/icon/room-orange.png" alt="title" />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Garages</span>
-                      <span class="property-info-value">2</span>
-                    </span>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-3 col-md-3 p-b-15">
-                    <span class="property-info-icon icon-garage">
-                      <img
-                        src="assets/img/icon/shawer-orange.png"
-                        alt="title"
-                      />
-                    </span>
-                    <span class="property-info-entry">
-                      <span class="property-info-label">Garages</span>
-                      <span class="property-info-value">2</span>
-                    </span>
-                  </div>
-                </div>
-
                 <div class="section">
                   <h4 class="s-property-title">Description</h4>
                   <div class="s-property-content">
@@ -156,61 +78,13 @@ const AllCart = () => {
 
                 <div class="section additional-details">
                   <h4 class="s-property-title">Additional Details</h4>
-
-                  <ul class="additional-details-list clearfix">
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Yes
-                      </span>
-                    </li>
-
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Built In
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        2003
-                      </span>
-                    </li>
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Parking
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        2 Or More Spaces,Covered Parking,Valet Parking
-                      </span>
-                    </li>
-
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Yes
-                      </span>
-                    </li>
-
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        View
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Intracoastal View,Direct ew
-                      </span>
-                    </li>
-
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront Description:
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Intracoastal Front,Ocean Access
-                      </span>
-                    </li>
-                  </ul>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Animi odit nemo harum dignissimos fugit quaerat
+                      repellendus accusamus fugiat dolorem minima?
+                    </p>
+                  </div>
                 </div>
 
                 <div class="section property-features">

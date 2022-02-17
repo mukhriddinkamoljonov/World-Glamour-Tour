@@ -15,9 +15,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Sayyohlar" element={<Sayyoh />} />
+        <Route path="/sayyohlar" element={<Sayyoh />} />
         <Route path="/about" element={<AboutWe />} />
-        <Route path="/chorvoq" element={<AllCart />} />
+        <Route path="/places/:id" element={<AllCart />} />
         <Route path="/amirsoy" element={<AllCart />} />
         <Route path="/chimyon" element={<AllCart />} />
         <Route path="/bostonliq" element={<AllCart />} />

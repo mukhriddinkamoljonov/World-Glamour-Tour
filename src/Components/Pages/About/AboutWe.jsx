@@ -69,24 +69,27 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <p>
-                    <strong>Va albatta, biz ushbu saytni ishga tushirganimizda asosan, siz O‘zbekistonga yangicha qarashingiz,uning eng go‘zal va o‘rganilmagan joylarini kashf etishingiz hamda O‘zbekiston nafaqat Buyuk Ipak yo‘li merosi sifatida YUNESKO ro‘yxatiga kiritilgan tarixiy shaharlardan iboratligini, balki Tyan-Shan tizmasi etaklarida va Pomir tizmalaridagi g‘oyat go‘zal tabiati, qadimgi sivilizatsiyalarning cho‘l qalʼalari, madaniyati va tarixi, Sharqning mazali taomlari va ajablanarli darajada mehmondo‘st xalqi haqida bilishingizni o‘zimizga maqsad qilib qo‘yganmiz.
-                    <em>Aenean ultricies mi vitae est.</em> Mauris placerat
-                    eleifend leo. Quisque sit amet est et sapien ullamcorper
-                    pharetra. Vestibulum erat wisi, condimentum sed,
-                    <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
-                    fermentum, elit eget tincidunt condimentum, eros ipsum
-                    rutrum orci, sagittis tempus lacus enim ac dui.
-                    <a href="/">Donec non enim</a> in turpis pulvinar facilisis.
-                    Ut felis.
+                    <strong>
+                      Va albatta, biz ushbu saytni ishga tushirganimizda asosan,
+                      siz O‘zbekistonga yangicha qarashingiz,uning eng go‘zal va
+                      o‘rganilmagan joylarini kashf etishingiz hamda O‘zbekiston
+                      nafaqat Buyuk Ipak yo‘li merosi sifatida YUNESKO
+                      ro‘yxatiga kiritilgan tarixiy shaharlardan iboratligini,
+                      balki Tyan-Shan tizmasi etaklarida va Pomir tizmalaridagi
+                      g‘oyat go‘zal tabiati, qadimgi sivilizatsiyalarning cho‘l
+                      qalʼalari, madaniyati va tarixi, Sharqning mazali taomlari
+                      va ajablanarli darajada mehmondo‘st xalqi haqida
+                      bilishingizni o‘zimizga maqsad qilib qo‘yganmiz.
+                      <em>Aenean ultricies mi vitae est.</em> Mauris placerat
+                      eleifend leo. Quisque sit amet est et sapien ullamcorper
+                      pharetra. Vestibulum erat wisi, condimentum sed,
+                      <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
+                      fermentum, elit eget tincidunt condimentum, eros ipsum
+                      rutrum orci, sagittis tempus lacus enim ac dui.
+                      <a href="/">Donec non enim</a> in turpis pulvinar
+                      facilisis. Ut felis.
+                    </strong>
                   </p>
-                  <p>
-                    <img
-                      src="assets/img/blog10.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </p>
-
                   <h2>Header Level 2</h2>
                   <ol>
                     <li>
@@ -125,13 +128,7 @@ function AboutWe() {
                     </li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
                   </ul>
-                  <p>
-                    <img
-                      src="assets/img/blog.jpg"
-                      className="img-responsive"
-                      alt="Example blog post alt"
-                    />
-                  </p>
+      
                   <p>
                     Pellentesque habitant morbi tristique senectus et netus et
                     malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -171,36 +168,6 @@ function AboutWe() {
                   3 comments
                 </h4>
 
-                <div className="row comment">
-                  <div className="col-sm-3 col-md-2 text-center-xs">
-                    <p>
-                      <img
-                        src="assets/img/client-face1.png"
-                        className="img-responsive img-circle"
-                        alt=""
-                      />
-                    </p>
-                  </div>
-                  <div className="col-sm-9 col-md-10">
-                    <h5 className="text-uppercase">Julie Alma</h5>
-                    <p className="posted">
-                      <i className="fa fa-clock-o"></i> September 23, 2011 at
-                      12:00 am
-                    </p>
-                    <p>
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                      feugiat vitae, ultricies eget, tempor sit amet, ante.
-                      Donec eu libero sit amet quam egestas semper. Aenean
-                      ultricies mi vitae est. Mauris placerat eleifend leo.
-                    </p>
-                    <p className="reply">
-                      <a href="/">
-                        <i className="fa fa-reply"></i> Reply
-                      </a>
-                    </p>
-                  </div>
-                </div>
 
                 <div className="row comment last">
                   <div className="col-sm-3 col-md-2 text-center-xs">
@@ -243,7 +210,10 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston respublikasi bo'yicha ichki turizm kompaniyasi. Bizning kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari va viloyatlariga sayohat qilishingiz mumkin.
+                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston
+                    respublikasi bo'yicha ichki turizm kompaniyasi. Bizning
+                    kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari
+                    va viloyatlariga sayohat qilishingiz mumkin.
                   </p>
                 </div>
               </div>

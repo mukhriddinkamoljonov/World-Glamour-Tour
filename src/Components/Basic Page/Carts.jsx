@@ -1,24 +1,25 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Main.css";
+import NoImage from "../../img/no-image.jpg";
 
 const Carts = () => {
-  const [item, setItem] = useState([]);
+  const [items, setItems] = useState([]);
   const [isReady, setIsReady] = useState(null);
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/1")
+      .get("https://wgtour.pythonanywhere.com/api/places")
       .then((res) => {
-        setItem(res.data);
+        setItems(res.data);
         setIsReady(true);
-        console.log(res.data.images);
       })
       .catch((error) => {
         console.log(error);
       });
   }, []);
-  console.log(item.title);
+  console.log(items);
 
   return (
     <div
@@ -39,29 +40,36 @@ const Carts = () => {
         {isReady ? (
           <div className="row">
             <div className="proerty-th">
-              <div className="col-sm-6 col-md-3 p0 card-image1">
-                <div className="box-two proerty-item">
-                  <div className="item-thumb">
-                    <a href="property-1.html">
-                      {item.images.map((image) => {
-                        return <img src={image.file} alt={""} />;
-                      })}
-                    </a>
-                  </div>
-                  <div className="item-entry overflow">
-                    <h5>
-                      <a href="property-1.html">{item.name} </a>
-                    </h5>
-                    <div className="dot-hr"></div>
-                    <span className="pull-left">
-                      <button type="submit" className="btn-grad">
-                        Batafsil
-                      </button>{" "}
-                    </span>
-                    <span className="proerty-price pull-right">1 000,000</span>
+              {items.map((item) => (
+                <div className="col-sm-6 col-md-3 p0 card-image1">
+                  <div className="box-two proerty-item">
+                    <div className="item-thumb">
+                      <a href="property-1.html">
+                        <img
+                          src={
+                            item.images.length ? item.images[0].file : NoImage
+                          }
+                          alt={""}
+                        />
+                      </a>
+                    </div>
+                    <div className="item-entry overflow">
+                      <h5>
+                        <a href="property-1.html">{item.name} </a>
+                      </h5>
+                      <div className="dot-hr"></div>
+                      <span className="pull-left">
+                        <Link to={`/places/${item.id}`} className="btn-grad">
+                          Batafsil
+                        </Link>{" "}
+                      </span>
+                      <span className="proerty-price pull-right">
+                        {item.prices}
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
 
               <div className="col-sm-6 col-md-3 p0 card-image1">
                 <div className="box-two proerty-item">
