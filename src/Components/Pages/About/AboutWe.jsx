@@ -55,7 +55,13 @@ function AboutWe() {
                       </p>
                     </div>
                   </div>
-
+                  <div className="image wow fadeInRight animated">
+                    <img
+                      src="assets/img/blog2.jpg"
+                      className="img-responsive"
+                      alt="Example blog post alt"
+                    />
+                  </div>
                 </div>
 
                 <div
@@ -64,18 +70,10 @@ function AboutWe() {
                 >
                   <p>
                     <strong>Pellentesque habitant morbi tristique</strong>
-                    Eng yaxshi diqqatga sazovor joylar
-                    Toshkentda tashrif uchun bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning ro‘yxati juda katta.
-
-                    ✔️ sayr qilish uchun keng va yashil xiyobonlar,   favvoralar va ekologik bog‘lar;
-
-                    ✔️ Shahardagi ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi va madaniyati haqidagi noyob asarlar;
-
-                    ✔️Buyuk me'moriy ansambllar, masjidlar va minoralar;
-
-                    ✔️ Har didga mos teatr va galereyalar.
-
-                    Bu yerda har kim shaharning eng diqqatga sazovor joylarini ko‘rish uchun o‘z yo‘nalishini yaratishi mumkin!
+                    senectus et netus et malesuada fames ac turpis egestas.
+                    Vestibulum tortor quam, feugiat vitae, ultricies eget,
+                    tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                    semper.
                     <em>Aenean ultricies mi vitae est.</em> Mauris placerat
                     eleifend leo. Quisque sit amet est et sapien ullamcorper
                     pharetra. Vestibulum erat wisi, condimentum sed,
@@ -85,7 +83,13 @@ function AboutWe() {
                     <a href="/">Donec non enim</a> in turpis pulvinar facilisis.
                     Ut felis.
                   </p>
-
+                  <p>
+                    <img
+                      src="assets/img/blog10.jpg"
+                      className="img-responsive"
+                      alt="Example blog post alt"
+                    />
+                  </p>
 
                   <h2>Header Level 2</h2>
                   <ol>
@@ -126,6 +130,13 @@ function AboutWe() {
                     <li>Aliquam tincidunt mauris eu risus.</li>
                   </ul>
                   <p>
+                    <img
+                      src="assets/img/blog.jpg"
+                      className="img-responsive"
+                      alt="Example blog post alt"
+                    />
+                  </p>
+                  <p>
                     Pellentesque habitant morbi tristique senectus et netus et
                     malesuada fames ac turpis egestas. Vestibulum tortor quam,
                     feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
@@ -163,6 +174,37 @@ function AboutWe() {
                 <h4 className="text-uppercase wow fadeInLeft animated">
                   3 comments
                 </h4>
+
+                <div className="row comment">
+                  <div className="col-sm-3 col-md-2 text-center-xs">
+                    <p>
+                      <img
+                        src="assets/img/client-face1.png"
+                        className="img-responsive img-circle"
+                        alt=""
+                      />
+                    </p>
+                  </div>
+                  <div className="col-sm-9 col-md-10">
+                    <h5 className="text-uppercase">Julie Alma</h5>
+                    <p className="posted">
+                      <i className="fa fa-clock-o"></i> September 23, 2011 at
+                      12:00 am
+                    </p>
+                    <p>
+                      Pellentesque habitant morbi tristique senectus et netus et
+                      malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                      feugiat vitae, ultricies eget, tempor sit amet, ante.
+                      Donec eu libero sit amet quam egestas semper. Aenean
+                      ultricies mi vitae est. Mauris placerat eleifend leo.
+                    </p>
+                    <p className="reply">
+                      <a href="/">
+                        <i className="fa fa-reply"></i> Reply
+                      </a>
+                    </p>
+                  </div>
+                </div>
 
                 <div className="row comment last">
                   <div className="col-sm-3 col-md-2 text-center-xs">
@@ -205,8 +247,33 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston respublikasi bo'yicha ichki turizm kompaniyasi. Bizning kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari va viloyatlariga sayohat qilishingiz mumkin.
+                    Improved own provided blessing may peculiar domestic. Sight
+                    house has sex never. No visited raising gravity outward
+                    subject my cottage mr be. Hold do at tore in park feet near
+                    my case.
                   </p>
+                </div>
+              </div>
+
+              <div className="panel panel-default sidebar-menu wow fadeInRight animated">
+                <div className="panel-heading">
+                  <h3 className="panel-title">Search</h3>
+                </div>
+                <div className="panel-body">
+                  <form role="search">
+                    <div className="input-group">
+                      <input
+                        className="form-control"
+                        placeholder="Search"
+                        type="text"
+                      />
+                      <span className="input-group-btn">
+                        <button type="submit" className="btn btn-smal">
+                          <i className="fa fa-search"></i>
+                        </button>
+                      </span>
+                    </div>
+                  </form>
                 </div>
               </div>
 
