@@ -69,7 +69,7 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <p>
-                    ✔️ <strong>Pellentesque habitant morbi tristique</strong>
+                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> :
                     Eng yaxshi diqqatga sazovor joylar Toshkentda tashrif uchun
                     bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning
                     ro‘yxati juda katta, sayr qilish uchun keng va yashil
