@@ -182,28 +182,6 @@ const Carts = () => {
               </div>
 
               <div className="col-sm-6 col-md-3 p0 card-image1">
-                <div className="box-two proerty-item">
-                  <div className="item-thumb">
-                    <a href="property-1.html">
-                      <img src="assets/img/demo/property-3.jpg" alt="title" />
-                    </a>
-                  </div>
-                  <div className="item-entry overflow">
-                    <h5>
-                      <a href="property-1.html">Qarshi</a>
-                    </h5>
-                    <div className="dot-hr"></div>
-                    <span className="pull-left">
-                      <button type="submit" className="btn-grad">
-                        Batafsil
-                      </button>
-                    </span>
-                    <span className="proerty-price pull-right">400,000</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-sm-6 col-md-3 p0 card-image1">
                 <div className="box-tree more-proerty text-center">
                   <div className="item-tree-icon">
                     <i className="fa fa-th"></i>

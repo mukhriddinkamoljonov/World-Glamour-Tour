@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import blog from "../../../Page/blog";
 
 function AboutWe() {
   return (
@@ -70,18 +69,16 @@ function AboutWe() {
                 >
                   <p>
                     <strong>Pellentesque habitant morbi tristique</strong>
-                    senectus et netus et malesuada fames ac turpis egestas.
-                    Vestibulum tortor quam, feugiat vitae, ultricies eget,
-                    tempor sit amet, ante. Donec eu libero sit amet quam egestas
-                    semper.
-                    <em>Aenean ultricies mi vitae est.</em> Mauris placerat
-                    eleifend leo. Quisque sit amet est et sapien ullamcorper
-                    pharetra. Vestibulum erat wisi, condimentum sed,
-                    <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
-                    fermentum, elit eget tincidunt condimentum, eros ipsum
-                    rutrum orci, sagittis tempus lacus enim ac dui.
-                    <a href="/">Donec non enim</a> in turpis pulvinar facilisis.
-                    Ut felis.
+                    Eng yaxshi diqqatga sazovor joylar Toshkentda tashrif uchun
+                    bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning
+                    ro‘yxati juda katta. ✔️ sayr qilish uchun keng va yashil
+                    xiyobonlar, favvoralar va ekologik bog‘lar; ✔️ Shahardagi
+                    ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi va madaniyati
+                    haqidagi noyob asarlar; ✔️Buyuk me'moriy ansambllar,
+                    masjidlar va minoralar; ✔️ Har didga mos teatr va
+                    galereyalar. Bu yerda har kim shaharning eng diqqatga
+                    sazovor joylarini ko‘rish uchun o‘z yo‘nalishini yaratishi
+                    mumkin!
                   </p>
                   <p>
                     <img
@@ -247,10 +244,10 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    Improved own provided blessing may peculiar domestic. Sight
-                    house has sex never. No visited raising gravity outward
-                    subject my cottage mr be. Hold do at tore in park feet near
-                    my case.
+                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston
+                    respublikasi bo'yicha ichki turizm kompaniyasi. Bizning
+                    kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari
+                    va viloyatlariga sayohat qilishingiz mumkin.
                   </p>
                 </div>
               </div>

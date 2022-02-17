@@ -12,7 +12,7 @@ const AllCart = () => {
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/1")
+      .get("https://wgtour.pythonanywhere.com/api/places/2")
       .then((res) => {
         setItem(res.data);
       })
