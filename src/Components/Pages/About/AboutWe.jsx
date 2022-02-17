@@ -1,4 +1,5 @@
 import React from "react";
+import biz_haqimizda from "../../../img/biz_haqimizda.jpg";
 import "./About.css";
 
 function AboutWe() {
@@ -56,8 +57,8 @@ function AboutWe() {
                   </div>
                   <div className="image wow fadeInRight animated">
                     <img
-                      src="assets/img/blog2.jpg"
-                      className="img-responsive"
+                      src={biz_haqimizda}
+                      className="img"
                       alt="Example blog post alt"
                     />
                   </div>
@@ -68,17 +69,22 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <p>
-                    <strong>Pellentesque habitant morbi tristique</strong>
+                    ✔️ <strong>Pellentesque habitant morbi tristique</strong>
                     Eng yaxshi diqqatga sazovor joylar Toshkentda tashrif uchun
                     bir necha kun kerak bo‘ladigan diqqatga sazovor joylarning
-                    ro‘yxati juda katta. ✔️ sayr qilish uchun keng va yashil
-                    xiyobonlar, favvoralar va ekologik bog‘lar; ✔️ Shahardagi
-                    ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi va madaniyati
-                    haqidagi noyob asarlar; ✔️Buyuk me'moriy ansambllar,
-                    masjidlar va minoralar; ✔️ Har didga mos teatr va
-                    galereyalar. Bu yerda har kim shaharning eng diqqatga
-                    sazovor joylarini ko‘rish uchun o‘z yo‘nalishini yaratishi
-                    mumkin!
+                    ro‘yxati juda katta, sayr qilish uchun keng va yashil
+                    xiyobonlar, favvoralar va ekologik bog‘lar.
+                  </p>
+                  <p>✔️Buyuk me'moriy ansambllar, masjidlar va minoralar;</p>
+                  <p>
+                    {" "}
+                    ✔️ Har didga mos teatr va galereyalar. Bu yerda har kim
+                    shaharning eng diqqatga sazovor joylarini ko‘rish uchun o‘z
+                    yo‘nalishini yaratishi mumkin!
+                  </p>
+                  <p>
+                    ✔️ Shahardagi ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi
+                    va madaniyati haqidagi noyob asarlar
                   </p>
                   <h2>Header Level 2</h2>
                   <ol>

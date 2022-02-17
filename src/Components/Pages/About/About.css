@@ -5,13 +5,6 @@
 }
 
 .aboutWe {
-    background-image: url("https://uzbekistan.travel/storage/app/uploads/public/5e9/029/e82/thumb_669_1920_0_0_0_auto.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-bottom: 350px;
-
   background-image: url("https://uzbekistan.travel/storage/app/uploads/public/5e9/029/e82/thumb_669_1920_0_0_0_auto.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -19,6 +12,12 @@
   position: relative;
   padding-bottom: 350px;
 
+  background-image: url("https://uzbekistan.travel/storage/app/uploads/public/5e9/029/e82/thumb_669_1920_0_0_0_auto.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 350px;
 }
 
 .about-title {
@@ -36,4 +35,11 @@
 
 .carousel .control-dots {
   display: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
