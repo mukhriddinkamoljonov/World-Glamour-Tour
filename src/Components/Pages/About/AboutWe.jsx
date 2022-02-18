@@ -70,24 +70,17 @@ function AboutWe() {
                 >
                   <h2>Hurmatli mehmon!</h2>
                   <p>
-                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> : Eng yaxshi diqqatga
-                    sazovor joylar Toshkentda tashrif uchun bir necha kun kerak
-                    bo‘ladigan diqqatga sazovor joylarning ro‘yxati juda katta,
-                    sayr qilish uchun keng va yashil xiyobonlar, favvoralar va
-                    ekologik bog‘lar.
+                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> MChJ kompaniyasi O‘zbekiston sayyohlik xizmatlari bozorida yangi hisoblanadi.
                   </p>
-                  <p>✔️Buyuk me'moriy ansambllar, masjidlar va minoralar;</p>
+                  <p>✔️ <strong>WORLD GLAMOUR TOUR</strong>  kompaniyasining asosiy yo‘nalishlari mamlakatimizning tarixiy joylari va eng maftunkor go‘shalariga sayohat, O‘zbekiston va Qirg‘iziston tog‘larida yozgi va qishki hordiq chiqarishdir.</p>
                   <p>
                     {" "}
-                    ✔️ Har didga mos teatr va galereyalar. Bu yerda har kim
-                    shaharning eng diqqatga sazovor joylarini ko‘rish uchun o‘z
-                    yo‘nalishini yaratishi mumkin!
+                    ✔️Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham individual ekskursiyalar o'z ichiga oladi.
                   </p>
                   <p>
-                    ✔️ Shahardagi ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi
-                    va madaniyati haqidagi noyob asarlar
+                    ✔️ 
                   </p>
-                  <h2 style={{backgroundColor:"rgb(255,165,0)", padding: 10, }}>24/7/365 </h2>
+                  <h2 style={{backgroundColor:"rgb(255,165,0)", padding: 10, }}>24/7/365 <span>xizmatingizda:</span> </h2>
 
                   <ol>
                     <li>
@@ -98,12 +91,7 @@ function AboutWe() {
 
                   <blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vivamus magna. Cras in mi at felis aliquet congue. Ut a
-                      est eget ligula molestie gravida. Curabitur massa. Donec
-                      eleifend, libero at sagittis mollis, tellus est malesuada
-                      tellus, at luctus turpis elit sit amet quam. Vivamus
-                      pretium ornare est.
+                      Biz bilan bog'lansangiz, o'zingizni kuttirib qo'ymaysiz. Bizning turoperatorlarimiz har qanday so'rovingizga tez va samarali javob beradi.
                     </p>
                   </blockquote>
 
@@ -204,7 +192,7 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    Bizning kompaniyamiz ichki va tashqi turizm agentligi hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib beradi.
+                    Bizning kompaniyamiz ichki va tashqi turizm  kompanyasi hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib beradi.
                   </p>
                 </div>
               </div>
