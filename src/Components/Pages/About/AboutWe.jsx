@@ -195,7 +195,6 @@ function AboutWe() {
                 </div>
               </section>
             </div>
-
             <div className="blog-asside-right col-md-3">
               <div className="panel panel-default sidebar-menu wow fadeInRight animated">
                 <div className="panel-heading">
@@ -289,7 +288,6 @@ function AboutWe() {
                 </div>
               </div>
             </div>
-
             <div className="panel sidebar-menu wow fadeInRight animated">
               <div className="panel-heading">
                 <h3 className="panel-title">Tags</h3>
@@ -338,8 +336,22 @@ function AboutWe() {
                   </li>
                 </ul>
               </div>
+            </div>{" "}
+            <hr />
+            <div className="map">
+              <p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d537.2651725468306!2d71.78190299388464!3d40.38157763842583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb834e3d0e41df%3A0xde0b15447812c74f!2s%22Festival%22%20ko&#39;ngilochar%20markazi!5e0!3m2!1sru!2s!4v1645117370976!5m2!1sru!2s"
+                  width="600"
+                  height="450"
+                  style={{ border: 0 }}
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </p>
             </div>
-            <div class="row">
+            <hr />
+            <div className="row">
               <div class="col-sm-4">
                 <h3>
                   <i class="fa fa-map-marker"></i> Address
