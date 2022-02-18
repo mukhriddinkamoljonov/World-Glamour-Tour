@@ -9,7 +9,10 @@ function AboutWe() {
         <div className="container">
           <div className="row">
             <div className="page-head-content">
-              <h1 className="page-title">“WORLD GLAMOUR TOUR” sayyohlik kompaniyasining axborot saytiga xush kelibsiz!</h1>
+              <h1 className="page-title">
+                “WORLD GLAMOUR TOUR” sayyohlik kompaniyasining axborot saytiga
+                xush kelibsiz!
+              </h1>
             </div>
           </div>
         </div>
@@ -70,17 +73,26 @@ function AboutWe() {
                 >
                   <h2>Hurmatli mehmon!</h2>
                   <p>
-                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> MChJ kompaniyasi O‘zbekiston sayyohlik xizmatlari bozorida yangi hisoblanadi.
+                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> MChJ kompaniyasi
+                    O‘zbekiston sayyohlik xizmatlari bozorida yangi hisoblanadi.
                   </p>
-                  <p>✔️ <strong>WORLD GLAMOUR TOUR</strong>  kompaniyasining asosiy yo‘nalishlari mamlakatimizning tarixiy joylari va eng maftunkor go‘shalariga sayohat, O‘zbekiston va Qirg‘iziston tog‘larida yozgi va qishki hordiq chiqarishdir.</p>
+                  <p>
+                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> kompaniyasining
+                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari va eng
+                    maftunkor go‘shalariga sayohat, O‘zbekiston va Qirg‘iziston
+                    tog‘larida yozgi va qishki hordiq chiqarishdir.
+                  </p>
                   <p>
                     {" "}
-                    ✔️Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham individual ekskursiyalar o'z ichiga oladi.
+                    ✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
+                    geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
+                    individual ekskursiyalar o'z ichiga oladi.
                   </p>
-                  <p>
-                    ✔️ 
-                  </p>
-                  <h2 style={{backgroundColor:"rgb(255,165,0)", padding: 10, }}>24/7/365 <span>xizmatingizda:</span> </h2>
+                  <p>✔️</p>
+                  <div className="date-change">
+                    <span className="date1">24/7/365</span>
+                    <span className="date2">Xizmatingizda</span>
+                  </div>
 
                   <ol>
                     <li>
@@ -91,7 +103,9 @@ function AboutWe() {
 
                   <blockquote>
                     <p>
-                      Biz bilan bog'lansangiz, o'zingizni kuttirib qo'ymaysiz. Bizning turoperatorlarimiz har qanday so'rovingizga tez va samarali javob beradi.
+                      Biz bilan bog'lansangiz, o'zingizni kuttirib qo'ymaysiz.
+                      Bizning turoperatorlarimiz har qanday so'rovingizga tez va
+                      samarali javob beradi.
                     </p>
                   </blockquote>
 
@@ -192,7 +206,10 @@ function AboutWe() {
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    Bizning kompaniyamiz ichki va tashqi turizm  kompanyasi hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib beradi.
+                    Bizning kompaniyamiz ichki va tashqi turizm kompanyasi
+                    hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va
+                    ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib
+                    beradi.
                   </p>
                 </div>
               </div>
