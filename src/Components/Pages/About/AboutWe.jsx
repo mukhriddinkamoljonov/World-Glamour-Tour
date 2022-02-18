@@ -9,7 +9,7 @@ function AboutWe() {
         <div className="container">
           <div className="row">
             <div className="page-head-content">
-              <h1 className="page-title">Biz haqimizda...</h1>
+              <h1 className="page-title">“WORLD GLAMOUR TOUR” sayyohlik kompaniyasining axborot saytiga xush kelibsiz!</h1>
             </div>
           </div>
         </div>
@@ -68,6 +68,7 @@ function AboutWe() {
                   id="post-content"
                   className="post-body single wow fadeInLeft animated"
                 >
+                  <h2>Hurmatli mehmon!</h2>
                   <p>
                     ✔️ <strong>WORLD GLAMOUR TOUR</strong> : Eng yaxshi diqqatga
                     sazovor joylar Toshkentda tashrif uchun bir necha kun kerak
@@ -86,7 +87,8 @@ function AboutWe() {
                     ✔️ Shahardagi ko‘plab muzeylarda O‘rta Osiyo xalqlari tarixi
                     va madaniyati haqidagi noyob asarlar
                   </p>
-                  <h2>Header Level 2</h2>
+                  <h2 style={{backgroundColor:"rgb(255,165,0)", padding: 10, }}>24/7/365 </h2>
+
                   <ol>
                     <li>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -198,14 +200,11 @@ function AboutWe() {
             <div className="blog-asside-right col-md-3">
               <div className="panel panel-default sidebar-menu wow fadeInRight animated">
                 <div className="panel-heading">
-                  <h3 className="panel-title">Text widget</h3>
+                  <h3 className="panel-title">Turizm Agentligi</h3>
                 </div>
                 <div className="panel-body text-widget">
                   <p>
-                    "WORLD GLAMOUR TOUR" turizm agentligi bu O'zbekiston
-                    respublikasi bo'yicha ichki turizm kompaniyasi. Bizning
-                    kompaniyamiz bilan siz O'zbekistonning barcha ziyoratgohlari
-                    va viloyatlariga sayohat qilishingiz mumkin.
+                    Bizning kompaniyamiz ichki va tashqi turizm agentligi hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib beradi.
                   </p>
                 </div>
               </div>
