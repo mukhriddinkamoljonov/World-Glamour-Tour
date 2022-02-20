@@ -78,16 +78,18 @@ function AboutWe() {
                   </p>
                   <p>
                     ✔️ <strong>WORLD GLAMOUR TOUR</strong> kompaniyasining
-                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari va eng
-                    maftunkor go‘shalariga sayohat, O‘zbekiston va Qirg‘iziston
-                    tog‘larida yozgi va qishki hordiq chiqarishdir.
+                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari, eng
+                    maftunkor go‘shalariga va bir qancha chet el davlatlariga maroqli sayohat uyushtirishingiz mumkin..
                   </p>
-                  <p>
-                    {" "}
-                    ✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
+                  <p>✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
                     geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
                     individual ekskursiyalar o'z ichiga oladi.
                   </p>
+                  <p>
+                    ✔️ Har bir mehmon bizning do'stimiz va hamkorimiz!
+                    Biz mehmonlarimizga ularning talablari va ehtiyojlariga to'liq javob beradigan yuqori sifatli turistik mahsulotni taklif etamiz.
+                  </p>
+                  <span> <i className="fa fa-tags"></i></span>
                   <div className="date-change">
                     <span className="date1">24/7/365</span>
                     <span className="date2">Xizmatingizda</span>
@@ -95,7 +97,7 @@ function AboutWe() {
 
                   <ol>
                     <li>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Xizmatlarimiz sifatli bo'lishiga qaramasdan, narxlar ham albatta hamyonbop.
                     </li>
                     <li>Aliquam tincidunt mauris eu risus.</li>
                   </ol>
@@ -108,24 +110,17 @@ function AboutWe() {
                     </p>
                   </blockquote>
 
-                  <h3>Header Level 3</h3>
+                  <h3>Qiziqarli sayohatlar olamida bizning mehmonimiz bo'ling!</h3>
 
                   <p>
-                    Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                    feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper. Aenean ultricies mi
-                    vitae est. Mauris placerat eleifend leo. Quisque sit amet
-                    est et sapien ullamcorper pharetra. Vestibulum erat wisi,
-                    condimentum sed, commodo vitae, ornare sit amet, wisi.
-                    Aenean fermentum, elit eget tincidunt
+                    Sayohat - bu hayotingizning eng yaxshi vaqti! Shuning uchun biz hayotni sevadigan odamlar tomonidan ataylab tanlanganmiz. Ular uchun sayohat - bu yangi bilimlarni izlash, yangi hayot tajribasi, yangi his-tuyg'ularni o'zlashtirish.
                   </p>
 
                   <ul>
                     <li>
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                      Ongli ravishda sayohat qiling!
                     </li>
-                    <li>Aliquam tincidunt mauris eu risus.</li>
+                    <li>Eng yaxshi sifatni tanlang!</li>
                   </ul>
                   <p>
                     Pellentesque habitant morbi tristique senectus et netus et
