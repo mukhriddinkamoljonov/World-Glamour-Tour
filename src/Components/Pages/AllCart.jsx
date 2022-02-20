@@ -72,6 +72,64 @@ const AllCart = () => {
                   </h1>
                   <span class="property-price pull-right">$825,000</span>
                 </div>
+                <div class="section additional-details">
+                  <h4 class="s-property-title">Additional Details</h4>
+
+                  <ul class="additional-details-list clearfix">
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        Waterfront
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        Yes
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        Built In
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        2003
+                      </span>
+                    </li>
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        Parking
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        2 Or More Spaces,Covered Parking,Valet Parking
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        Waterfront
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        Yes
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        View
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        Intracoastal View,Direct ew
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
+                        Waterfront Description:
+                      </span>
+                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
+                        Intracoastal Front,Ocean Access
+                      </span>
+                    </li>
+                  </ul>
+                </div>
                 <div class="section">
                   <h4 class="s-property-title">Description</h4>
                   <div class="s-property-content">

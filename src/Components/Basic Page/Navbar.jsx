@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Main.css";
 
-function Navbar() {
+function Navbar({ setQuery }) {
   return (
     <div>
       <nav className="navbar navbar-default yana">
@@ -28,7 +28,11 @@ function Navbar() {
           <div className="collapse navbar-collapse yamm" id="navigation">
             <div className="button navbar-right">
               <div className="search">
-                <input type="text" placeholder="search" />
+                <input
+                  type="text"
+                  placeholder="search"
+                  onChange={(e) => setQuery(e.target.value)}
+                />
                 <div className="symbol">
                   <svg className="cloud">
                     <use xlink="ture" href="#cloud" />

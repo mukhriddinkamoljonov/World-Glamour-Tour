@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Main.css";
 import NoImage from "../../img/no-image.jpg";
 
-const Carts = () => {
+const Carts = ({ query }) => {
   const [items, setItems] = useState([]);
   const [isReady, setIsReady] = useState(null);
 
@@ -40,36 +40,38 @@ const Carts = () => {
         {isReady ? (
           <div className="row">
             <div className="proerty-th">
-              {items.map((item) => (
-                <div className="col-sm-6 col-md-3 p0 card-image1">
-                  <div className="box-two proerty-item">
-                    <div className="item-thumb">
-                      <a href="property-1.html">
-                        <img
-                          src={
-                            item.images.length ? item.images[0].file : NoImage
-                          }
-                          alt={""}
-                        />
-                      </a>
-                    </div>
-                    <div className="item-entry overflow">
-                      <h5>
-                        <a href="property-1.html">{item.name} </a>
-                      </h5>
-                      <div className="dot-hr"></div>
-                      <span className="pull-left">
-                        <Link to={`/places/${item.id}`} className="btn-grad">
-                          Batafsil
-                        </Link>{" "}
-                      </span>
-                      <span className="proerty-price pull-right">
-                        {item.prices}
-                      </span>
+              {items
+                .filter((item) => item.name.toLowerCase().includes(query))
+                .map((item) => (
+                  <div className="col-sm-6 col-md-3 p0 card-image1">
+                    <div className="box-two proerty-item">
+                      <div className="item-thumb">
+                        <a href="property-1.html">
+                          <img
+                            src={
+                              item.images.length ? item.images[0].file : NoImage
+                            }
+                            alt={""}
+                          />
+                        </a>
+                      </div>
+                      <div className="item-entry overflow">
+                        <h5>
+                          <a href="property-1.html">{item.name} </a>
+                        </h5>
+                        <div className="dot-hr"></div>
+                        <span className="pull-left">
+                          <Link to={`/places/${item.id}`} className="btn-grad">
+                            Batafsil
+                          </Link>{" "}
+                        </span>
+                        <span className="proerty-price pull-right">
+                          {item.prices}
+                        </span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
 
               <div className="col-sm-6 col-md-3 p0 card-image1">
                 <div className="box-two proerty-item">

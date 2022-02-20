@@ -1,11 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import dollar from "../icons/dollar.png";
 import ruble from "../icons/ruble.png";
 import evro from "../icons/evro.png";
 import lira from "../icons/lira.png";
-import "./Main.css"
+import "./Main.css";
+import axios from "axios";
 
 const Count = () => {
+  const [items, setItems] = useState([]);
+  useEffect(() => {
+    axios
+      .get(
+        "https://api.exchangeratesapi.io/v1/latest?access_key=1a38c8346512851e36e6870617d80236"
+      )
+      .then((res) => {
+        setItems(res.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  console.log(items);
   return (
     <div className="count-area">
       <div className="container">

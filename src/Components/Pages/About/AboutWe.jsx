@@ -88,7 +88,6 @@ function AboutWe() {
                     geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
                     individual ekskursiyalar o'z ichiga oladi.
                   </p>
-                  <p>✔️</p>
                   <div className="date-change">
                     <span className="date1">24/7/365</span>
                     <span className="date2">Xizmatingizda</span>
@@ -207,6 +206,7 @@ function AboutWe() {
                 <div className="panel-body text-widget">
                   <p>
                     Bizning kompaniyamiz ichki va tashqi turizm kompanyasi
+                    Bizning kompaniyamiz ichki va tashqi turizm agentligi
                     hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va
                     ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib
                     beradi.
@@ -222,7 +222,7 @@ function AboutWe() {
                     <li>
                       <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-property-2.jpg" />
+                          <img src="assets/img/demo/small-property-2.jpg" alt="title"/>
                         </a>
                         <span className="property-seeker">
                           <b className="b-1">A</b>
@@ -239,7 +239,7 @@ function AboutWe() {
                     <li>
                       <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-property-1.jpg" />
+                          <img src="assets/img/demo/small-property-1.jpg" alt="title"/>
                         </a>
                         <span className="property-seeker">
                           <b className="b-1">A</b>
@@ -256,7 +256,7 @@ function AboutWe() {
                     <li>
                       <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-property-3.jpg" />
+                          <img src="assets/img/demo/small-property-3.jpg" alt="title"/>
                         </a>
                         <span className="property-seeker">
                           <b className="b-1">A</b>
@@ -274,7 +274,7 @@ function AboutWe() {
                     <li>
                       <div className="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
                         <a href="single.html">
-                          <img src="assets/img/demo/small-property-2.jpg" />
+                          <img src="assets/img/demo/small-property-2.jpg" alt="title"/>
                         </a>
                         <span className="property-seeker">
                           <b className="b-1">A</b>
@@ -304,7 +304,7 @@ function AboutWe() {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="/">
                       <i className="fa fa-tags"></i> css3
                     </a>
                   </li>

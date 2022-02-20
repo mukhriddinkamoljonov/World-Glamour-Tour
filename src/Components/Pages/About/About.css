@@ -45,7 +45,7 @@
 }
 
 .map {
-  width: 12rem;
+  width: 50rem;
   height: 45rem;
   justify-content: center;
   text-align: center;
@@ -60,11 +60,22 @@
   color: #fff;
   background-color: #ffca2c;
 }
-
+.date-change {
+  padding: 10px;
+}
 .date2 {
   background-color: #a4a4a4;
   font-size: 2.2rem;
   border: 1px solid;
   padding: 8px;
   color: #fff;
+}
+
+.date1 {
+  color: #fff;
+  border-radius: 2px;
+  margin: 30px;
+  padding: 15px;
+  font-size: 3rem;
+  background-color: rgb(255, 165, 0);
 }

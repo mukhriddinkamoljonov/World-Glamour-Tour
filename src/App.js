@@ -8,13 +8,15 @@ import AboutWe from "./Components/Pages/About/AboutWe";
 import AllCart from "./Components/Pages/AllCart";
 import Footer from "./Components/Basic Page/Footer";
 import Shaharlar from "./Components/Pages/Shaharlar";
+import { useState } from "react";
 
 function App() {
+  const [query, setQuery] = useState("");
   return (
     <div>
-      <Navbar />
+      <Navbar setQuery={setQuery} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home query={query} />} />
         <Route path="/sayyohlar" element={<Sayyoh />} />
         <Route path="/about" element={<AboutWe />} />
         <Route path="/places/:id" element={<AllCart />} />
