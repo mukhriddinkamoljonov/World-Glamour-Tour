@@ -140,7 +140,7 @@ const AllCart = () => {
                   </div>
                 </div>
 
-                <div class="section additional-details">
+                <div class="section additional-details ">
                   <h4 class="s-property-title">Narxga quyidagilar kiradi:</h4>
                   <div>
                     <p>
@@ -165,7 +165,7 @@ const AllCart = () => {
                 </div>
 
                 <div class="section property-video">
-                  <h4 class="s-property-title">Property Video</h4>
+                  <h4 class="s-property-title"> Video</h4>
                   <div class="video-thumb">
                     <a class="video-popup" href="yout" title="Virtual Tour">
                       <iframe
@@ -178,70 +178,6 @@ const AllCart = () => {
                         allowfullscreen
                       ></iframe>
                     </a>
-                  </div>
-                </div>
-
-                <div class="section property-share">
-                  <h4 class="s-property-title">Share width your friends</h4>
-                  <div class="roperty-social">
-                    <ul>
-                      <li>
-                        <a title="Share this on dribbble " href="/">
-                          <img
-                            src="assets/img/social_big/dribbble_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on facebok " href="/">
-                          <img
-                            src="assets/img/social_big/facebook_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on delicious " href="/">
-                          <img
-                            src="assets/img/social_big/delicious_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on tumblr " href="/">
-                          <img
-                            src="assets/img/social_big/tumblr_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on digg " href="/">
-                          <img
-                            src="assets/img/social_big/digg_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on twitter " href="/">
-                          <img
-                            src="assets/img/social_big/twitter_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a title="Share this on linkedin " href="/">
-                          <img
-                            src="assets/img/social_big/linkedin_grey.png"
-                            alt="title"
-                          />
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>

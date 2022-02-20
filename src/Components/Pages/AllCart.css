@@ -207,6 +207,10 @@ select option {
 }
 
 .additional-details {
-  max-width: 700px;
+  max-width: 720px;
   background-color: rgb(238,238,238);
+}
+.s-property-content {
+  text-align: justify;
+  width: 720px;
 }
