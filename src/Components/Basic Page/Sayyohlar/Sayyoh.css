@@ -1,0 +1,23 @@
+.accartion {
+  padding: 2.5rem 2rem;
+  display: grid;
+  gap: 1rem 2rem;
+}
+.question {
+  margin-bottom: -2rem;
+}
+
+.btn {
+  width: 50px;
+  background: transparent;
+  border-color: transparent;
+  display: flex;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+  align-self: center;
+  min-width: 2rem;
+  font-size: 2rem;
+  background-color: #fdc600;
+}
