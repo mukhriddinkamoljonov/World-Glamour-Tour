@@ -19,12 +19,20 @@ const Question = ({ title, info, icon, img }) => {
         <hr />
       </header>
       {expanded && (
-        <div style={{ display: "flex" }}>
+        <div
+          className="question-container"
+          style={{ display: "flex", marginBottom: 53 }}
+        >
           <p style={{ alignItems: "justify" }}>{info}</p>
           <img
             src={img}
             alt=""
-            style={{ width: 400, marginBottom: 53, borderRadius: 15 }}
+            style={{
+              width: 400,
+              height: 300,
+              borderRadius: 15,
+              marginLeft: "auto",
+            }}
           />
         </div>
       )}
