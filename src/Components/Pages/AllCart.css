@@ -205,3 +205,8 @@ select option {
     padding-right: 0;
   }
 }
+
+.additional-details {
+  max-width: 700px;
+  background-color: rgb(238,238,238);
+}

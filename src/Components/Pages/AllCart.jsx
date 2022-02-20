@@ -73,65 +73,57 @@ const AllCart = () => {
                   <span class="property-price pull-right">$825,000</span>
                 </div>
                 <div class="section additional-details">
-                  <h4 class="s-property-title">Additional Details</h4>
+                  <h4 class="s-property-title">Eng yaxshi shartnoma</h4>
 
                   <ul class="additional-details-list clearfix">
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront
+                       Sayohat   yo'nalishi:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Yes
+                        Farg'ona-Toshkent-Farg'ona
                       </span>
                     </li>
 
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Built In
+                        Dvomiyligi:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        2003
+                        3 - kun
                       </span>
                     </li>
+                    <h4 className="s-property-title">Takliflar</h4>
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Parking
+                        8 kishilik guruh uchun:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        2 Or More Spaces,Covered Parking,Valet Parking
-                      </span>
-                    </li>
-
-                    <li>
-                      <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront
-                      </span>
-                      <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Yes
+                        1 250,000 so'mdan
                       </span>
                     </li>
 
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        View
+                         45 kishilik guruh uchun:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Intracoastal View,Direct ew
+                         1 150,000 so'mdan
                       </span>
                     </li>
 
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        Waterfront Description:
+                        45 kishilik guruh uchun:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Intracoastal Front,Ocean Access
+                        2 kishilik sayohat  bepul
                       </span>
                     </li>
                   </ul>
                 </div>
                 <div class="section">
-                  <h4 class="s-property-title">Description</h4>
+                  <h4 class="s-property-title">To'liq ma'lumot</h4>
                   <div class="s-property-content">
                     <p>
                       O‘zbekistonda plyaj ta’tilini o‘ylab yurgan bo‘lsangiz
@@ -149,38 +141,27 @@ const AllCart = () => {
                 </div>
 
                 <div class="section additional-details">
-                  <h4 class="s-property-title">Additional Details</h4>
+                  <h4 class="s-property-title">Narxga quyidagilar kiradi:</h4>
                   <div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Animi odit nemo harum dignissimos fugit quaerat
-                      repellendus accusamus fugiat dolorem minima?
+                      ✔️ Turish x 7 kecha ko'rsatilgan mehmonxonalarda (yoki shunga o'xshash); nonushta bilan (TWIN/DOUBLE/TRIPLE almashish xonalari asosida);
+                    </p>
+                    <p>
+                      ✔️Ichki Toshkent-Urganch aviachiptasi;
+                    </p>
+                    <p>
+                      ✔️Yuqoridagi yodgorliklarga kirish toʻlovlari dastur boʻyicha (foto/video lavhadan tashqari)
+                    </p>
+                    <p>
+                      ✔️Dastur bo'yicha qulay transport (2 kishilik avtomobil, 3-7 kishilik mikroavtobus, 10 kishilik avtobus +)
+                    </p>
+                    <p>
+                      ✔️Ovqatlanish: Barcha nonushta
+                    </p>
+                    <p>
+                      ✔️O‘zbekistonda turistik soliq
                     </p>
                   </div>
-                </div>
-
-                <div class="section property-features">
-                  <h4 class="s-property-title">Features</h4>
-                  <ul>
-                    <li>
-                      <a href="properties.html">Swimming Pool</a>
-                    </li>
-                    <li>
-                      <a href="properties.html">3 Stories</a>
-                    </li>
-                    <li>
-                      <a href="properties.html">Central Cooling</a>
-                    </li>
-                    <li>
-                      <a href="properties.html">Jog Path 2</a>
-                    </li>
-                    <li>
-                      <a href="properties.html">2 Lawn</a>
-                    </li>
-                    <li>
-                      <a href="properties.html">Bike Path</a>
-                    </li>
-                  </ul>
                 </div>
 
                 <div class="section property-video">
@@ -512,7 +493,7 @@ const AllCart = () => {
                         </div>
                       </div>
                       <div class="row">
-                        <h4>Terms and Conditions</h4>
+                        <h4>Ushbu turni bron qiling!</h4>
                         <div class="input-group">
                           <input id="terms" type="checkbox" />
                           <label for="terms">

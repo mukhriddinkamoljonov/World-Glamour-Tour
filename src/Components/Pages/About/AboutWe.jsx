@@ -115,25 +115,16 @@ function AboutWe() {
                   <p>
                     Sayohat - bu hayotingizning eng yaxshi vaqti! Shuning uchun biz hayotni sevadigan odamlar tomonidan ataylab tanlanganmiz. Ular uchun sayohat - bu yangi bilimlarni izlash, yangi hayot tajribasi, yangi his-tuyg'ularni o'zlashtirish.
                   </p>
-
+                  <p>
+                    Sizning sayohatingizni muhokama qilishdan xursandmiz. Istalgan vaqtda biz bilan bog'laning. Bizni tanlaganingiz uchun tashakkur.
+                    Biz har doim sizga qulay narxlardagi qulay mehmonxonalarni topishda yordam berishdan mamnunmiz.
+                  </p>
                   <ul>
                     <li>
                       Ongli ravishda sayohat qiling!
                     </li>
                     <li>Eng yaxshi sifatni tanlang!</li>
                   </ul>
-                  <p>
-                    Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                    feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-                    eu libero sit amet quam egestas semper. Aenean condimentum,
-                    eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
-                    Donec non enim in turpis pulvinar facilisis. Ut felis.
-                    Praesent dapibus, neque id cursus faucibus, tortor neque
-                    egestas augue, eu vulputate magna eros eu erat. Aliquam erat
-                    volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
-                    facilisis luctus, metus
-                  </p>
                 </div>
                 <div className="post-footer single wow fadeInBottum animated">
                   <ul className="pager">
@@ -210,7 +201,7 @@ function AboutWe() {
               </div>
               <div className="panel panel-default sidebar-menu wow fadeInRight animated">
                 <div className="panel-heading">
-                  <h3 className="panel-title">Recommended</h3>
+                  <h3 className="panel-title">SIZGA HAM YOQISHI MUMKIN</h3>
                 </div>
                 <div className="panel-body recent-property-widget">
                   <ul>
