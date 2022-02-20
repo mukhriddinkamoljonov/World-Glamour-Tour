@@ -78,9 +78,8 @@ function AboutWe() {
                   </p>
                   <p>
                     ✔️ <strong>WORLD GLAMOUR TOUR</strong> kompaniyasining
-                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari va eng
-                    maftunkor go‘shalariga sayohat, O‘zbekiston va Qirg‘iziston
-                    tog‘larida yozgi va qishki hordiq chiqarishdir.
+                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari, eng
+                    maftunkor go‘shalariga va bir qancha chet el davlatlariga maroqli sayohat uyushtirishingiz mumkin..
                   </p>
                   <p>✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
                     geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
