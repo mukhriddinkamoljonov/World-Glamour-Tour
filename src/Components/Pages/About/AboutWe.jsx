@@ -72,24 +72,25 @@ function AboutWe() {
                   className="post-body single wow fadeInLeft animated"
                 >
                   <h2>Hurmatli mehmon!</h2>
-                  <p>
-                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> MChJ kompaniyasi
-                    O‘zbekiston sayyohlik xizmatlari bozorida yangi hisoblanadi.
-                  </p>
-                  <p>
-                    ✔️ <strong>WORLD GLAMOUR TOUR</strong> kompaniyasining
-                    asosiy yo‘nalishlari mamlakatimizning tarixiy joylari, eng
-                    maftunkor go‘shalariga va bir qancha chet el davlatlariga maroqli sayohat uyushtirishingiz mumkin..
-                  </p>
-                  <p>✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
-                    geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
-                    individual ekskursiyalar o'z ichiga oladi.
-                  </p>
-                  <p>
-                    ✔️ Har bir mehmon bizning do'stimiz va hamkorimiz!
-                    Biz mehmonlarimizga ularning talablari va ehtiyojlariga to'liq javob beradigan yuqori sifatli turistik mahsulotni taklif etamiz.
-                  </p>
-                  <span> <i className="fa fa-tags"></i></span>
+                  <div className="textinfo" >
+                    <p >
+                      ✔️ <strong>WORLD GLAMOUR TOUR</strong> MChJ kompaniyasi
+                      O‘zbekiston sayyohlik xizmatlari bozorida yangi hisoblanadi.
+                    </p>
+                    <p>
+                      ✔️ <strong>WORLD GLAMOUR TOUR</strong> kompaniyasining
+                      asosiy yo‘nalishlari mamlakatimizning tarixiy joylari, eng
+                      maftunkor go‘shalariga va bir qancha chet el davlatlariga maroqli sayohat uyushtirishingiz mumkin..
+                    </p>
+                    <p>✔️ Kompaniyaning rivojlanishi bilan sayyohlik yo'nalishlari
+                      geografiyasi kengayadi. Bizning arsenalimiz ham guruh, ham
+                      individual ekskursiyalar o'z ichiga oladi.
+                    </p>
+                    <p>
+                      ✔️ Har bir mehmon bizning do'stimiz va hamkorimiz!
+                      Biz mehmonlarimizga ularning talablari va ehtiyojlariga to'liq javob beradigan yuqori sifatli turistik mahsulotni taklif etamiz.
+                    </p>
+                  </div>
                   <div className="date-change">
                     <span className="date1">24/7/365</span>
                     <span className="date2">Xizmatingizda</span>
@@ -110,78 +111,19 @@ function AboutWe() {
                     </p>
                   </blockquote>
 
-                  <h3>Qiziqarli sayohatlar olamida bizning mehmonimiz bo'ling!</h3>
+                  <h3 >Qiziqarli sayohatlar olamida bizning mehmonimiz bo'ling!</h3>
 
-                  <p>
-                    Sayohat - bu hayotingizning eng yaxshi vaqti! Shuning uchun biz hayotni sevadigan odamlar tomonidan ataylab tanlanganmiz. Ular uchun sayohat - bu yangi bilimlarni izlash, yangi hayot tajribasi, yangi his-tuyg'ularni o'zlashtirish.
-                  </p>
-                  <p>
-                    Sizning sayohatingizni muhokama qilishdan xursandmiz. Istalgan vaqtda biz bilan bog'laning. Bizni tanlaganingiz uchun tashakkur.
-                    Biz har doim sizga qulay narxlardagi qulay mehmonxonalarni topishda yordam berishdan mamnunmiz.
-                  </p>
-                  <ul>
-                    <li>
-                      Ongli ravishda sayohat qiling!
-                    </li>
-                    <li>Eng yaxshi sifatni tanlang!</li>
-                  </ul>
+                 <div >
+                   <p>
+                     Sayohat - bu hayotingizning eng yaxshi vaqti! Shuning uchun biz hayotni sevadigan odamlar tomonidan ataylab tanlanganmiz. Ular uchun sayohat - bu yangi bilimlarni izlash, yangi hayot tajribasi, yangi his-tuyg'ularni o'zlashtirish.
+                   </p>
+                   <p>
+                     Sizning sayohatingizni muhokama qilishdan xursandmiz. Istalgan vaqtda biz bilan bog'laning. Bizni tanlaganingiz uchun tashakkur.
+                     Biz har doim sizga qulay narxlardagi qulay mehmonxonalarni topishda yordam berishdan mamnunmiz.
+                   </p>
+                 </div>
                 </div>
-                <div className="post-footer single wow fadeInBottum animated">
-                  <ul className="pager">
-                    <li className="previous">
-                      <a href="/">
-                        <i className=""></i>← Older{" "}
-                      </a>
-                    </li>
-                    <li className="next disabled">
-                      <a href="/">
-                        Newer →<i className=""></i>{" "}
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </section>
 
-              <section className="about-autor"></section>
-
-              <section
-                id="comments"
-                className="comments wow fadeInRight animated"
-              >
-                <h4 className="text-uppercase wow fadeInLeft animated">
-                  3 comments
-                </h4>
-                <div className="row comment last">
-                  <div className="col-sm-3 col-md-2 text-center-xs">
-                    <p>
-                      <img
-                        src="assets/img/client-face2.png"
-                        className="img-responsive img-circle"
-                        alt=""
-                      />
-                    </p>
-                  </div>
-
-                  <div className="col-sm-9 col-md-10">
-                    <h5 className="text-uppercase">Louise Armero</h5>
-                    <p className="posted">
-                      <i className="fa fa-clock-o"></i> September 23, 2012 at
-                      12:00 am
-                    </p>
-                    <p>
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                      feugiat vitae, ultricies eget, tempor sit amet, ante.
-                      Donec eu libero sit amet quam egestas semper. Aenean
-                      ultricies mi vitae est. Mauris placerat eleifend leo.
-                    </p>
-                    <p className="reply">
-                      <a href="/">
-                        <i className="fa fa-reply"></i> Reply
-                      </a>
-                    </p>
-                  </div>
-                </div>
               </section>
             </div>
             <div className="blog-asside-right col-md-3">
@@ -190,11 +132,10 @@ function AboutWe() {
                   <h3 className="panel-title">Turizm Agentligi</h3>
                 </div>
                 <div className="panel-body text-widget">
-                  <p>
+                  <p >
                     Bizning kompaniyamiz ichki va tashqi turizm kompanyasi
-                    Bizning kompaniyamiz ichki va tashqi turizm agentligi
                     hisoblanadi. O'zbekiston bo'ylab barcha shaharlarga va
-                    ko'plab xalqaro mamlakatlarga sayohatingizni uyushtirib
+                    ko'plab xalqaro mamlakatlarga sayohatingizni  uyushtirib
                     beradi.
                   </p>
                 </div>
@@ -283,48 +224,48 @@ function AboutWe() {
                 <h3 className="panel-title">Tags</h3>
               </div>
               <div className="panel-body">
-                <ul className="tag-cloud">
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> html5
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> css3
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> jquery
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> ajax
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> php
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> responsive
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> visio
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <i className="fa fa-tags"></i> bootstrap
-                    </a>
-                  </li>
-                </ul>
+                {/*<ul className="tag-cloud">*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> html5*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> css3*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> jquery*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> ajax*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> php*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> responsive*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> visio*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*  <li>*/}
+                {/*    <a href="/">*/}
+                {/*      <i className="fa fa-tags"></i> bootstrap*/}
+                {/*    </a>*/}
+                {/*  </li>*/}
+                {/*</ul>*/}
               </div>
             </div>{" "}
             <hr />

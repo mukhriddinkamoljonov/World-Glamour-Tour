@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f4968a50-df5f-43bc-abb9-dea428657e17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/AllCart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/AllCart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Pages/AllCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/AllCart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Basic Page/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Basic Page/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Basic Page/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Basic Page/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/About/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/About/About.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/About/AboutWe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/About/AboutWe.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,7 @@
       <workItem from="1644581138779" duration="32275000" />
       <workItem from="1644735272891" duration="30892000" />
       <workItem from="1644813434525" duration="31255000" />
-      <workItem from="1645072768176" duration="37217000" />
+      <workItem from="1645072768176" duration="52739000" />
     </task>
     <servers />
   </component>
