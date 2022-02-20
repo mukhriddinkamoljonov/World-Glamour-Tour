@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Sayyoh from "./Components/Pages/Sayyoh";
+import Sayyohlar from "./Components/Basic Page/Sayyohlar.jsx";
 import Navbar from "./Components/Basic Page/Navbar";
 import Home from "./Components/Basic Page/Home";
 import AboutWe from "./Components/Pages/About/AboutWe";
@@ -17,7 +17,7 @@ function App() {
       <Navbar setQuery={setQuery} />
       <Routes>
         <Route path="/" element={<Home query={query} />} />
-        <Route path="/sayyohlar" element={<Sayyoh />} />
+        <Route path="/sayyohlar" element={<Sayyohlar />} />
         <Route path="/about" element={<AboutWe />} />
         <Route path="/places/:id" element={<AllCart />} />
         <Route path="/amirsoy" element={<AllCart />} />

@@ -187,11 +187,15 @@ const AllCart = () => {
                   <h4 class="s-property-title">Property Video</h4>
                   <div class="video-thumb">
                     <a class="video-popup" href="yout" title="Virtual Tour">
-                      <img
-                        src="assets/img/property-video.jpg"
-                        class="img-responsive wp-post-image"
-                        alt="Exterior"
-                      />
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/wT4Nb0fwCfU"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
                     </a>
                   </div>
                 </div>
