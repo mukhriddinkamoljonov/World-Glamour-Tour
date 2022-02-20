@@ -1,6 +1,8 @@
-import { BsFillInfoCircleFill } from "react-icons/bs";
+import { BsFillInfoCircleFill, BsFillGiftFill } from "react-icons/bs";
 import { FaCloudSun } from "react-icons/fa";
 import globus from "./img/globus.jpg";
+import fasl from "./img/fasl.jpg";
+import bayram from "./img/bayram.jpg";
 
 const SayyohData = [
   {
@@ -32,6 +34,27 @@ Qishda haqiqiy qorli go‘zallikni ko‘rish uchun to‘rtta tog‘-chang‘i ku
 O‘zbekistondagi iqlim asosan issiq va quruq, shuning uchun yozda bu yerda ob-havoga oson chidash mumkin, qishi esa asosan iliq bo‘ladi.Eng sovuq oyda harorat -6 darajadan pastga tushishi mumkin, eng issiq oyda esa harorat  32 darajadan oshadi.
 O‘zbekistondagi chillaO‘zbekistondagi chilla haqida eshitganmisiz? Chilla o‘zbek tilida "40 kun" degan ma’noni anglatadi. Odamlar 40 kun yozning jaziramasi va qishning eng sovuq davrini shunday deb atashadi. Yozda chilla 20 iyundan keyin boshlanadi va avgust oyining boshida tugaydi. Qishki chilla davri dekabr oyining o‘rtalarida boshlanadi va deyarli yanvar oxirigacha davom etadi. Shu bois, bu vaqt uchun quyosh kremi, ko‘zoynak va qalpoqlarni tayyorlab qo‘ying.`,
     icon: <FaCloudSun />,
+    img: fasl,
+  },
+  {
+    id: 3,
+    title: "Bayramlar",
+    info: (
+      <div>
+        <strong> 1 yanvar</strong> – Yangi yil.
+        <br /> <strong>14 yanvar</strong> – Vatan himoyachilari kuni. <br />{" "}
+        <strong>8 mart</strong> – Xalqaro xotin-qizlar kuni. <br /> 21 mart –
+        Navro‘z bayrami.
+        <br /> 9 may – Xotira va qadrlash kuni.
+        <br /> 1 sentyabr – Mustaqillik kuni.
+        <br /> 1 oktyabr – O‘qituvchilar va murabbiylar kuni. <br /> 8 dekabr –
+        Konstitutsiya kuni.
+        <br /> Iyd al-Fitr (diniy bayram) – sanasi o‘zgarib turadi.
+        <br /> Iyd al-Adha (diniy bayram) – sanasi o‘zgarib turadi.
+      </div>
+    ),
+    icon: <BsFillGiftFill />,
+    img: bayram,
   },
 ];
 
