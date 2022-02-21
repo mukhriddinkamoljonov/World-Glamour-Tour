@@ -1,8 +1,10 @@
 import { BsFillInfoCircleFill, BsFillGiftFill } from "react-icons/bs";
-import { FaCloudSun } from "react-icons/fa";
+import { FaCloudSun, FaCcVisa, FaBriefcase } from "react-icons/fa";
 import globus from "./img/globus.jpg";
 import fasl from "./img/fasl.jpg";
 import bayram from "./img/bayram.jpg";
+import diplomat from "./img/diplomat.jpg";
+import viza from "./img/viza.jpg";
 
 const SayyohData = [
   {
@@ -91,6 +93,32 @@ const SayyohData = [
     ),
     icon: <BsFillGiftFill />,
     img: bayram,
+  },
+  {
+    id: 4,
+    title: "Diplomatik vakolatxonalar",
+    info: `Biror mamlakatning hozirgi maqomi va obro‘sini u bilan diplomatik munosabatlarni o‘rnatgan mamlakatlar soni bo‘yicha baholash mumkin.
+Bugungi kunda O‘zbekistonning 50dan ortiq mamlakatlarda diplomatik vakolatxonalari bor, 60dan ortiq davlat mamlakatimizda vakolatxonalariga ega.`,
+    icon: <FaBriefcase />,
+    img: diplomat,
+  },
+  {
+    id: 5,
+    title: "Viza",
+    info: (
+      <div>
+        O‘zbekistonga viza olishni xohlaysizmi? Bu endi ancha osonlashdi. Sizga
+        kerak bo‘lgan yagona narsa – internet va pasport xolos.{" "}
+        <a href="https://e-visa.gov.uz/main">e-visa.gov.uz</a> saytiga kiring va
+        O‘zbekistonga elektron turistik viza olish uchun murojaat eting. Agar
+        sizning mamlakatingiz O‘zbekiston uchun vizasiz rejimga ega 86 mamlakat
+        ro‘yxatiga kirsa, unda xotirjam chiptalarni sotib oling,
+        chamadonlaringizni yig‘ing va Welcome to Uzbekistan!{" "}
+        <a href="https://e-visa.gov.uz/main"> E-Visa uchun murojaat etish</a>{" "}
+      </div>
+    ),
+    icon: <FaCcVisa />,
+    img: viza,
   },
 ];
 

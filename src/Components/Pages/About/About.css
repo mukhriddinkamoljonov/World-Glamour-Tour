@@ -84,10 +84,9 @@
 .info {
   text-align: justify;
   width: 800px;
-
 }
 .text {
-background-color: rgb(229,228,228) ;
+  background-color: rgb(229, 228, 228);
 }
 .textinfo {
   text-align: justify;
