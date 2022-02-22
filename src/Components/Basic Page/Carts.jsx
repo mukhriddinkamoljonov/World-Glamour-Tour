@@ -19,7 +19,6 @@ const Carts = ({ query }) => {
         console.log(error);
       });
   }, []);
-  console.log(items);
 
   return (
     <div

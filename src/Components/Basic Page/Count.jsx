@@ -11,10 +11,10 @@ const Count = () => {
   useEffect(() => {
     axios
       .get(
-        "https://api.exchangeratesapi.io/v1/latest?access_key=1a38c8346512851e36e6870617d80236"
+        "https://api.fastforex.io/fetch-all?api_key=7289af5f01-81ed14a04f-r7p8u5"
       )
       .then((res) => {
-        setItems(res.data);
+        setItems(res.data.results);
       })
       .catch((error) => {
         console.log(error);
@@ -41,8 +41,8 @@ const Count = () => {
                     <img src={dollar} alt="dollar" className="count-img" />
                   </div>
                   <div className="chart" data-percent="5000">
-                    <h2 className="percent" id="counter">
-                      0
+                    <h2 className="percent" id="">
+                      {items.USD}
                     </h2>
                     <h5>1 AQSh dollari , USD</h5>
                   </div>
@@ -54,8 +54,8 @@ const Count = () => {
                     <img src={ruble} alt="ruble" className="count-img" />
                   </div>
                   <div className="chart" data-percent="12000">
-                    <h2 className="percent" id="counter1">
-                      0
+                    <h2 className="percent" id="">
+                      {items.RUB}
                     </h2>
                     <h5>1 Rossiya rubli, RUB</h5>
                   </div>
@@ -67,8 +67,8 @@ const Count = () => {
                     <img src={evro} alt="evro" className="count-img" />
                   </div>
                   <div className="chart" data-percent="120">
-                    <h2 className="percent" id="counter2">
-                      0
+                    <h2 className="percent" id="">
+                      {items.EUR}
                     </h2>
                     <h5>1 Yevro, EUR</h5>
                   </div>
@@ -80,8 +80,8 @@ const Count = () => {
                     <img src={lira} alt="lira" className="count-img" />
                   </div>
                   <div className="chart" data-percent="5000">
-                    <h2 className="percent" id="counter3">
-                      5000
+                    <h2 className="percent" id="">
+                      {items.LYD}
                     </h2>
                     <h5>1 Turkiya lirasi , TRY</h5>
                   </div>
