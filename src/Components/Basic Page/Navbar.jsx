@@ -5,7 +5,7 @@ import "./Main.css";
 function Navbar({ setQuery }) {
   return (
     <div>
-      <nav className="navbar navbar-default yana">
+      <nav className="navbar navbar-default">
         <div className="container">
           <div className="navbar-header">
             <button
@@ -20,11 +20,14 @@ function Navbar({ setQuery }) {
               <span className="icon-bar"></span>
             </button>
             <Link to="/" className="navbar-brand">
-              <img src="assets/img/icon/logo.png" alt="" />
+              <img
+                src="assets/img/icon/logo.png"
+                className="main-logo"
+                alt=""
+              />
               <div className="world">
                 <span className="header-title-per">Wolrd Glamour_Tour</span>
               </div>
-
             </Link>
           </div>
 
@@ -79,11 +82,11 @@ function Navbar({ setQuery }) {
             <ul className="main-nav nav navbar-nav navbar-right">
               <li className="dropdown ymm-sw" data-wow-delay="0.1s">
                 <Link
-                    to="/shaharlar"
-                    className="dropdown-toggle"
-                    data-toggle="dropdown"
-                    data-hover="dropdown"
-                    data-delay="200"
+                  to="/shaharlar"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                  data-hover="dropdown"
+                  data-delay="200"
                 >
                   Dam Olish Maskanlari <b className="caret"></b>
                 </Link>

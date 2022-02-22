@@ -8,7 +8,6 @@
   align-items: center;
 }
 
-
 .header-title p {
   margin-left: -9rem;
   color: #fff;
@@ -242,4 +241,8 @@
 .light-slide-item1 {
   position: relative;
   overflow: hidden;
+}
+
+.main-logo {
+  border-radius: 100%;
 }

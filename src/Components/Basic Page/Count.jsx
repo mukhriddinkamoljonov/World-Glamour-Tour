@@ -42,7 +42,7 @@ const Count = () => {
                   </div>
                   <div className="chart" data-percent="5000">
                     <h2 className="percent" id="">
-                      {items.USD}
+                      {items.UZS}
                     </h2>
                     <h5>1 AQSh dollari , USD</h5>
                   </div>
@@ -81,7 +81,7 @@ const Count = () => {
                   </div>
                   <div className="chart" data-percent="5000">
                     <h2 className="percent" id="">
-                      {items.LYD}
+                      {items.TRY}
                     </h2>
                     <h5>1 Turkiya lirasi , TRY</h5>
                   </div>
