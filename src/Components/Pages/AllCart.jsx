@@ -12,7 +12,7 @@ const AllCart = () => {
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/2")
+      .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
         setItem(res.data);
       })
@@ -21,6 +21,7 @@ const AllCart = () => {
       });
   }, []);
   console.log(item);
+
   return (
     <div>
       <div class="page-head">
@@ -67,10 +68,10 @@ const AllCart = () => {
               </div>
               <div class="single-property-wrapper">
                 <div class="single-property-header">
-                  <h1 class="property-title pull-left">
-                    Chorvoq dam olish maskani
-                  </h1>
-                  <span class="property-price pull-right">$825,000</span>
+                  <h1 class="property-title pull-left">{item.hashtags}</h1>
+                  <span class="property-price pull-right">
+                    {item.price1} so'm
+                  </span>
                 </div>
                 <div class="section additional-details">
                   <h4 class="s-property-title">Eng yaxshi shartnoma</h4>
@@ -78,10 +79,10 @@ const AllCart = () => {
                   <ul class="additional-details-list clearfix">
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                       Sayohat   yo'nalishi:
+                        Sayohat yo'nalishi:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        Farg'ona-Toshkent-Farg'ona
+                        {item.direction}
                       </span>
                     </li>
 
@@ -90,34 +91,34 @@ const AllCart = () => {
                         Dvomiyligi:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        3 - kun
+                        {item.duration}
                       </span>
                     </li>
                     <h4 className="s-property-title">Takliflar</h4>
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        8 kishilik guruh uchun:
+                        {item.price1_description}
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        1 250,000 so'mdan
+                        {item.price2} so'm
                       </span>
                     </li>
 
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                         45 kishilik guruh uchun:
+                        {item.price2_description}
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                         1 150,000 so'mdan
+                        {item.price3} so'm
                       </span>
                     </li>
 
                     <li>
                       <span class="col-xs-6 col-sm-4 col-md-4 add-d-title">
-                        45 kishilik guruh uchun:
+                        {item.price3_description}
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        2 kishilik sayohat  bepul
+                        {item.benefits}
                       </span>
                     </li>
                   </ul>
@@ -143,24 +144,7 @@ const AllCart = () => {
                 <div class="section additional-details ">
                   <h4 class="s-property-title">Narxga quyidagilar kiradi:</h4>
                   <div>
-                    <p>
-                      ✔️ Turish x 7 kecha ko'rsatilgan mehmonxonalarda (yoki shunga o'xshash); nonushta bilan (TWIN/DOUBLE/TRIPLE almashish xonalari asosida);
-                    </p>
-                    <p>
-                      ✔️Ichki Toshkent-Urganch aviachiptasi;
-                    </p>
-                    <p>
-                      ✔️Yuqoridagi yodgorliklarga kirish toʻlovlari dastur boʻyicha (foto/video lavhadan tashqari)
-                    </p>
-                    <p>
-                      ✔️Dastur bo'yicha qulay transport (2 kishilik avtomobil, 3-7 kishilik mikroavtobus, 10 kishilik avtobus +)
-                    </p>
-                    <p>
-                      ✔️Ovqatlanish: Barcha nonushta
-                    </p>
-                    <p>
-                      ✔️O‘zbekistonda turistik soliq
-                    </p>
+                    <p>✔️ {item.about_prices}</p>
                   </div>
                 </div>
 

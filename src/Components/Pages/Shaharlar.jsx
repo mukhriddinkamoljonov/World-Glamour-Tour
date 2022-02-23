@@ -1,6 +1,9 @@
 import React from "react";
 
 function Shaharlar() {
+  const handleClick = () => {
+    console.log("Hello")
+  }
   return (
     <div>
       <div className="page-head">
@@ -41,15 +44,31 @@ function Shaharlar() {
                       <fieldset>
                         <div className="row">
                           <div className="col-xs-12">
-                            <input
-                              className="button btn largesearch-btn"
-                              type="submit"
-                              value="Izlash..."
-                            />
+                            <button
+                                className="button btn largesearch-btn"
+                                type="submit"
+                            >Izlash...
+                            </button>
                           </div>
                         </div>
                       </fieldset>
                     </form>
+                    <div className='checkbox-container'>
+                      <input type="checkbox" onChange={handleClick}/>
+                      <span>Ormgohlar</span>
+                    </div>
+                    <div className='checkbox-container1'>
+                      <input type="checkbox"onChange={handleClick}/>
+                      <span>O'zbekiston Shaharlari</span>
+                    </div>
+                    <div className='checkbox-container2'>
+                      <input type="checkbox"onChange={handleClick}/>
+                      <span>Osiyo Shaharlari</span>
+                    </div>
+                    <div className='checkbox-container3'>
+                      <input type="checkbox"/>
+                      <span>Yevropa Shaharlari</span>
+                    </div>
                   </div>
                 </div>
                 <div className="panel panel-default sidebar-menu wow fadeInRight animated">
