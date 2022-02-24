@@ -2,7 +2,7 @@ import React from "react";
 
 function Shaharlar() {
   const handleClick = () => {
-    console.log("Hello")
+    
   }
   return (
     <div>
@@ -155,49 +155,8 @@ function Shaharlar() {
             <div className="col-md-9 pr0 padding-top-40 properties-page">
               <div className="col-md-12 clear">
                 <div className="col-xs-10 page-subheader sorting pl0">
-                  <ul className="sort-by-list">
-                    <li className="active">
-                      <a
-                        className="order_by_date"
-                        data-order="ASC"
-                        data-orderby="property_date"
-                        href="javascript:void(0);"
-                      >
-                        Property Date <i className="fa fa-sort-amount-asc"></i>
-                      </a>
-                    </li>
-                    <li className="">
-                      <a
-                        className="order_by_price"
-                        data-order="DESC"
-                        data-orderby="property_price"
-                        href="javascript:void(0);"
-                      >
-                        Property Price{" "}
-                        <i className="fa fa-sort-numeric-desc"></i>
-                      </a>
-                    </li>
-                  </ul>
+                  
 
-                  <div className="items-per-page">
-                    <label for="items_per_page">
-                      <b>Property per page :</b>
-                    </label>
-                    <div className="sel">
-                      <select id="items_per_page" name="per_page">
-                        <option value="3">3</option>
-                        <option value="6">6</option>
-                        <option value="9">9</option>
-                        <option selected="selected" value="12">
-                          12
-                        </option>
-                        <option value="15">15</option>
-                        <option value="30">30</option>
-                        <option value="45">45</option>
-                        <option value="60">60</option>
-                      </select>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="col-xs-2 layout-switcher">
