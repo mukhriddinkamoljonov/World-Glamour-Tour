@@ -87,6 +87,20 @@ function Shaharlar() {
                     <div className="checkbox-container3">
                       <input type="checkbox" />
                       <span>Yevropa Shaharlari</span>
+                      <input type="checkbox" />
+                      <span>Oromgohlar</span>
+                    </div>{" "}
+                    <div className="checkbox-container1">
+                      <input type="checkbox" />
+                      <span>O'zbekiston Shaharlari</span>
+                    </div>{" "}
+                    <div className="checkbox-container2">
+                      <input type="checkbox" />
+                      <span>Oromgohlar</span>
+                    </div>{" "}
+                    <div className="checkbox-container3">
+                      <input type="checkbox" />
+                      <span>Oromgohlar</span>
                     </div>
                   </div>
                 </div>
