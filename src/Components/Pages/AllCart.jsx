@@ -28,7 +28,7 @@ const AllCart = () => {
         <div class="container">
           <div class="row">
             <div class="page-head-content">
-              <h1 class="page-title">{item.address}</h1>
+              <h1 class="page-title">{item.hashtags}</h1>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const AllCart = () => {
               </div>
               <div class="single-property-wrapper">
                 <div class="single-property-header">
-                  <h1 class="property-title pull-left">{item.hashtags}</h1>
+                  <h1 class="property-title pull-left">{item.address}</h1>
                   <span class="property-price pull-right">
                     {item.price1} so'm
                   </span>
@@ -126,18 +126,7 @@ const AllCart = () => {
                 <div class="section">
                   <h4 class="s-property-title">To'liq ma'lumot</h4>
                   <div class="s-property-content">
-                    <p>
-                      O‘zbekistonda plyaj ta’tilini o‘ylab yurgan bo‘lsangiz
-                      Toshkent viloyatining Bo‘stonliq tumanida joylashgan
-                      Chorvoq suv omboriga e’tibor qaratishingiz kerak. Dam
-                      olish maskaniga poytaxtdan taksi, poyezd yoki avtobusda
-                      borish mumkin.Ulkan suv havzasi bo‘yidagi jihozlangan
-                      plyajlar dam olish joylari, soyabonlar, an’anaviy yog‘och
-                      karavotlar va kafelarni taklif etadi. Bu yerda dam
-                      oluvchilar skuterda, katamaranda yoki suv bananida uchishi
-                      mumkin, ekstremal sport turlari muxlislari paraplanda
-                      uchib, tevarak atrofni o‘rganishlari mumkin.
-                    </p>
+                    <p>{item.description}</p>
                   </div>
                 </div>
 
@@ -215,10 +204,11 @@ const AllCart = () => {
                           </li>
                           <li>
                             <i class="pe-7s-mail strong"> </i>
-                            email@yourcompany.com
+                            {item.email}
                           </li>
                           <li>
-                            <i class="pe-7s-call strong"> </i> +1 908 967 5906
+                            <i class="pe-7s-call strong"> </i>{" "}
+                            {item.phone_number}
                           </li>
                         </ul>
                         <p>
