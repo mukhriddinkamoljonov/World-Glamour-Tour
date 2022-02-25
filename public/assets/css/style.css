@@ -2675,15 +2675,13 @@ count-area
   font-size: 12px;
 }
 .border-btn {
-  border: 1.5px solid;
+  border: 0.1px solid #000;
   background: transparent none repeat scroll 0% 0%;
   border-radius: 0px;
   padding: 9px 25px;
   margin-top: 10px;
 }
-.border-btn:hover,
-.border-btn:focus {
-}
+
 .item-entry a {
   color: #000;
 }

@@ -188,7 +188,7 @@ function Shaharlar() {
               </div>
             </div>
 
-            {isReady ? (
+            {/* {isReady ? ( */}
               <div className="col-md-9 pr0 padding-top-40 properties-page">
                 <div className="col-md-12 clear">
                   <div className="col-xs-2 layout-switcher">
@@ -207,9 +207,9 @@ function Shaharlar() {
                 <div className="col-md-12 clear">
                   <div className="proerty-th" id="list-type">
                     <div className="col-sm-6 col-md-4 p0">
-                      {item.map((item) => {
+                      {/* {item.map((item) => {
                         const { name, price } = item;
-                        return (
+                        return ( */}
                           <div className="box-two proerty-item">
                             <div className="item-thumb">
                               <a href="property-1.html">
@@ -222,7 +222,9 @@ function Shaharlar() {
 
                             <div className="item-entry overflow">
                               <h5>
-                                <a href="property-1.html">{name}</a>
+                          <a href="property-1.html">
+                            {/* {name} */}
+                          </a>
                               </h5>
                               <div className="dot-hr"></div>
                               <span className="pull-left">
@@ -230,7 +232,8 @@ function Shaharlar() {
                               </span>
                               <span className="proerty-price pull-right">
                                 {" "}
-                                {price} so'm
+                          {/* {price} */}
+                          so'm
                               </span>
                               <p style={{ display: "none" }}>
                                 <span style={{ color: "orange" }}>
@@ -242,11 +245,11 @@ function Shaharlar() {
                               </p>
                             </div>
                           </div>
-                        );
-                      })}
+                         {/* )
+                       })} */}
                     </div>
 
-                    {/* <div className="col-sm-6 col-md-4 p0">
+                     <div className="col-sm-6 col-md-4 p0">
                     <div className="box-two proerty-item">
                       <div className="item-thumb">
                         <a href="property-1.html">
@@ -275,9 +278,9 @@ function Shaharlar() {
                         </p>
                       </div>
                     </div>
-                  </div> */}
+                  </div> 
 
-                    {/* <div className="col-sm-6 col-md-4 p0">
+                    <div className="col-sm-6 col-md-4 p0">
                     <div className="box-two proerty-item">
                       <div className="item-thumb">
                         <a href="property-1.html">
@@ -487,7 +490,7 @@ function Shaharlar() {
                         </p>
                       </div>
                     </div>
-                  </div> */}
+                  </div> 
                   </div>
                 </div>
 
@@ -518,9 +521,9 @@ function Shaharlar() {
                   </div>
                 </div>
               </div>
-            ) : (
+            {/* ) : (
               ""
-            )}
+            )} */}
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import property1 from "../property-1/property1.jpg";
 import property2 from "../property-1/property2.jpg";
 import property3 from "../property-1/property3.jpg";
+import NoImage from "../../img/no-image.jpg";
 import "./AllCart.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -20,7 +21,9 @@ const AllCart = () => {
         console.log(error);
       });
   }, []);
-  console.log(item);
+
+
+  console.log(item.images[0]);
 
   return (
     <div>
@@ -46,22 +49,12 @@ const AllCart = () => {
                 <div class="light-slide-item">
                   <div className="slider-courusel">
                     <Carousel autoPlay={"	boolean"}>
+                      {item.map((img) => (
                       <div className="box1">
-                        <img src={property1} alt="title" />{" "}
-                        {/* <p className="legend">Chorvoq</p> */}
+                        <img src={img.images[1].file} alt="title" />
+                        <p className="legend">Chorvoq</p>
                       </div>
-                      <div className="box2">
-                        <img src={property2} alt="title" />{" "}
-                        {/* <p className="legend">Ajoyib Maskan</p> */}
-                      </div>
-                      <div className="box3">
-                        <img src={property3} alt="title" />{" "}
-                        {/* <p className="legend">Bir narsalar</p> */}
-                      </div>
-                      <div className="box4">
-                        <img src={property1} alt="title" />{" "}
-                        {/* <p className="legend">Lorem, ipsum.</p> */}
-                      </div>
+                       ))}
                     </Carousel>
                   </div>
                 </div>

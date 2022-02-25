@@ -199,7 +199,7 @@ const Carts = ({ query }) => {
                       href="https://www.worldometers.info/coronavirus/"
                     >
                       <button
-                        className="btn border-btn more-black"
+                        className="border-btn more-black"
                         value="All properties"
                       >
                         Batafsil

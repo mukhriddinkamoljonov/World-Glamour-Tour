@@ -20,7 +20,6 @@ const Count = () => {
         console.log(error);
       });
   }, []);
-  console.log(items);
   return (
     <div className="count-area">
       <div className="container">
