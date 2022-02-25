@@ -22,8 +22,7 @@ const AllCart = () => {
       });
   }, []);
 
-
-  console.log(item.images[0]);
+  console.log(item.images);
 
   return (
     <div>
