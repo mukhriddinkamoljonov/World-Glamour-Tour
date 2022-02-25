@@ -26,7 +26,7 @@ function Navbar({ setQuery }) {
                 alt=""
               />
               <div className="world">
-                <span className="header-title-per">Wolrd Glamour_Tour</span>
+                <span className="header-title-per">Wolrd Glamour Tour</span>
               </div>
             </Link>
           </div>
