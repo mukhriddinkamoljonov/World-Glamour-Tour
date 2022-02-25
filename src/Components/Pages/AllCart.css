@@ -199,16 +199,16 @@ select option {
 .col-third:last-of-type {
   padding-right: 0;
 }
-@media only screen and (max-width: 540px) {
+/* @media only screen and (max-width: 540px) {
   .col-half {
     width: 100%;
     padding-right: 0;
   }
-}
+} */
 
 .additional-details {
   max-width: 720px;
-  background-color: rgb(238,238,238);
+  background-color: rgb(238, 238, 238);
 }
 .s-property-content {
   text-align: justify;
