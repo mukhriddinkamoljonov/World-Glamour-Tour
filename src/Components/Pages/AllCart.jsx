@@ -9,33 +9,22 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import axios from "axios";
 
 const AllCart = () => {
-  const [item, setItem] = useState([])
-  const [itemData, setItemData] = useState([])
+  const [item, setItem] = useState([]);
+  const [itemData, setItemData] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://wgtour.pythonanywhere.com/api/places/1")
       .then((res) => {
-        setItemData(Object.entries(res.data.images))
-        setItem(res.data)
+        setItemData(res.data.images);
+        setItem(res.data);
       })
       .catch((error) => {
-        console.log(error)
-      })
-  }, [])
+        console.log(error);
+      });
+  }, []);
 
-  // const getItem = async () => {
-  //   const items = await axios.get(
-  //     "https://wgtour.pythonanywhere.com/api/places/1"
-  //   );
-  //   setItem(items.data);
-  //   setItemData(Object.enteres(items.data.images));
-  // };
-
-  // useEffect(() => {
-  //   getItem();
-  // }, []);
-  console.log(itemData);
+  console.log(item);
   return (
     <div>
       <div class="page-head">
@@ -60,9 +49,9 @@ const AllCart = () => {
                 <div class="light-slide-item">
                   <div className="slider-courusel">
                     <Carousel autoPlay={"	boolean"}>
-                      {item.map((img) => (
+                      {itemData.map((img) => (
                         <div className="box1">
-                          <img src={img.images[1].file} alt="title" />
+                          <img src={img?.file} alt="title" />
                           <p className="legend">Chorvoq</p>
                         </div>
                       ))}
