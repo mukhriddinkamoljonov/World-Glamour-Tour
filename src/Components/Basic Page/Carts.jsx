@@ -199,6 +199,9 @@ const Carts = ({ query }) => {
                     >
                       <button
                         className="border-btn more-black"
+
+                        className="btn "
+
                         value="All properties"
                       >
                         Batafsil

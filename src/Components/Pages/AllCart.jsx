@@ -42,7 +42,12 @@ const AllCart = () => {
         <div class="container">
           <div class="row">
             <div class="page-head-content">
-              <h1 class="page-title">{item.hashtags}</h1>
+              <h2
+                dangerouslySetInnerHTML={{
+                  __html: item.hashtags,
+                }}
+              ></h2>
+              
             </div>
           </div>
         </div>
@@ -86,8 +91,13 @@ const AllCart = () => {
                         Sayohat yo'nalishi:
                       </span>
                       <span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">
-                        {item.direction}
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: item.direction,
+                          }}
+                        ></div>
                       </span>
+                      {/* {item.direction} */}
                     </li>
 
                     <li>
@@ -130,31 +140,33 @@ const AllCart = () => {
                 <div class="section">
                   <h4 class="s-property-title">To'liq ma'lumot</h4>
                   <div class="s-property-content">
-                    <p>{item.description}</p>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: item.description,
+                      }}
+                    ></div>
                   </div>
                 </div>
 
                 <div class="section additional-details ">
                   <h4 class="s-property-title">Narxga quyidagilar kiradi:</h4>
                   <div>
-                    <p>✔️ {item.about_prices}</p>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: item.about_prices,
+                      }}
+                    ></div>
                   </div>
                 </div>
-
+                {/* 1501507 */}
                 <div class="section property-video">
                   <h4 class="s-property-title"> Video</h4>
                   <div class="video-thumb">
-                    <a class="video-popup" href="yout" title="Virtual Tour">
-                      <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/wT4Nb0fwCfU"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                      ></iframe>
-                    </a>
+                    <div class="video-popup" href="yout" title="Virtual Tour"
+                      dangerouslySetInnerHTML={{
+                        __html: item.video_link,
+                      }}
+                    ></div>
                   </div>
                 </div>
               </div>
