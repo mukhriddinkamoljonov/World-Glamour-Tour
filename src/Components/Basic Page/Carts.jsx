@@ -10,7 +10,7 @@ const Carts = ({ query }) => {
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/shuffle?count=7")
+      .get(`https://wgtour.pythonanywhere.com/api/places/shuffle?count=7`)
       .then((res) => {
         setItems(res.data);
         setIsReady(true);
@@ -19,7 +19,6 @@ const Carts = ({ query }) => {
         console.log(error);
       });
   }, []);
-
   return (
     <div
       className="content-area home-area-1 recent-property"

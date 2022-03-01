@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from "react";
-import property1 from "../property-1/property1.jpg";
-import property2 from "../property-1/property2.jpg";
-import property3 from "../property-1/property3.jpg";
-import NoImage from "../../img/no-image.jpg";
 import "./AllCart.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import axios from "axios";
+import AllCatsRight from "./Tavsiya";
 
 const AllCart = () => {
   const [item, setItem] = useState([]);
   const [itemData, setItemData] = useState([]);
+  const [items, setItems] = useState([]);
+  const [isReady, setIsReady] = useState(null);
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/1")
+      .get("https://wgtour.pythonanywhere.com/api/places/2")
       .then((res) => {
         setItemData(res.data.images);
         setItem(res.data);
@@ -24,7 +23,19 @@ const AllCart = () => {
       });
   }, []);
 
-  console.log(item);
+  useEffect(() => {
+    axios
+      .get("https://wgtour.pythonanywhere.com/api/places/shuffle?count=4")
+      .then((res) => {
+        setItems(res.data);
+        setIsReady(true);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
+  console.log(items);
   return (
     <div>
       <div class="page-head">
@@ -42,7 +53,7 @@ const AllCart = () => {
         style={{ backgroundColor: "#fcfcfc" }}
       >
         &nbsp;
-        <div class="contai  3ner">
+        <div class="contai ner">
           <div class="clearfix padding-top-40">
             <div class="col-md-8 single-property-content prp-style-1">
               <div class="row">
@@ -148,7 +159,6 @@ const AllCart = () => {
                 </div>
               </div>
             </div>
-
             <div class="col-md-4 p0">
               <aside class="sidebar sidebar-property blog-asside-right">
                 <div class="dealer-widget">
@@ -197,11 +207,10 @@ const AllCart = () => {
                           </li>
                           <li>
                             <i class="pe-7s-mail strong"> </i>
-                            {item.email}
+                            exemple@gmail.com
                           </li>
                           <li>
-                            <i class="pe-7s-call strong"> </i>{" "}
-                            {item.phone_number}
+                            <i class="pe-7s-call strong"> </i> +998916587841
                           </li>
                         </ul>
                         <p>
@@ -213,96 +222,7 @@ const AllCart = () => {
                   </div>
                 </div>
 
-                <div class="panel panel-default sidebar-menu similar-property-wdg wow fadeInRight animated">
-                  <div class="panel-heading">
-                    <h3 class="panel-title">Similar Properties</h3>
-                  </div>
-                  <div class="panel-body recent-property-widget">
-                    <ul>
-                      <li>
-                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                          <a href="single.html">
-                            <img
-                              src="assets/img/demo/small-property-2.jpg"
-                              alt="title"
-                            />
-                          </a>
-                          <span class="property-seeker">
-                            <b class="b-1">A</b>
-                            <b class="b-2">S</b>
-                          </span>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                          <h6>
-                            <a href="single.html">Farg'ona viloyati </a>
-                          </h6>
-                          <span class="property-price">3000000$</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                          <a href="single.html">
-                            <img
-                              src="assets/img/demo/small-property-1.jpg"
-                              alt="title"
-                            />
-                          </a>
-                          <span class="property-seeker">
-                            <b class="b-1">A</b>
-                            <b class="b-2">S</b>
-                          </span>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                          <h6>
-                            <a href="single.html">Qo'qon shahar </a>
-                          </h6>
-                          <span class="property-price">3000000$</span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                          <a href="single.html">
-                            <img
-                              src="assets/img/demo/small-property-3.jpg"
-                              alt="title"
-                            />
-                          </a>
-                          <span class="property-seeker">
-                            <b class="b-1">A</b>
-                            <b class="b-2">S</b>
-                          </span>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                          <h6>
-                            <a href="single.html">Samarqand shahar </a>
-                          </h6>
-                          <span class="property-price">3000000$</span>
-                        </div>
-                      </li>
-
-                      <li>
-                        <div class="col-md-3 col-sm-3 col-xs-3 blg-thumb p0">
-                          <a href="single.html">
-                            <img
-                              src="assets/img/demo/small-property-2.jpg"
-                              alt="title"
-                            />
-                          </a>
-                          <span class="property-seeker">
-                            <b class="b-1">A</b>
-                            <b class="b-2">S</b>
-                          </span>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-8 blg-entry">
-                          <h6>
-                            <a href="single.html">Buxoro shahar </a>
-                          </h6>
-                          <span class="property-price">3000000$</span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <AllCatsRight />
 
                 <div class="panel panel-default sidebar-menu wow fadeInRight animated">
                   <div class="panel-heading">
