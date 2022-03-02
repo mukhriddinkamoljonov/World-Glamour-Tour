@@ -7,6 +7,7 @@ function Shaharlar() {
   const [isReady, setIsReady] = useState(null);
   const [item, setItem] = useState([]);
 
+  
   useEffect(() => {
     axios
       .get(`https://wgtour.pythonanywhere.com/api/places?${addType}`)
