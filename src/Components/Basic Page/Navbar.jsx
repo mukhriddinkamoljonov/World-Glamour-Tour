@@ -5,12 +5,12 @@ import "./Main.css";
 function Navbar({ setQuery }) {
   return (
     <div>
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-default fixed-top">
         <div className="container">
-          <div className="navbar-header">
+          <div className="navbar-header ">
             <button
               type="button"
-              className="navbar-toggle collapsed"
+              className="navbar-toggle collapsed" 
               data-toggle="collapse"
               data-target="#navigation"
             >

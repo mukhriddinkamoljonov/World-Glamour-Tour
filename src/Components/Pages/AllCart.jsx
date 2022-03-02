@@ -4,8 +4,10 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import axios from "axios";
 import AllCatsRight from "./Tavsiya";
+import { useParams } from "react-router-dom";
 
 const AllCart = () => {
+  let { id } = useParams();
   const [item, setItem] = useState([]);
   const [itemData, setItemData] = useState([]);
   const [items, setItems] = useState([]);
@@ -13,7 +15,7 @@ const AllCart = () => {
 
   useEffect(() => {
     axios
-      .get("https://wgtour.pythonanywhere.com/api/places/2")
+      .get(`https://wgtour.pythonanywhere.com/api/places/${id}`)
       .then((res) => {
         setItemData(res.data.images);
         setItem(res.data);
@@ -21,7 +23,7 @@ const AllCart = () => {
       .catch((error) => {
         console.log(error);
       });
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     axios
@@ -47,7 +49,6 @@ const AllCart = () => {
                   __html: item.hashtags,
                 }}
               ></h2>
-              
             </div>
           </div>
         </div>
@@ -162,7 +163,10 @@ const AllCart = () => {
                 <div class="section property-video">
                   <h4 class="s-property-title"> Video</h4>
                   <div class="video-thumb">
-                    <div class="video-popup" href="yout" title="Virtual Tour"
+                    <div
+                      class="video-popup"
+                      href="yout"
+                      title="Virtual Tour"
                       dangerouslySetInnerHTML={{
                         __html: item.video_link,
                       }}
