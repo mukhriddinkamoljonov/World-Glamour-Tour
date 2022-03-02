@@ -7,7 +7,9 @@
 h4 {
   color: #f0a500;
 }
-
+.property-video {
+  width: 200px;
+}
 input,
 input[type="radio"] + label,
 input[type="checkbox"] + label:before,
@@ -40,7 +42,7 @@ input[type="radio"] {
 }
 input[type="radio"] + label,
 select {
-  display: inline-block;
+  display: block;
   width: 50%;
   text-align: center;
   float: left;
